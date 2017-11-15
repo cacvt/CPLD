@@ -2,46 +2,46 @@
 <BuildStatus>
     <Strategy name="Timing">
         <Milestone name="Export" build_result="0" build_time="0">
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1463602167"/>
-            <Task name="IBIS" build_result="2" update_result="0" update_time="1463602155"/>
-            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1463602157"/>
-            <Task name="TimingSimFileVHD" build_result="2" update_result="0" update_time="1463602159"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1463602163"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1463602167"/>
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1463602155"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1463602157"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1463602159"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1510781744"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1463602134">
-            <Task name="Map" build_result="2" update_result="0" update_time="1463602134"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1463602136"/>
-            <Task name="MapVerilogSimFile" build_result="2" update_result="0" update_time="1463602138"/>
-            <Task name="MapVHDLSimFile" build_result="2" update_result="0" update_time="1463602140"/>
+        <Milestone name="Map" build_result="2" build_time="1510781730">
+            <Task name="Map" build_result="2" update_result="0" update_time="1510781730"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1463602136"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="1463602138"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="1463602140"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1463602149">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1463602149"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1463602151"/>
-            <Task name="IOTiming" build_result="2" update_result="0" update_time="1463602154"/>
+        <Milestone name="PAR" build_result="2" build_time="1510781739">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1510781739"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1510781740"/>
+            <Task name="IOTiming" build_result="0" update_result="2" update_time="1463602154"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1463602131">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1463602131"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1510781723">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1510781723"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1463602116"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1510781702"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1463602132">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1463602132"/>
+        <Milestone name="Translate" build_result="2" build_time="1510781729">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1510781729"/>
         </Milestone>
-        <Report name="Common_Controller_Common_Controller.bgn" last_build_time="1463598567" last_build_size="3996"/>
+        <Report name="Common_Controller_Common_Controller.bgn" last_build_time="1510781744" last_build_size="4313"/>
         <Report name="Common_Controller_Common_Controller.bit" last_build_time="1463598567" last_build_size="23392"/>
-        <Report name="Common_Controller_Common_Controller.edi" last_build_time="1463598529" last_build_size="548297"/>
+        <Report name="Common_Controller_Common_Controller.edi" last_build_time="1510781722" last_build_size="52378"/>
         <Report name="Common_Controller_Common_Controller.ior" last_build_time="1463598554" last_build_size="5224"/>
-        <Report name="Common_Controller_Common_Controller.jed" last_build_time="1463598563" last_build_size="851614"/>
-        <Report name="Common_Controller_Common_Controller.ncd" last_build_time="1463598549" last_build_size="774261"/>
-        <Report name="Common_Controller_Common_Controller.ngd" last_build_time="1463598532" last_build_size="489907"/>
+        <Report name="Common_Controller_Common_Controller.jed" last_build_time="1510781744" last_build_size="851773"/>
+        <Report name="Common_Controller_Common_Controller.ncd" last_build_time="1510781739" last_build_size="82738"/>
+        <Report name="Common_Controller_Common_Controller.ngd" last_build_time="1510781729" last_build_size="60126"/>
         <Report name="Common_Controller_Common_Controller.tw1" last_build_time="1463598536" last_build_size="10740"/>
-        <Report name="Common_Controller_Common_Controller.twr" last_build_time="1463598551" last_build_size="45501"/>
-        <Report name="Common_Controller_Common_Controller_map.ncd" last_build_time="1463598534" last_build_size="561459"/>
+        <Report name="Common_Controller_Common_Controller.twr" last_build_time="1510781740" last_build_size="16562"/>
+        <Report name="Common_Controller_Common_Controller_map.ncd" last_build_time="1510781730" last_build_size="66968"/>
         <Report name="Common_Controller_Common_Controller_mapvho.sdf" last_build_time="1463598540" last_build_size="506030"/>
         <Report name="Common_Controller_Common_Controller_mapvho.vho" last_build_time="1463598540" last_build_size="3454205"/>
         <Report name="Common_Controller_Common_Controller_mapvo.sdf" last_build_time="1463598538" last_build_size="507486"/>

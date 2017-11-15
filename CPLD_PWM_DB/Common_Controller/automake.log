@@ -1,637 +1,12 @@
 
-synpwrap -msg -prj "Common_Controller_Common_Controller_synplify.tcl" -log "Common_Controller_Common_Controller.srf"
-Copyright (C) 1992-2015 Lattice Semiconductor Corporation. All rights reserved.
-Lattice Diamond Version 3.6.0.83.4
-    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
-
-==contents of Common_Controller_Common_Controller.srf
-#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
-#install: C:\lattice\diamond\3.6_x64\synpbase
-#OS: Windows 7 6.1
-#Hostname: SNELL
-
-#Implementation: Common_Controller
-
-Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
-@N|Running in 64-bit mode
-Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-
-Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
-@N|Running in 64-bit mode
-Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-
-@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Top entity is set to CC_CPLD_TOP.
-Options changed - recompiling
-VHDL syntax check successful!
-Options changed - recompiling
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Synthesizing work.cc_cpld_top.behavioral 
-@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":256:8:256:16|Signal pwm_en_on is undriven 
-@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":280:8:280:19|Signal st_latch_clr is undriven 
-@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":287:8:287:14|Signal soft_ss is undriven 
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":16:7:16:17|Synthesizing work.cc_deadtime.behavioral 
-Post processing for work.cc_deadtime.behavioral
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
-@W: CG296 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":57:1:57:7|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":61:22:61:28|Referenced variable err_clr is not in sensitivity list
-Post processing for work.cc_protection.behavioral
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd":14:7:14:12|Synthesizing work.cc_pll.structure 
-@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box 
-Post processing for work.ehxpllj.syn_black_box
-@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box 
-Post processing for work.vlo.syn_black_box
-Post processing for work.cc_pll.structure
-Post processing for work.cc_cpld_top.behavioral
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":256:8:256:16|PWM_EN_On is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":179:2:179:6|IO8_C is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":178:2:178:6|IO7_C is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":177:2:177:6|IO6_C is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":175:2:175:6|IO5_C is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":81:2:81:8|PWM_ENn is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":41:2:41:7|IO85_D is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":40:2:40:7|IO84_D is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":38:2:38:7|IO15_D is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL169 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":375:2:375:3|Pruning register ERR_STATUS_5(19 downto 1)  
-@W: CL189 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Register bit TIME_SET_1(7) is always 0, optimizing ...
-@W: CL189 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Register bit TIME_SET_2(7) is always 0, optimizing ...
-@W: CL260 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Pruning register bit 7 of TIME_SET_2(7 downto 0)  
-@W: CL260 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Pruning register bit 7 of TIME_SET_1(7 downto 0)  
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":37:2:37:7|Input IO14_D is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":42:2:42:7|Input IO86_D is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":43:2:43:7|Input IO87_D is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":46:2:46:7|Inout IO20_D is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":47:2:47:7|Inout IO21_D is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":49:2:49:7|Input IO23_D is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":75:2:75:5|Inout TZ1n is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":76:2:76:5|Inout TZ2n is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":92:2:92:4|Input FO1 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":103:2:103:4|Input FO2 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":114:2:114:4|Input FO3 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":125:2:125:4|Input FO4 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":136:2:136:4|Input FO5 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":147:2:147:4|Input FO6 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":151:2:151:9|Input CMP_OUT1 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":152:2:152:9|Input CMP_OUT2 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT3 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT4 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT5 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT6 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT7 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":158:2:158:9|Input CMP_OUT8 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":159:2:159:9|Input CMP_OUT9 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":160:2:160:10|Input CMP_OUT10 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":161:2:161:10|Input CMP_OUT11 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":162:2:162:10|Input CMP_OUT12 is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":180:2:180:6|Input IO9_C is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":181:2:181:7|Input IO10_C is unused
-@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":182:2:182:7|Input IO11_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":184:2:184:7|Inout IO12_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":185:2:185:7|Inout IO13_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":186:2:186:7|Inout IO14_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":187:2:187:7|Inout IO15_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":188:2:188:7|Inout IO16_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":189:2:189:7|Inout IO17_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":191:2:191:7|Inout IO18_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":192:2:192:7|Inout IO19_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":193:2:193:7|Inout IO20_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":194:2:194:7|Inout IO21_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":195:2:195:7|Inout IO22_C is unused
-@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":196:2:196:7|Inout IO23_C is unused
-
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed May 18 16:08:40 2016
-
-###########################################################]
-Inconsistency encountered while reading the file dependency file: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\layer0.fdep; problem reading the design unit mappings
-Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
-@N|Running in 64-bit mode
-File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\Common_Controller\synwork\layer0.srs changed - recompiling
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed May 18 16:08:40 2016
-
-###########################################################]
-@END
-
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed May 18 16:08:40 2016
-
-###########################################################]
-Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
-@N|Running in 64-bit mode
-File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs changed - recompiling
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed May 18 16:08:41 2016
-
-###########################################################]
-Pre-mapping Report
-
-Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
-Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version J-2015.03L-SP1
-
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
-
-@L: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller_scck.rpt 
-Printing clock  summary report in "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller_scck.rpt" file 
-@N: MF248 |Running in 64-bit mode.
-@N: MF666 |Clock conversion enabled 
-
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
-
-
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
-
-
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
-
-
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
-
-@W: MT462 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":44:19:44:40|Net PROTECTION.ST_LATCH_TRIG appears to be an unidentified clock source. Assuming default frequency. 
-ICG Latch Removal Summary:
-Number of ICG latches removed:	0
-Number of ICG latches not removed:	0
-syn_allowed_resources : blockrams=10  set on top level netlist CC_CPLD_TOP
-
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-
-@S |Clock Summary
-*****************
-
-Start                           Requested     Requested     Clock        Clock                
-Clock                           Frequency     Period        Type         Group                
-----------------------------------------------------------------------------------------------
-CC_PLL|CLKOP_inferred_clock     340.3 MHz     2.939         inferred     Autoconstr_clkgroup_0
-==============================================================================================
-
-@W: MT531 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":50:2:50:3|Found signal identified as System clock which controls 1 sequential elements including PROTECTION.ERR_LATCH.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
-@W: MT529 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_deadtime.vhd":41:2:41:3|Found inferred clock CC_PLL|CLKOP_inferred_clock which controls 288 sequential elements including CPWMA1.TIME_SET_2[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
-
-Pre-mapping successful!
-
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 141MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed May 18 16:08:42 2016
-
-###########################################################]
-Map & Optimize Report
-
-Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
-Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version J-2015.03L-SP1
-
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
-
-@N: MF248 |Running in 64-bit mode.
-@N: MF666 |Clock conversion enabled 
-
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
-
-
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
-
-
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
-
-
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
-
-
-
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-@W: MO171 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":59:2:59:3|Sequential instance PROTECTION.ERR_CLR_PLS reduced to a combinational gate by constant propagation 
-@W: MO171 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":50:2:50:3|Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation 
-
-Available hyper_sources - for debug and ip models
-	None Found
-
-@N: MT206 |Auto Constrain mode is enabled
-
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 143MB peak: 144MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 143MB peak: 144MB)
-
-
-Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 142MB peak: 144MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 142MB peak: 144MB)
-
-Pass		 CPU time		Worst Slack		Luts / Registers
-------------------------------------------------------------
-   1		0h:00m:05s		    -1.33ns		 529 /       288
-   2		0h:00m:05s		    -1.33ns		 518 /       288
-
-
-
-   3		0h:00m:05s		    -0.79ns		 538 /       288
-   4		0h:00m:05s		    -0.26ns		 542 /       288
-
-
-   5		0h:00m:05s		    -0.28ns		 589 /       288
-   6		0h:00m:06s		    -0.31ns		 661 /       288
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 142MB peak: 144MB)
-
-@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-
-Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 142MB peak: 144MB)
-
-
-
-#### START OF CLOCK OPTIMIZATION REPORT #####[
-
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 288 clock pin(s) of sequential element(s)
-0 instances converted, 288 sequential instances remain driven by gated/generated clocks
-
-================================================================================================= Gated/Generated Clocks =================================================================================================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       PLL.PLLInst_0       EHXPLLJ                288        CPWMA1_BPWM_Pio     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-==========================================================================================================================================================================================================================
-
-
-##### END OF CLOCK OPTIMIZATION REPORT ######]
-
-
-Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 109MB peak: 144MB)
-
-Writing Analyst data base C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_m.srm
-
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 141MB peak: 144MB)
-
-Writing EDIF Netlist and constraint files
-J-2015.03L-SP1
-@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
-
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 146MB)
-
-
-Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 146MB)
-
-@W: MT246 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_pll.vhd":104:4:104:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT420 |Found inferred clock CC_PLL|CLKOP_inferred_clock with period 3.20ns. Please declare a user-defined clock on object "n:PLL.CLKOP"
-
-
-
-@S |##### START OF TIMING REPORT #####[
-# Timing Report written on Wed May 18 16:08:49 2016
-#
-
-
-Top view:               CC_CPLD_TOP
-Requested Frequency:    312.4 MHz
-Wire load mode:         top
-Paths requested:        5
-Constraint File(s):    
-@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
-
-@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
-
-
-
-Performance Summary 
-*******************
-
-
-Worst slack in design: -0.565
-
-                                Requested     Estimated     Requested     Estimated                Clock        Clock                
-Starting Clock                  Frequency     Frequency     Period        Period        Slack      Type         Group                
--------------------------------------------------------------------------------------------------------------------------------------
-CC_PLL|CLKOP_inferred_clock     312.4 MHz     265.6 MHz     3.201         3.765         -0.565     inferred     Autoconstr_clkgroup_0
-System                          1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup      
-=====================================================================================================================================
-@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
-
-
-
-
-
-Clock Relationships
-*******************
-
-Clocks                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
--------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                     Ending                       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
--------------------------------------------------------------------------------------------------------------------------------------------------
-CC_PLL|CLKOP_inferred_clock  CC_PLL|CLKOP_inferred_clock  |  3.201       -0.565  |  No paths    -      |  No paths    -      |  No paths    -    
-=================================================================================================================================================
- Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
-       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
-
-
-
-Interface Information 
-*********************
-
-No IO constraint found
-
-
-
-====================================
-Detailed Report for Clock: CC_PLL|CLKOP_inferred_clock
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                         Starting                                                              Arrival           
-Instance                 Reference                       Type        Pin     Net               Time        Slack 
-                         Clock                                                                                   
------------------------------------------------------------------------------------------------------------------
-CPWMB8.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMA5.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB7.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB3.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB5.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMA2.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB1.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB2.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMA3.TIME_SET_1[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_1[5]     1.204       -0.565
-CPWMB4.TIME_SET_2[5]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     Q       TIME_SET_2[5]     1.204       -0.565
-=================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                         Starting                                                       Required           
-Instance                 Reference                       Type        Pin     Net        Time         Slack 
-                         Clock                                                                             
------------------------------------------------------------------------------------------------------------
-CPWMA5.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMA2.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB3.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB2.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMA3.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB8.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB1.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB5.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB7.TIME_SET_1[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0_0     3.289        -0.565
-CPWMB4.TIME_SET_2[6]     CC_PLL|CLKOP_inferred_clock     FD1S3IX     D       fb_0       3.289        -0.565
-===========================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      3.201
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.289
-
-    - Propagation time:                      3.854
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.565
-
-    Number of logic level(s):                3
-    Starting point:                          CPWMB8.TIME_SET_1[5] / Q
-    Ending point:                            CPWMB8.TIME_SET_1[6] / D
-    The start point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-    The end   point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-
-Instance / Net                                         Pin      Pin               Arrival     No. of    
-Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------
-CPWMB8.TIME_SET_1[5]                      FD1S3IX      Q        Out     1.204     1.204       -         
-TIME_SET_1[5]                             Net          -        -       -         -           7         
-CPWMB8.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     C        In      0.000     1.204       -         
-CPWMB8.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     Z        Out     1.017     2.221       -         
-un1_TIME_SET_1_axbxc6_a0_N_2L1_3          Net          -        -       -         -           1         
-CPWMB8.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     D        In      0.000     2.221       -         
-CPWMB8.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     Z        Out     1.017     3.237       -         
-un1_TIME_SET_1_axbxc6_a0_10               Net          -        -       -         -           1         
-CPWMB8.TIME_SET_1_6_.fb                   ORCALUT4     B        In      0.000     3.237       -         
-CPWMB8.TIME_SET_1_6_.fb                   ORCALUT4     Z        Out     0.617     3.854       -         
-fb_0_0                                    Net          -        -       -         -           1         
-CPWMB8.TIME_SET_1[6]                      FD1S3IX      D        In      0.000     3.854       -         
-========================================================================================================
-
-
-Path information for path number 2: 
-      Requested Period:                      3.201
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.289
-
-    - Propagation time:                      3.854
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.565
-
-    Number of logic level(s):                3
-    Starting point:                          CPWMA5.TIME_SET_1[5] / Q
-    Ending point:                            CPWMA5.TIME_SET_1[6] / D
-    The start point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-    The end   point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-
-Instance / Net                                         Pin      Pin               Arrival     No. of    
-Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------
-CPWMA5.TIME_SET_1[5]                      FD1S3IX      Q        Out     1.204     1.204       -         
-TIME_SET_1[5]                             Net          -        -       -         -           7         
-CPWMA5.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     C        In      0.000     1.204       -         
-CPWMA5.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     Z        Out     1.017     2.221       -         
-un1_TIME_SET_1_axbxc6_a0_N_2L1_4          Net          -        -       -         -           1         
-CPWMA5.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     D        In      0.000     2.221       -         
-CPWMA5.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     Z        Out     1.017     3.237       -         
-un1_TIME_SET_1_axbxc6_a0_5                Net          -        -       -         -           1         
-CPWMA5.TIME_SET_1_6_.fb                   ORCALUT4     B        In      0.000     3.237       -         
-CPWMA5.TIME_SET_1_6_.fb                   ORCALUT4     Z        Out     0.617     3.854       -         
-fb_0_0                                    Net          -        -       -         -           1         
-CPWMA5.TIME_SET_1[6]                      FD1S3IX      D        In      0.000     3.854       -         
-========================================================================================================
-
-
-Path information for path number 3: 
-      Requested Period:                      3.201
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.289
-
-    - Propagation time:                      3.854
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.565
-
-    Number of logic level(s):                3
-    Starting point:                          CPWMB7.TIME_SET_1[5] / Q
-    Ending point:                            CPWMB7.TIME_SET_1[6] / D
-    The start point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-    The end   point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-
-Instance / Net                                         Pin      Pin               Arrival     No. of    
-Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------
-CPWMB7.TIME_SET_1[5]                      FD1S3IX      Q        Out     1.204     1.204       -         
-TIME_SET_1[5]                             Net          -        -       -         -           7         
-CPWMB7.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     C        In      0.000     1.204       -         
-CPWMB7.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     Z        Out     1.017     2.221       -         
-un1_TIME_SET_1_axbxc6_a0_N_2L1_1          Net          -        -       -         -           1         
-CPWMB7.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     D        In      0.000     2.221       -         
-CPWMB7.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     Z        Out     1.017     3.237       -         
-un1_TIME_SET_1_axbxc6_a0_13               Net          -        -       -         -           1         
-CPWMB7.TIME_SET_1_6_.fb                   ORCALUT4     B        In      0.000     3.237       -         
-CPWMB7.TIME_SET_1_6_.fb                   ORCALUT4     Z        Out     0.617     3.854       -         
-fb_0_0                                    Net          -        -       -         -           1         
-CPWMB7.TIME_SET_1[6]                      FD1S3IX      D        In      0.000     3.854       -         
-========================================================================================================
-
-
-Path information for path number 4: 
-      Requested Period:                      3.201
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.289
-
-    - Propagation time:                      3.854
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.565
-
-    Number of logic level(s):                3
-    Starting point:                          CPWMB3.TIME_SET_1[5] / Q
-    Ending point:                            CPWMB3.TIME_SET_1[6] / D
-    The start point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-    The end   point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-
-Instance / Net                                         Pin      Pin               Arrival     No. of    
-Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------
-CPWMB3.TIME_SET_1[5]                      FD1S3IX      Q        Out     1.204     1.204       -         
-TIME_SET_1[5]                             Net          -        -       -         -           7         
-CPWMB3.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     C        In      0.000     1.204       -         
-CPWMB3.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     Z        Out     1.017     2.221       -         
-un1_TIME_SET_1_axbxc6_a0_N_2L1_10         Net          -        -       -         -           1         
-CPWMB3.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     D        In      0.000     2.221       -         
-CPWMB3.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     Z        Out     1.017     3.237       -         
-un1_TIME_SET_1_axbxc6_a0_16               Net          -        -       -         -           1         
-CPWMB3.TIME_SET_1_6_.fb                   ORCALUT4     B        In      0.000     3.237       -         
-CPWMB3.TIME_SET_1_6_.fb                   ORCALUT4     Z        Out     0.617     3.854       -         
-fb_0_0                                    Net          -        -       -         -           1         
-CPWMB3.TIME_SET_1[6]                      FD1S3IX      D        In      0.000     3.854       -         
-========================================================================================================
-
-
-Path information for path number 5: 
-      Requested Period:                      3.201
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.289
-
-    - Propagation time:                      3.854
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.565
-
-    Number of logic level(s):                3
-    Starting point:                          CPWMB5.TIME_SET_1[5] / Q
-    Ending point:                            CPWMB5.TIME_SET_1[6] / D
-    The start point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-    The end   point is clocked by            CC_PLL|CLKOP_inferred_clock [rising] on pin CK
-
-Instance / Net                                         Pin      Pin               Arrival     No. of    
-Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------
-CPWMB5.TIME_SET_1[5]                      FD1S3IX      Q        Out     1.204     1.204       -         
-TIME_SET_1[5]                             Net          -        -       -         -           7         
-CPWMB5.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     C        In      0.000     1.204       -         
-CPWMB5.un1_TIME_SET_1_axbxc6_a0_N_2L1     ORCALUT4     Z        Out     1.017     2.221       -         
-un1_TIME_SET_1_axbxc6_a0_N_2L1_2          Net          -        -       -         -           1         
-CPWMB5.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     D        In      0.000     2.221       -         
-CPWMB5.un1_TIME_SET_1_axbxc6_a0           ORCALUT4     Z        Out     1.017     3.237       -         
-un1_TIME_SET_1_axbxc6_a0_12               Net          -        -       -         -           1         
-CPWMB5.TIME_SET_1_6_.fb                   ORCALUT4     B        In      0.000     3.237       -         
-CPWMB5.TIME_SET_1_6_.fb                   ORCALUT4     Z        Out     0.617     3.854       -         
-fb_0_0                                    Net          -        -       -         -           1         
-CPWMB5.TIME_SET_1[6]                      FD1S3IX      D        In      0.000     3.854       -         
-========================================================================================================
-
-
-
-##### END OF TIMING REPORT #####]
-
-
-Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 147MB)
-
-
-Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 147MB)
-
----------------------------------------
-Resource Usage Report
-Part: lcmxo2_4000hc-4
-
-Register bits: 288 of 4320 (7%)
-PIC Latch:       0
-I/O cells:       110
-
-
-Details:
-BB:             16
-FD1S3IX:        254
-GSR:            1
-IB:             45
-INV:            18
-OB:             49
-OFS1P3IX:       34
-ORCALUT4:       643
-PFUMX:          36
-PUR:            1
-VHI:            19
-VLO:            20
-Mapper successful!
-
-At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 54MB peak: 147MB)
-
-Process took 0h:00m:07s realtime, 0h:00m:07s cputime
-# Wed May 18 16:08:49 2016
-
-###########################################################]
-
-
-Synthesis exit by 0.
-
-edif2ngd  -l "MachXO2" -d LCMXO2-4000HC -path "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller" -path "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB"   "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.edi" "Common_Controller_Common_Controller.ngo"   
-edif2ngd:  version Diamond (64-bit) 3.6.0.83.4
+edif2ngd  -l "MachXO2" -d LCMXO2-4000HC -path "C:/CPLD/CPLD_PWM_DB/Common_Controller" -path "C:/CPLD/CPLD_PWM_DB"   "C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.edi" "Common_Controller_Common_Controller.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 Writing the design to Common_Controller_Common_Controller.ngo...
 
 Total CPU Time: 0 secs  
@@ -639,19 +14,19 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs  
 
 
-ngdbuild  -a "MachXO2" -d LCMXO2-4000HC  -p "C:/lattice/diamond/3.6_x64/ispfpga/xo2c00/data"  -p "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller" -p "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB"  "Common_Controller_Common_Controller.ngo" "Common_Controller_Common_Controller.ngd"  	
-ngdbuild:  version Diamond (64-bit) 3.6.0.83.4
+ngdbuild  -a "MachXO2" -d LCMXO2-4000HC  -p "C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "C:/CPLD/CPLD_PWM_DB/Common_Controller" -p "C:/CPLD/CPLD_PWM_DB"  "Common_Controller_Common_Controller.ngo" "Common_Controller_Common_Controller.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.10.0.111.2
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 Reading 'Common_Controller_Common_Controller.ngo' ...
-Loading NGL library 'C:/lattice/diamond/3.6_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
-Loading NGL library 'C:/lattice/diamond/3.6_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
-Loading NGL library 'C:/lattice/diamond/3.6_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
-Loading NGL library 'C:/lattice/diamond/3.6_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
 
 
 Running DRC...
@@ -664,7 +39,6 @@ Running DRC...
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO23_D_c" arg2="IO23_D_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="TZ1n_0" arg2="TZ1n_0"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="TZ2n_0" arg2="TZ2n_0"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="FO1_c" arg2="FO1_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="FO2_c" arg2="FO2_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="FO3_c" arg2="FO3_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="FO4_c" arg2="FO4_c"  />
@@ -677,11 +51,7 @@ Running DRC...
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT5_c" arg2="CMP_OUT5_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT6_c" arg2="CMP_OUT6_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT7_c" arg2="CMP_OUT7_c"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT8_c" arg2="CMP_OUT8_c"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT9_c" arg2="CMP_OUT9_c"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT10_c" arg2="CMP_OUT10_c"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT11_c" arg2="CMP_OUT11_c"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CMP_OUT12_c" arg2="CMP_OUT12_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CLK_C_c" arg2="CLK_C_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO9_C_c" arg2="IO9_C_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO10_C_c" arg2="IO10_C_c"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO11_C_c" arg2="IO11_C_c"  />
@@ -697,10 +67,10 @@ Running DRC...
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO21_C_0" arg2="IO21_C_0"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO22_C_0" arg2="IO22_C_0"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IO23_C_0" arg2="IO23_C_0"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="41"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="36"  />
 
 Design Results:
-   1136 blocks expanded
+    137 blocks expanded
 Complete the first expansion.
 Writing 'Common_Controller_Common_Controller.ngd' ...
 Total CPU Time: 0 secs  
@@ -708,14 +78,14 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs  
 
 
-map -a "MachXO2" -p LCMXO2-4000HC -t TQFP144 -s 4 -oc Commercial   "Common_Controller_Common_Controller.ngd" -o "Common_Controller_Common_Controller_map.ncd" -pr "Common_Controller_Common_Controller.prf" -mp "Common_Controller_Common_Controller.mrp" -lpf "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller_synplify.lpf" -lpf "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf"             
-map:  version Diamond (64-bit) 3.6.0.83.4
+map -a "MachXO2" -p LCMXO2-4000HC -t TQFP144 -s 4 -oc Commercial   "Common_Controller_Common_Controller.ngd" -o "Common_Controller_Common_Controller_map.ncd" -pr "Common_Controller_Common_Controller.prf" -mp "Common_Controller_Common_Controller.mrp" -lpf "C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller_synplify.lpf" -lpf "C:/CPLD/CPLD_PWM_DB/Common_Controller.lpf"             
+map:  version Diamond (64-bit) 3.10.0.111.2
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
    Process the file: Common_Controller_Common_Controller.ngd
    Picdevice="LCMXO2-4000HC"
 
@@ -729,11 +99,10 @@ Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
 
 Part used: LCMXO2-4000HCTQFP144, Performance used: 4.
 
-    <postMsg mid="1101942" type="Warning" dynamic="4" navigation="2" arg0="C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(222): Semantic error in &quot;VOLTAGE 1.200 V;&quot;: " arg1="1.200" arg2="2.375" arg3="3.600" arg4="C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf" arg5="222"  />
-Loading device for application baspr from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(216): Semantic error in &quot;IOBUF PORT &quot;IO49_D&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="IO49_D" arg2="C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf" arg3="216"  />
-    <postMsg mid="1104062" type="Warning" dynamic="2" navigation="0" arg0="" arg1="2 semantic errors"  />
-Package Status:                     Final          Version 1.3.
+    <postMsg mid="1101942" type="Warning" dynamic="4" navigation="2" arg0="C:/CPLD/CPLD_PWM_DB/Common_Controller.lpf(222): Semantic error in &quot;VOLTAGE 1.200 V;&quot;: " arg1="1.200" arg2="2.375" arg3="3.600" arg4="C:/CPLD/CPLD_PWM_DB/Common_Controller.lpf" arg5="222"  />
+Loading device for application baspr from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/CPLD/CPLD_PWM_DB/Common_Controller.lpf(216): Semantic error in &quot;IOBUF PORT &quot;IO49_D&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="IO49_D" arg2="C:/CPLD/CPLD_PWM_DB/Common_Controller.lpf" arg3="216"  />
+Package Status:                     Final          Version 1.44.
 
 Running general design DRC...
 
@@ -745,19 +114,19 @@ Optimizing...
 
 
 Design Summary:
-   Number of registers:    288 out of  4665 (6%)
-      PFU registers:          254 out of  4320 (6%)
-      PIO registers:           34 out of   345 (10%)
-   Number of SLICEs:       435 out of  2160 (20%)
-      SLICEs as Logic/ROM:    435 out of  2160 (20%)
+   Number of registers:      1 out of  4665 (0%)
+      PFU registers:            1 out of  4320 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        21 out of  2160 (1%)
+      SLICEs as Logic/ROM:     21 out of  2160 (1%)
       SLICEs as RAM:            0 out of  1620 (0%)
       SLICEs as Carry:          0 out of  2160 (0%)
-   Number of LUT4s:        644 out of  4320 (15%)
-      Number used as logic LUTs:        644
+   Number of LUT4s:         22 out of  4320 (1%)
+      Number used as logic LUTs:         22
       Number used as distributed RAM:     0
       Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 85 + 4(JTAG) out of 115 (77%)
+   Number of PIO sites used: 90 + 4(JTAG) out of 115 (82%)
    Number of block RAMs:  0 out of 10 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -772,7 +141,7 @@ Design Summary:
    Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
    Number of DCCA:  0 out of 8 (0%)
    Number of DCMA:  0 out of 2 (0%)
-   Number of PLLs:  1 out of 2 (50%)
+   Number of PLLs:  0 out of 2 (0%)
    Number of DQSDLLs:  0 out of 2 (0%)
    Number of CLKDIVC:  0 out of 4 (0%)
    Number of ECLKSYNCA:  0 out of 4 (0%)
@@ -780,241 +149,47 @@ Design Summary:
    Notes:-
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
-   Number of clocks:  2
-     Net Clk_250MHz: 181 loads, 181 rising, 0 falling (Driver: PLL/PLLInst_0 )
-     Net IO1_C_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK_C )
+   Number of clocks:  1
+     Net PROTECTION/ERR_NEW: 1 loads, 1 rising, 0 falling (Driver: PROTECTION/ERR_NEW )
    Number of Clock Enables:  0
-   Number of LSRs:  18
-     Net PWM9B_D_c: 10 loads, 8 LSLICEs
-     Net PWM9A_D_c: 10 loads, 8 LSLICEs
-     Net PWM8B_D_c: 10 loads, 8 LSLICEs
-     Net PWM8A_D_c: 10 loads, 8 LSLICEs
-     Net PWM7B_D_c: 10 loads, 8 LSLICEs
-     Net PWM7A_D_c: 10 loads, 8 LSLICEs
-     Net PWM6B_D_c: 10 loads, 8 LSLICEs
-     Net PWM6A_D_c: 10 loads, 8 LSLICEs
-     Net PWM5B_D_c: 10 loads, 8 LSLICEs
-     Net PWM5A_D_c: 10 loads, 8 LSLICEs
-     Net PWM4B_D_c: 10 loads, 8 LSLICEs
-     Net PWM4A_D_c: 10 loads, 8 LSLICEs
-     Net PWM3B_D_c: 10 loads, 8 LSLICEs
-     Net PWM3A_D_c: 10 loads, 8 LSLICEs
-     Net PWM2B_D_c: 10 loads, 9 LSLICEs
-     Net PWM2A_D_c: 10 loads, 8 LSLICEs
-     Net PWM1B_D_c: 10 loads, 8 LSLICEs
-     Net PWM1A_D_c: 10 loads, 9 LSLICEs
+   Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net PWM5A_D_c: 10 loads
-     Net PWM5B_D_c: 10 loads
-     Net PWM6A_D_c: 10 loads
-     Net PWM6B_D_c: 10 loads
-     Net PWM7A_D_c: 10 loads
-     Net PWM7B_D_c: 10 loads
-     Net PWM8A_D_c: 10 loads
-     Net PWM8B_D_c: 10 loads
-     Net PWM9A_D_c: 10 loads
-     Net PWM9B_D_c: 10 loads
-    <postMsg mid="51001230" type="Warning" dynamic="1" navigation="0" arg0="C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf"  />
+     Net ERR_ALL: 19 loads
+     Net PROTECTION.ERR_LATCH: 19 loads
+     Net CMP_OUT10_c: 2 loads
+     Net CMP_OUT11_c: 2 loads
+     Net ERR_ALL_3: 2 loads
+     Net IO3_C_c: 2 loads
+     Net IO4_C_c: 2 loads
+     Net CMP_OUT12_c: 1 loads
+     Net CMP_OUT8_c: 1 loads
+     Net CMP_OUT9_c: 1 loads
  
 
-   Number of warnings:  4
+   Number of warnings:  2
    Number of errors:    0
 
 
 
 Total CPU Time: 0 secs  
-Total REAL Time: 2 secs  
-Peak Memory Usage: 55 MB
+Total REAL Time: 0 secs  
+Peak Memory Usage: 52 MB
 
 Dumping design to file Common_Controller_Common_Controller_map.ncd.
-
-trce -f "Common_Controller_Common_Controller.mt" -o "Common_Controller_Common_Controller.tw1" "Common_Controller_Common_Controller_map.ncd" "Common_Controller_Common_Controller.prf"
-trce:  version Diamond (64-bit) 3.6.0.83.4
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Loading design for application trce from file common_controller_common_controller_map.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Setup and Hold Report
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.6.0.83.4
-Wed May 18 16:08:56 2016
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o Common_Controller_Common_Controller.tw1 -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.prf 
-Design file:     common_controller_common_controller_map.ncd
-Preference file: common_controller_common_controller.prf
-Device,speed:    LCMXO2-4000HC,4
-Report level:    verbose report, limited to 1 item per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
---------------------------------------------------------------------------------
-
-
-Derating parameters
--------------------
-VCCIO Voltage:
-                   3.300 V (Bank 0, defined by PAR)
-                   3.300 V (Bank 1, defined by PAR)
-                   3.300 V (Bank 2, defined by PAR)
-                   3.300 V (Bank 3, defined by PAR)
-                   3.300 V (Bank 4, defined by PAR)
-                   3.300 V (Bank 5, defined by PAR)
-
-
-
-Timing summary (Setup):
----------------
-
-Timing errors: 1183  Score: 196391
-Cumulative negative slack: 196391
-
-Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.6.0.83.4
-Wed May 18 16:08:56 2016
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o Common_Controller_Common_Controller.tw1 -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.prf 
-Design file:     common_controller_common_controller_map.ncd
-Preference file: common_controller_common_controller.prf
-Device,speed:    LCMXO2-4000HC,M
-Report level:    verbose report, limited to 1 item per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
---------------------------------------------------------------------------------
-
-
-Derating parameters
--------------------
-VCCIO Voltage:
-                   3.300 V (Bank 0, defined by PAR)
-                   3.300 V (Bank 1, defined by PAR)
-                   3.300 V (Bank 2, defined by PAR)
-                   3.300 V (Bank 3, defined by PAR)
-                   3.300 V (Bank 4, defined by PAR)
-                   3.300 V (Bank 5, defined by PAR)
-
-
-
-Timing summary (Hold):
----------------
-
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
-
-Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
-
-
-
-Timing summary (Setup and Hold):
----------------
-
-Timing errors: 1183 (setup), 0 (hold)
-Score: 196391 (setup), 0 (hold)
-Cumulative negative slack: 196391 (196391+0)
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
-Total time: 2 secs 
-
-ldbanno "Common_Controller_Common_Controller_map.ncd" -n Verilog -o "Common_Controller_Common_Controller_mapvo.vo" -w -neg
-ldbanno: version Diamond (64-bit) 3.6.0.83.4
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Writing a Verilog netlist using the orca library type based on the Common_Controller_Common_Controller_map design file.
-
-
-Loading design for application ldbanno from file Common_Controller_Common_Controller_map.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Converting design Common_Controller_Common_Controller_map.ncd into .ldb format.
-Writing Verilog netlist to file Common_Controller_Common_Controller_mapvo.vo
-Writing SDF timing to file Common_Controller_Common_Controller_mapvo.sdf
-    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
-
-ldbanno "Common_Controller_Common_Controller_map.ncd" -n VHDL -o "Common_Controller_Common_Controller_mapvho.vho" -w -neg
-ldbanno: version Diamond (64-bit) 3.6.0.83.4
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Writing a VHDL netlist using the orca library type based on the Common_Controller_Common_Controller_map design file.
-
-
-Loading design for application ldbanno from file Common_Controller_Common_Controller_map.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Converting design Common_Controller_Common_Controller_map.ncd into .ldb format.
-Writing VHDL netlist to file Common_Controller_Common_Controller_mapvho.vho
-Writing SDF timing to file Common_Controller_Common_Controller_mapvho.sdf
-    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
 
 mpartrce -p "Common_Controller_Common_Controller.p2t" -f "Common_Controller_Common_Controller.p3t" -tf "Common_Controller_Common_Controller.pt" "Common_Controller_Common_Controller_map.ncd" "Common_Controller_Common_Controller.ncd"
 
 ---- MParTrce Tool ----
 Removing old design directory at request of -rem command line option to this program.
+    <postMsg mid="2030012" type="Warning" dynamic="0" navigation="0"  />
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Common_Controller_Common_Controller_map.ncd"
-Wed May 18 16:09:00 2016
+Wed Nov 15 16:35:30 2017
 
-PAR: Place And Route Diamond (64-bit) 3.6.0.83.4.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.dir/5_1.ncd Common_Controller_Common_Controller.prf
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/CPLD/CPLD_PWM_DB/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.dir/5_1.ncd Common_Controller_Common_Controller.prf
 Preference file: Common_Controller_Common_Controller.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -1026,89 +201,61 @@ Vendor:      LATTICE
 Device:      LCMXO2-4000HC
 Package:     TQFP144
 Performance: 4
-Loading device for application par from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
+Loading device for application par from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
 License checked out.
 
 
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)   85+4(JTAG)/280     32% used
-                  85+4(JTAG)/115     77% bonded
-   IOLOGIC           34/280          12% used
+   PIO (prelim)   90+4(JTAG)/280     34% used
+                  90+4(JTAG)/115     82% bonded
 
-   SLICE            435/2160         20% used
-
-   PLL                1/2            50% used
+   SLICE             21/2160         <1% used
 
 
-Number of Signals: 917
-Number of Connections: 2813
+
+Number of Signals: 48
+Number of Connections: 132
 
 Pin Constraint Summary:
-   85 out of 85 pins locked (100% locked).
+   90 out of 90 pins locked (100% locked).
 
-The following 1 signal is selected to use the primary clock routing resources:
-    Clk_250MHz (driver: PLL/PLLInst_0, clk load #: 180)
+No signal is selected as primary clock.
 
 
-The following 8 signals are selected to use the secondary clock routing resources:
-    PWM9B_D_c (driver: PWM9B_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM9A_D_c (driver: PWM9A_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM8B_D_c (driver: PWM8B_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM8A_D_c (driver: PWM8A_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM7B_D_c (driver: PWM7B_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM7A_D_c (driver: PWM7A_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM6B_D_c (driver: PWM6B_D, clk load #: 0, sr load #: 10, ce load #: 0)
-    PWM6A_D_c (driver: PWM6A_D, clk load #: 0, sr load #: 10, ce load #: 0)
+No signal is selected as secondary clock.
 
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM9B_D_c" arg1="Secondary" arg2="PWM9B_D" arg3="97" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM9A_D_c" arg1="Secondary" arg2="PWM9A_D" arg3="96" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM8B_D_c" arg1="Secondary" arg2="PWM8B_D" arg3="95" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM8A_D_c" arg1="Secondary" arg2="PWM8A_D" arg3="94" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM7B_D_c" arg1="Secondary" arg2="PWM7B_D" arg3="93" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM6B_D_c" arg1="Secondary" arg2="PWM6B_D" arg3="113" arg4="Secondary"  />
-    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="PWM6A_D_c" arg1="Secondary" arg2="PWM6A_D" arg3="112" arg4="Secondary"  />
 No signal is selected as Global Set/Reset.
 Starting Placer Phase 0.
-...............
+
 Finished Placer Phase 0.  REAL time: 2 secs 
 
 Starting Placer Phase 1.
-.....................
-Placer score = 98700.
-Finished Placer Phase 1.  REAL time: 5 secs 
+....................
+Placer score = 45966.
+Finished Placer Phase 1.  REAL time: 3 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  97061
-Finished Placer Phase 2.  REAL time: 5 secs 
+Placer score =  45723
+Finished Placer Phase 2.  REAL time: 3 secs 
 
 
 ------------------ Clock Report ------------------
 
 Global Clock Resources:
-  CLK_PIN    : 1 out of 8 (12%)
-  General PIO: 7 out of 280 (2%)
-  PLL        : 1 out of 2 (50%)
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
   DCM        : 0 out of 2 (0%)
   DCC        : 0 out of 8 (0%)
 
 Quadrants All (TL, TR, BL, BR) - Global Clocks:
-  PRIMARY "Clk_250MHz" from CLKOP on comp "PLL/PLLInst_0" on PLL site "LPLL", clk load = 180
-  SECONDARY "PWM9B_D_c" from comp "PWM9B_D" on PIO site "97 (PR6B)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM9A_D_c" from comp "PWM9A_D" on PIO site "96 (PR8A)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM8B_D_c" from comp "PWM8B_D" on PIO site "95 (PR8B)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM8A_D_c" from comp "PWM8A_D" on PIO site "94 (PR9A)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM7B_D_c" from comp "PWM7B_D" on PIO site "93 (PR9B)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM7A_D_c" from comp "PWM7A_D" on CLK_PIN site "92 (PR10A)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM6B_D_c" from comp "PWM6B_D" on PIO site "113 (PT25B)", clk load = 0, ce load = 0, sr load = 10
-  SECONDARY "PWM6A_D_c" from comp "PWM6A_D" on PIO site "112 (PT27A)", clk load = 0, ce load = 0, sr load = 10
 
-  PRIMARY  : 1 out of 8 (12%)
-  SECONDARY: 8 out of 8 (100%)
+  PRIMARY  : 0 out of 8 (0%)
+  SECONDARY: 0 out of 8 (0%)
 
 Edge Clocks:
   No edge clock selected.
@@ -1117,9 +264,9 @@ Edge Clocks:
 
 
 I/O Usage Summary (final):
-   85 + 4(JTAG) out of 280 (31.8%) PIO sites used.
-   85 + 4(JTAG) out of 115 (77.4%) bonded PIO sites used.
-   Number of PIO comps: 85; differential: 0.
+   90 + 4(JTAG) out of 280 (33.6%) PIO sites used.
+   90 + 4(JTAG) out of 115 (81.7%) bonded PIO sites used.
+   Number of PIO comps: 90; differential: 0.
    Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
@@ -1127,25 +274,30 @@ I/O Bank Usage Summary:
 | I/O Bank | Usage          | Bank Vccio | Bank Vref |
 +----------+----------------+------------+-----------+
 | 0        | 18 / 28 ( 64%) | 3.3V       | -         |
-| 1        | 15 / 29 ( 51%) | 3.3V       | -         |
+| 1        | 20 / 29 ( 68%) | 3.3V       | -         |
 | 2        | 26 / 29 ( 89%) | 3.3V       | -         |
 | 3        | 9 / 9 (100%)   | 3.3V       | -         |
 | 4        | 8 / 10 ( 80%)  | 3.3V       | -         |
 | 5        | 9 / 10 ( 90%)  | 3.3V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 3 secs 
+Total placer CPU time: 1 secs 
 
 Dumping design to file Common_Controller_Common_Controller.dir/5_1.ncd.
 
-0 connections routed; 2813 unrouted.
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 132 unrouted.
 Starting router resource preassignment
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=IO1_C_c loads=2 clock_loads=1"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=PROTECTION/ERR_NEW loads=1 clock_loads=1"  />
 
-Completed router resource preassignment. Real time: 6 secs 
+Completed router resource preassignment. Real time: 8 secs 
 
-Start NBR router at 16:09:06 05/18/16
+Start NBR router at 16:35:38 11/15/17
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1160,137 +312,61 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 16:09:06 05/18/16
+Start NBR special constraint process at 16:35:38 11/15/17
 
-Start NBR section for initial routing at 16:09:06 05/18/16
-Level 1, iteration 1
-50(0.02%) conflicts; 2053(72.98%) untouched conns; 84647 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.508ns/-84.648ns; real time: 7 secs 
-Level 2, iteration 1
-74(0.03%) conflicts; 1750(62.21%) untouched conns; 89763 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.515ns/-89.763ns; real time: 7 secs 
-Level 3, iteration 1
-113(0.05%) conflicts; 131(4.66%) untouched conns; 104204 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-104.204ns; real time: 7 secs 
+Start NBR section for initial routing at 16:35:38 11/15/17
 Level 4, iteration 1
-46(0.02%) conflicts; 0(0.00%) untouched conn; 115254 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-115.254ns; real time: 7 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 16:09:07 05/18/16
-Level 1, iteration 1
-42(0.02%) conflicts; 10(0.36%) untouched conns; 112503 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-112.503ns; real time: 8 secs 
-Level 2, iteration 1
-38(0.02%) conflicts; 13(0.46%) untouched conns; 115397 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-115.397ns; real time: 8 secs 
-Level 3, iteration 1
-32(0.01%) conflicts; 1(0.04%) untouched conn; 120996 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-120.996ns; real time: 8 secs 
+Start NBR section for normal routing at 16:35:38 11/15/17
 Level 4, iteration 1
-25(0.01%) conflicts; 0(0.00%) untouched conn; 123248 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-123.249ns; real time: 8 secs 
-Level 4, iteration 2
-23(0.01%) conflicts; 0(0.00%) untouched conn; 124433 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-124.433ns; real time: 8 secs 
-Level 4, iteration 3
-16(0.01%) conflicts; 0(0.00%) untouched conn; 127180 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-127.181ns; real time: 8 secs 
-Level 4, iteration 4
-13(0.01%) conflicts; 0(0.00%) untouched conn; 127180 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-127.181ns; real time: 8 secs 
-Level 4, iteration 5
-12(0.00%) conflicts; 0(0.00%) untouched conn; 128964 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-128.965ns; real time: 8 secs 
-Level 4, iteration 6
-12(0.00%) conflicts; 0(0.00%) untouched conn; 128964 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.547ns/-128.965ns; real time: 8 secs 
-Level 4, iteration 7
-8(0.00%) conflicts; 0(0.00%) untouched conn; 133006 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.744ns/-133.007ns; real time: 8 secs 
-Level 4, iteration 8
-4(0.00%) conflicts; 0(0.00%) untouched conn; 133006 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.744ns/-133.007ns; real time: 8 secs 
-Level 4, iteration 9
-4(0.00%) conflicts; 0(0.00%) untouched conn; 135828 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.750ns/-135.829ns; real time: 8 secs 
-Level 4, iteration 10
-5(0.00%) conflicts; 0(0.00%) untouched conn; 135828 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.750ns/-135.829ns; real time: 8 secs 
-Level 4, iteration 11
-5(0.00%) conflicts; 0(0.00%) untouched conn; 136529 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.750ns/-136.530ns; real time: 8 secs 
-Level 4, iteration 12
-2(0.00%) conflicts; 0(0.00%) untouched conn; 136529 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.750ns/-136.530ns; real time: 8 secs 
-Level 4, iteration 13
-2(0.00%) conflicts; 0(0.00%) untouched conn; 137607 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-137.608ns; real time: 8 secs 
-Level 4, iteration 14
-2(0.00%) conflicts; 0(0.00%) untouched conn; 137607 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-137.608ns; real time: 8 secs 
-Level 4, iteration 15
-1(0.00%) conflict; 0(0.00%) untouched conn; 138296 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-138.297ns; real time: 8 secs 
-Level 4, iteration 16
-1(0.00%) conflict; 0(0.00%) untouched conn; 138296 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-138.297ns; real time: 8 secs 
-Level 4, iteration 17
-1(0.00%) conflict; 0(0.00%) untouched conn; 137948 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-137.949ns; real time: 8 secs 
-Level 4, iteration 18
-0(0.00%) conflict; 0(0.00%) untouched conn; 137948 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.793ns/-137.949ns; real time: 8 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
 
-Start NBR section for performance tuning (iteration 1) at 16:09:08 05/18/16
+Start NBR section for re-routing at 16:35:38 11/15/17
 Level 4, iteration 1
-3(0.00%) conflicts; 0(0.00%) untouched conn; 137803 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.855ns/-137.804ns; real time: 8 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
 
-Start NBR section for re-routing at 16:09:08 05/18/16
-Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 138655 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.855ns/-138.656ns; real time: 9 secs 
-
-Start NBR section for post-routing at 16:09:09 05/18/16
+Start NBR section for post-routing at 16:35:38 11/15/17
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 404 (14.36%)
-  Estimated worst slack<setup> : -1.855ns
-  Timing score<setup> : 88535
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=IO1_C_c loads=2 clock_loads=1"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=PROTECTION/ERR_NEW loads=1 clock_loads=1"  />
 
-Total CPU time 7 secs 
-Total REAL time: 9 secs 
+Total CPU time 6 secs 
+Total REAL time: 8 secs 
 Completely routed.
-End of route.  2813 routed (100.00%); 0 unrouted.
-Checking DRC ... 
-No errors found.
+End of route.  132 routed (100.00%); 0 unrouted.
 
+1 potential circuit loop found in timing analysis.
+1 potential circuit loop found in timing analysis.
 Hold time timing score: 0, hold timing errors: 0
 
-Timing score: 88535 
+1 potential circuit loop found in timing analysis.
+Timing score: 0 
 
 Dumping design to file Common_Controller_Common_Controller.dir/5_1.ncd.
 
 
-PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -1.855
-PAR_SUMMARY::Timing score<setup/<ns>> = 88.535
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.379
-PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
 PAR_SUMMARY::Number of errors = 0
 
 Total CPU  time to completion: 7 secs 
@@ -1302,18 +378,18 @@ Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 Exiting par with exit code 0
 Exiting mpartrce with exit code 0
 
 trce -f "Common_Controller_Common_Controller.pt" -o "Common_Controller_Common_Controller.twr" "Common_Controller_Common_Controller.ncd" "Common_Controller_Common_Controller.prf"
-trce:  version Diamond (64-bit) 3.6.0.83.4
+trce:  version Diamond (64-bit) 3.10.0.111.2
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 
 Loading design for application trce from file common_controller_common_controller.ncd.
 Design name: CC_CPLD_TOP
@@ -1322,30 +398,32 @@ Vendor:      LATTICE
 Device:      LCMXO2-4000HC
 Package:     TQFP144
 Performance: 4
-Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
 Setup and Hold Report
 
 --------------------------------------------------------------------------------
-Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.6.0.83.4
-Wed May 18 16:09:10 2016
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.0.111.2
+Wed Nov 15 16:35:40 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
 Design file:     common_controller_common_controller.ncd
 Preference file: common_controller_common_controller.prf
 Device,speed:    LCMXO2-4000HC,4
 Report level:    verbose report, limited to 10 items per preference
 --------------------------------------------------------------------------------
 
+1 potential circuit loop found in timing analysis.
+1 potential circuit loop found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 --------------------------------------------------------------------------------
@@ -1366,913 +444,24 @@ VCCIO Voltage:
 Timing summary (Setup):
 ---------------
 
-Timing errors: 215  Score: 88535
-Cumulative negative slack: 88535
-
-Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.6.0.83.4
-Wed May 18 16:09:11 2016
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
-Design file:     common_controller_common_controller.ncd
-Preference file: common_controller_common_controller.prf
-Device,speed:    LCMXO2-4000HC,m
-Report level:    verbose report, limited to 10 items per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
---------------------------------------------------------------------------------
-
-
-Derating parameters
--------------------
-VCCIO Voltage:
-                   3.300 V (Bank 0, defined by PAR)
-                   3.300 V (Bank 1, defined by PAR)
-                   3.300 V (Bank 2, defined by PAR)
-                   3.300 V (Bank 3, defined by PAR)
-                   3.300 V (Bank 4, defined by PAR)
-                   3.300 V (Bank 5, defined by PAR)
-
-
-
-Timing summary (Hold):
----------------
-
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
-
-
-
-Timing summary (Setup and Hold):
----------------
-
-Timing errors: 215 (setup), 0 (hold)
-Score: 88535 (setup), 0 (hold)
-Cumulative negative slack: 88535 (88535+0)
---------------------------------------------------------------------------------
+Constraints cover 173 paths, 48 nets, and 131 connections (99.24% coverage)
 
 --------------------------------------------------------------------------------
 
-Total time: 2 secs 
-
-iotiming  "Common_Controller_Common_Controller.ncd" "Common_Controller_Common_Controller.prf"
-I/O Timing Report:
-:  version Diamond (64-bit) 3.6.0.83.4
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Loading design for application iotiming from file common_controller_common_controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application iotiming from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Running Performance Grade: 4
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-
-Loading design for application iotiming from file common_controller_common_controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 5
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Running Performance Grade: 5
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-
-Loading design for application iotiming from file common_controller_common_controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 6
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Running Performance Grade: 6
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-
-Loading design for application iotiming from file common_controller_common_controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: M
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Running Performance Grade: M
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-Done.
-
-ibisgen "Common_Controller_Common_Controller.pad" "C:/lattice/diamond/3.6_x64/cae_library/ibis/machxo2.ibs" 
-IBIS Models Generator: Lattice Diamond (64-bit) 3.6.0.83.4
-
-Wed May 18 16:09:14 2016
-
-Comp: CLK_C
- Site: 3
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: IO0_C
- Site: 27
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO12_C
- Site: 127
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO13_C
- Site: 126
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO14_C
- Site: 125
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO15_C
- Site: 139
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO15_D
- Site: 120
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO16_C
- Site: 140
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO17_C
- Site: 142
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO18_C
- Site: 56
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO19_C
- Site: 57
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO1_C
- Site: 26
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO20_C
- Site: 58
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO20_D
- Site: 71
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO21_C
- Site: 59
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO21_D
- Site: 45
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO22_C
- Site: 60
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO22_D
- Site: 44
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: IO23_C
- Site: 70
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: IO2_C
- Site: 25
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO3_C
- Site: 24
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO4_C
- Site: 23
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO5_C
- Site: 2
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO6_C
- Site: 1
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO7_C
- Site: 143
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO84_D
- Site: 114
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO85_D
- Site: 117
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: IO8_C
- Site: 141
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM10A_C
- Site: 4
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM10B_C
- Site: 5
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM11A_C
- Site: 6
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM11B_C
- Site: 9
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM12A_C
- Site: 10
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM12B_C
- Site: 11
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM13A_C
- Site: 38
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM13B_C
- Site: 39
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM14A_C
- Site: 40
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM14B_C
- Site: 41
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM15A_C
- Site: 42
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM15B_C
- Site: 43
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM16A_C
- Site: 48
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM16B_C
- Site: 49
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM17A_C
- Site: 50
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM17B_C
- Site: 52
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM18A_C
- Site: 54
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM18B_C
- Site: 55
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM1A_C
- Site: 15
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM1A_D
- Site: 99
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM1B_C
- Site: 17
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM1B_D
- Site: 98
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM2A_C
- Site: 19
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM2A_D
- Site: 103
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM2B_C
- Site: 20
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM2B_D
- Site: 100
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM3A_C
- Site: 21
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM3A_D
- Site: 104
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM3B_C
- Site: 22
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM3B_D
- Site: 106
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM4A_C
- Site: 28
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM4A_D
- Site: 107
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM4B_C
- Site: 31
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM4B_D
- Site: 109
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM5A_C
- Site: 32
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM5A_D
- Site: 111
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM5B_C
- Site: 33
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM5B_D
- Site: 110
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM6A_C
- Site: 34
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM6A_D
- Site: 112
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM6B_C
- Site: 35
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM6B_D
- Site: 113
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM7A_C
- Site: 63
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM7A_D
- Site: 92
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM7B_C
- Site: 65
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM7B_D
- Site: 93
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM8A_C
- Site: 67
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM8A_D
- Site: 94
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM8B_C
- Site: 68
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM8B_D
- Site: 95
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM9A_C
- Site: 73
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM9A_D
- Site: 96
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM9B_C
- Site: 74
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: PWM9B_D
- Site: 97
- Type: IN
- IO_TYPE=LVCMOS33 
- PULL=DOWN 
- CLAMP=ON 
- HYSTERESIS=SMALL 
------------------------
-Comp: PWM_ENn
- Site: 47
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- SLEW=SLOW 
------------------------
-Comp: TZ1n
- Site: 119
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Comp: TZ2n
- Site: 121
- Type: OUT
- IO_TYPE=LVCMOS33 
- DRIVE=8mA 
- PULL=DOWN 
- CLAMP=ON 
- SLEW=SLOW 
------------------------
-Created design models.
-
-
-Generating: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\IBIS\Common_Controller_Common_Controller.ibs
-
-
-    <postMsg mid="1191031" type="Info"    dynamic="0" navigation="0"  />
-
-ldbanno "Common_Controller_Common_Controller.ncd" -n Verilog  -o "Common_Controller_Common_Controller_vo.vo"         -w -neg
-ldbanno: version Diamond (64-bit) 3.6.0.83.4
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Writing a Verilog netlist using the orca library type based on the Common_Controller_Common_Controller design file.
-
-
-Loading design for application ldbanno from file Common_Controller_Common_Controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Converting design Common_Controller_Common_Controller.ncd into .ldb format.
-Loading preferences from common_controller_common_controller.prf.
-Writing Verilog netlist to file Common_Controller_Common_Controller_vo.vo
-Writing SDF timing to file Common_Controller_Common_Controller_vo.sdf
-    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
-
-ldbanno "Common_Controller_Common_Controller.ncd" -n VHDL -o "Common_Controller_Common_Controller_vho.vho"         -w -neg
-ldbanno: version Diamond (64-bit) 3.6.0.83.4
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-Writing a VHDL netlist using the orca library type based on the Common_Controller_Common_Controller design file.
-
-
-Loading design for application ldbanno from file Common_Controller_Common_Controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-Converting design Common_Controller_Common_Controller.ncd into .ldb format.
-Loading preferences from common_controller_common_controller.prf.
-Writing VHDL netlist to file Common_Controller_Common_Controller_vho.vho
-Writing SDF timing to file Common_Controller_Common_Controller_vho.sdf
-    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
+Total time: 0 secs 
 
 bitgen -f "Common_Controller_Common_Controller.t2b" -w "Common_Controller_Common_Controller.ncd" -jedec "Common_Controller_Common_Controller.prf"
 
 
-BITGEN: Bitstream Generator Diamond (64-bit) 3.6.0.83.4
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.0.111.2
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 
 
 Loading design for application Bitgen from file Common_Controller_Common_Controller.ncd.
@@ -2282,9 +471,9 @@ Vendor:      LATTICE
 Device:      LCMXO2-4000HC
 Package:     TQFP144
 Performance: 4
-Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
 
 Running DRC.
 DRC detected 0 errors and 0 warnings.
@@ -2299,6 +488,8 @@ Preference Summary:
 |                     MCCLK_FREQ  |                         2.08**  |
 +---------------------------------+---------------------------------+
 |                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
 +---------------------------------+---------------------------------+
 |                      JTAG_PORT  |                       ENABLE**  |
 +---------------------------------+---------------------------------+
@@ -2332,7 +523,7 @@ Preference Summary:
 
 Creating bit map...
  
-Bitstream Status: Final           Version 1.88.
+Bitstream Status: Final           Version 1.94.
  
 Saving bit stream in "Common_Controller_Common_Controller.jed".
  
@@ -2345,75 +536,3 @@ UFM Utilization: General Purpose Flash Memory.
 Available General Purpose Flash Memory:  767 Pages (Page 0 to Page 766).
 Initialized UFM Pages:                     0 Page.
  
-
-bitgen -f "Common_Controller_Common_Controller.t2b" -w "Common_Controller_Common_Controller.ncd" "Common_Controller_Common_Controller.prf"
-
-
-BITGEN: Bitstream Generator Diamond (64-bit) 3.6.0.83.4
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-
-
-Loading design for application Bitgen from file Common_Controller_Common_Controller.ncd.
-Design name: CC_CPLD_TOP
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     TQFP144
-Performance: 4
-Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
-Package Status:                     Final          Version 1.3.
-Performance Hardware Data Status:   Final          Version 31.4.
-
-Running DRC.
-DRC detected 0 errors and 0 warnings.
-Reading Preference File from Common_Controller_Common_Controller.prf.
-
-Preference Summary:
-+---------------------------------+---------------------------------+
-|  Preference                     |  Current Setting                |
-+---------------------------------+---------------------------------+
-|                         RamCfg  |                        Reset**  |
-+---------------------------------+---------------------------------+
-|                     MCCLK_FREQ  |                         2.08**  |
-+---------------------------------+---------------------------------+
-|                  CONFIG_SECURE  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                      JTAG_PORT  |                       ENABLE**  |
-+---------------------------------+---------------------------------+
-|                       SDM_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                 SLAVE_SPI_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                MASTER_SPI_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                       I2C_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                  CONFIGURATION  |                          CFG**  |
-+---------------------------------+---------------------------------+
-|                COMPRESS_CONFIG  |                           ON**  |
-+---------------------------------+---------------------------------+
-|                        MY_ASSP  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|               ONE_TIME_PROGRAM  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                 ENABLE_TRANSFR  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                  SHAREDEBRINIT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|            BACKGROUND_RECONFIG  |                          OFF**  |
-+---------------------------------+---------------------------------+
- *  Default setting.
- ** The specified setting matches the default setting.
-
-
-Creating bit map...
- 
-Bitstream Status: Final           Version 1.88.
- 
-Saving bit stream in "Common_Controller_Common_Controller.bit".

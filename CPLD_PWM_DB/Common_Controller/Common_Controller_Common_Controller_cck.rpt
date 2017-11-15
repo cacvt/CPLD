@@ -1,0 +1,171 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Nov 15 16:35:21 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "CC_CPLD_TOP"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CLK_C
+p:CMP_OUT1
+p:CMP_OUT2
+p:CMP_OUT3
+p:CMP_OUT4
+p:CMP_OUT5
+p:CMP_OUT6
+p:CMP_OUT7
+p:CMP_OUT8
+p:CMP_OUT9
+p:CMP_OUT10
+p:CMP_OUT11
+p:CMP_OUT12
+p:FO1
+p:FO2
+p:FO3
+p:FO4
+p:FO5
+p:FO6
+p:IO0_C
+p:IO1_C
+p:IO2_C
+p:IO3_C
+p:IO4_C
+p:IO5_C
+p:IO6_C
+p:IO7_C
+p:IO8_C
+p:IO9_C
+p:IO10_C
+p:IO11_C
+p:IO12_C
+p:IO13_C
+p:IO14_C
+p:IO14_D
+p:IO15_C
+p:IO15_D
+p:IO16_C
+p:IO17_C
+p:IO18_C
+p:IO19_C
+p:IO20_C
+p:IO20_D
+p:IO21_C
+p:IO21_D
+p:IO22_C
+p:IO22_D
+p:IO23_C
+p:IO23_D
+p:IO84_D
+p:IO85_D
+p:IO86_D
+p:IO87_D
+p:PWM1A_C
+p:PWM1A_D
+p:PWM1B_C
+p:PWM1B_D
+p:PWM2A_C
+p:PWM2A_D
+p:PWM2B_C
+p:PWM2B_D
+p:PWM3A_C
+p:PWM3A_D
+p:PWM3B_C
+p:PWM3B_D
+p:PWM4A_C
+p:PWM4A_D
+p:PWM4B_C
+p:PWM4B_D
+p:PWM5A_C
+p:PWM5A_D
+p:PWM5B_C
+p:PWM5B_D
+p:PWM6A_C
+p:PWM6A_D
+p:PWM6B_C
+p:PWM6B_D
+p:PWM7A_C
+p:PWM7A_D
+p:PWM7B_C
+p:PWM7B_D
+p:PWM8A_C
+p:PWM8A_D
+p:PWM8B_C
+p:PWM8B_D
+p:PWM9A_C
+p:PWM9A_D
+p:PWM9B_C
+p:PWM9B_D
+p:PWM10A_C
+p:PWM10B_C
+p:PWM11A_C
+p:PWM11B_C
+p:PWM12A_C
+p:PWM12B_C
+p:PWM13A_C
+p:PWM13B_C
+p:PWM14A_C
+p:PWM14B_C
+p:PWM15A_C
+p:PWM15B_C
+p:PWM16A_C
+p:PWM16B_C
+p:PWM17A_C
+p:PWM17B_C
+p:PWM18A_C
+p:PWM18B_C
+p:PWM_ENn
+p:TZ1n
+p:TZ2n
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

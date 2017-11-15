@@ -1,12 +1,28 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
-@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Top entity is set to CC_CPLD_TOP.
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Synthesizing work.cc_cpld_top.behavioral 
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":16:7:16:17|Synthesizing work.cc_deadtime.behavioral 
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
-@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd":14:7:14:12|Synthesizing work.cc_pll.structure 
-@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box 
-@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box 
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":31:7:31:17|Top entity is set to CC_CPLD_TOP.
+@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":31:7:31:17|Synthesizing work.cc_cpld_top.behavioral.
+@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":39:2:39:7|Input IO14_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":44:2:44:7|Input IO86_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":45:2:45:7|Input IO87_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":51:2:51:7|Input IO23_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":105:2:105:4|Input FO2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":116:2:116:4|Input FO3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":127:2:127:4|Input FO4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":138:2:138:4|Input FO5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":149:2:149:4|Input FO6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT1 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":158:2:158:9|Input CMP_OUT6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":159:2:159:9|Input CMP_OUT7 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":167:2:167:6|Input CLK_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":182:2:182:6|Input IO9_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":183:2:183:7|Input IO10_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":184:2:184:7|Input IO11_C is unused.
 @N|Running in 64-bit mode
 

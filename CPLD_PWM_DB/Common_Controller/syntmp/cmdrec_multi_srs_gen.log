@@ -1,7 +1,7 @@
-C:\lattice\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  CC_CPLD_TOP  -multisrs  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs"  -osyn  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs"  -log  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr" 
-rc:0 success:1
-C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs|i|1463602120|12515
-C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs|o|1463602121|6352
-C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr|o|1463602121|541
-C:\lattice\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439970412|3007488
-C:\lattice\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439970598|3974144
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  CC_CPLD_TOP  -multisrs  C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs  -osyn  C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs  -log  C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr 
+relcom:..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top CC_CPLD_TOP -multisrs ..\synwork\Common_Controller_Common_Controller_comp.srs -osyn ..\synwork\Common_Controller_Common_Controller_mult.srs -log ..\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Common_Controller_Common_Controller_comp.srs|io:i|time:1510781719|size:5794|exec:0|csum:59B45E38E44FA2A6D912E50F958011F7
+file:..\synwork\Common_Controller_Common_Controller_mult.srs|io:o|time:1510781720|size:5056|exec:0|csum:
+file:..\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr|io:o|time:1510781720|size:528|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

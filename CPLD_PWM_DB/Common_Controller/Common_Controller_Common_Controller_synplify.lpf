@@ -1,9 +1,9 @@
 #
-# Logical Preferences generated for Lattice by Synplify maplat, Build 1264R.
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1796R.
 #
 
 # Period Constraints 
-#FREQUENCY NET "PLL/Clk_250MHz" 312.4 MHz;
+#FREQUENCY NET "PROTECTION/ERR_NEW" 1.0 MHz;
 
 
 # Output Constraints 

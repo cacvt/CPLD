@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_resourceusage.rpt</data>
+<data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total Register bits used" name="Register bits">
-<data>288</data>
+<data>1</data>
 </parameter>
 <parameter tooltip="Total I/O cells used" name="I/O cells">
 <data>110</data>
@@ -21,6 +21,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>0</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total ORCA LUTs used" name="ORCA LUTs">
-<data>643</data>
+<data>21</data>
 </parameter>
 </report_table>

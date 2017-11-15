@@ -4,15 +4,20 @@ PAD Specification File
 PART TYPE:        LCMXO2-4000HC
 Performance Grade:      4
 PACKAGE:          TQFP144
-Package Status:                     Final          Version 1.3
+Package Status:                     Final          Version 1.44
 
-Wed May 18 16:09:05 2016
+Wed Nov 15 16:35:33 2017
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+-----------------------------------------+
 | Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                              |
 +-----------+----------+--------------+-------+-----------+-----------+-----------------------------------------+
-| CLK_C     | 3/5      | LVCMOS33_IN  | PL4A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL     |
+| CMP_OUT10 | 76/1     | LVCMOS33_IN  | PR18A |           |           | CLAMP:ON HYSTERESIS:SMALL               |
+| CMP_OUT11 | 82/1     | LVCMOS33_IN  | PR15A |           |           | CLAMP:ON HYSTERESIS:SMALL               |
+| CMP_OUT12 | 86/1     | LVCMOS33_IN  | PR13A |           |           | CLAMP:ON HYSTERESIS:SMALL               |
+| CMP_OUT8  | 83/1     | LVCMOS33_IN  | PR14B |           |           | CLAMP:ON HYSTERESIS:SMALL               |
+| CMP_OUT9  | 87/1     | LVCMOS33_IN  | PR10D |           |           | CLAMP:ON HYSTERESIS:SMALL               |
+| FO1       | 12/5     | LVCMOS33_IN  | PL8B  |           |           | CLAMP:ON HYSTERESIS:SMALL               |
 | IO0_C     | 27/3     | LVCMOS33_OUT | PL17A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW           |
 | IO12_C    | 127/0    | LVCMOS33_OUT | PT18B |           |           | DRIVE:8mA PULL:DOWN CLAMP:ON SLEW:SLOW  |
 | IO13_C    | 126/0    | LVCMOS33_OUT | PT20C |           |           | DRIVE:8mA PULL:DOWN CLAMP:ON SLEW:SLOW  |
@@ -123,14 +128,14 @@ Pinout by Pin Number:
 +----------+-----------------------+------------+--------------+-------+----------------+-----------+-----------+
 | 1/5      | IO6_C                 | LOCATED    | LVCMOS33_OUT | PL3A  | L_GPLLT_FB     |           |           |
 | 2/5      | IO5_C                 | LOCATED    | LVCMOS33_OUT | PL3B  | L_GPLLC_FB     |           |           |
-| 3/5      | CLK_C                 | LOCATED    | LVCMOS33_IN  | PL4A  | L_GPLLT_IN     |           |           |
+| 3/5      |     unused, PULL:DOWN |            |              | PL4A  | L_GPLLT_IN     |           |           |
 | 4/5      | PWM10A_C              | LOCATED    | LVCMOS33_OUT | PL4B  | L_GPLLC_IN     |           |           |
 | 5/5      | PWM10B_C              | LOCATED    | LVCMOS33_OUT | PL6A  | PCLKT5_0       |           |           |
 | 6/5      | PWM11A_C              | LOCATED    | LVCMOS33_OUT | PL6B  | PCLKC5_0       |           |           |
 | 9/5      | PWM11B_C              | LOCATED    | LVCMOS33_OUT | PL7A  |                |           |           |
 | 10/5     | PWM12A_C              | LOCATED    | LVCMOS33_OUT | PL7B  |                |           |           |
 | 11/5     | PWM12B_C              | LOCATED    | LVCMOS33_OUT | PL8A  |                |           |           |
-| 12/5     |     unused, PULL:DOWN |            |              | PL8B  |                |           |           |
+| 12/5     | FO1                   | LOCATED    | LVCMOS33_IN  | PL8B  |                |           |           |
 | 13/4     |     unused, PULL:DOWN |            |              | PL9A  |                |           |           |
 | 14/4     |     unused, PULL:DOWN |            |              | PL9B  |                |           |           |
 | 15/4     | PWM1A_C               | LOCATED    | LVCMOS33_OUT | PL10A |                |           |           |
@@ -182,16 +187,16 @@ Pinout by Pin Number:
 | 73/1     | PWM9A_C               | LOCATED    | LVCMOS33_OUT | PR19B | DQ1            |           |           |
 | 74/1     | PWM9B_C               | LOCATED    | LVCMOS33_OUT | PR19A | DQ1            |           |           |
 | 75/1     |     unused, PULL:DOWN |            |              | PR18B | DQ1            |           |           |
-| 76/1     |     unused, PULL:DOWN |            |              | PR18A | DQ1            |           |           |
+| 76/1     | CMP_OUT10             | LOCATED    | LVCMOS33_IN  | PR18A | DQ1            |           |           |
 | 77/1     |     unused, PULL:DOWN |            |              | PR16B | DQ1            |           |           |
 | 78/1     |     unused, PULL:DOWN |            |              | PR16A | DQ1            |           |           |
 | 81/1     |     unused, PULL:DOWN |            |              | PR15B | DQ1            |           |           |
-| 82/1     |     unused, PULL:DOWN |            |              | PR15A | DQ1            |           |           |
-| 83/1     |     unused, PULL:DOWN |            |              | PR14B | DQ1            |           |           |
+| 82/1     | CMP_OUT11             | LOCATED    | LVCMOS33_IN  | PR15A | DQ1            |           |           |
+| 83/1     | CMP_OUT8              | LOCATED    | LVCMOS33_IN  | PR14B | DQ1            |           |           |
 | 84/1     |     unused, PULL:DOWN |            |              | PR14A | DQ1            |           |           |
 | 85/1     |     unused, PULL:DOWN |            |              | PR13B | DQS1N          |           |           |
-| 86/1     |     unused, PULL:DOWN |            |              | PR13A | DQS1           |           |           |
-| 87/1     |     unused, PULL:DOWN |            |              | PR10D |                |           |           |
+| 86/1     | CMP_OUT12             | LOCATED    | LVCMOS33_IN  | PR13A | DQS1           |           |           |
+| 87/1     | CMP_OUT9              | LOCATED    | LVCMOS33_IN  | PR10D |                |           |           |
 | 89/1     |     unused, PULL:DOWN |            |              | PR10C |                |           |           |
 | 91/1     |     unused, PULL:DOWN |            |              | PR10B | PCLKC1_0/DQ0   |           |           |
 | 92/1     | PWM7A_D               | LOCATED    | LVCMOS33_IN  | PR10A | PCLKT1_0/DQ0   |           |           |
@@ -413,10 +418,18 @@ sysCONFIG Pins:
 | PT13C    | TDO                | JTAG_PORT=ENABLE   | 137/0    |             | PULLUP            |
 +----------+--------------------+--------------------+----------+-------------+-------------------+
 
+Dedicated sysCONFIG Pins:
 
-Locate Preferences for each Pin: 
 
-LOCATE  COMP  "CLK_C"  SITE  "3";
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "CMP_OUT10"  SITE  "76";
+LOCATE  COMP  "CMP_OUT11"  SITE  "82";
+LOCATE  COMP  "CMP_OUT12"  SITE  "86";
+LOCATE  COMP  "CMP_OUT8"  SITE  "83";
+LOCATE  COMP  "CMP_OUT9"  SITE  "87";
+LOCATE  COMP  "FO1"  SITE  "12";
 LOCATE  COMP  "IO0_C"  SITE  "27";
 LOCATE  COMP  "IO12_C"  SITE  "127";
 LOCATE  COMP  "IO13_C"  SITE  "126";
@@ -502,17 +515,15 @@ LOCATE  COMP  "PWM_ENn"  SITE  "47";
 LOCATE  COMP  "TZ1n"  SITE  "119";
 LOCATE  COMP  "TZ2n"  SITE  "121";
 
-#PLL
-LOCATE  COMP  "PLL/PLLInst_0"  SITE  "LPLL" ;
 
 
 
 
-PAR: Place And Route Diamond (64-bit) 3.6.0.83.4.
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-Wed May 18 16:09:05 2016
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Nov 15 16:35:37 2017
 

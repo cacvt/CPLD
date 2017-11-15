@@ -1,4 +1,1 @@
-@W: MO171 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":59:2:59:3|Sequential instance PROTECTION.ERR_CLR_PLS reduced to a combinational gate by constant propagation 
-@W: MO171 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd":50:2:50:3|Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation 
-@W: MT246 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_pll.vhd":104:4:104:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT420 |Found inferred clock CC_PLL|CLKOP_inferred_clock with period 3.20ns. Please declare a user-defined clock on object "n:PLL.CLKOP"
+@W: MT420 |Found inferred clock CC_PROTECTION|ERR_NEW_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:PROTECTION.ERR_NEW"

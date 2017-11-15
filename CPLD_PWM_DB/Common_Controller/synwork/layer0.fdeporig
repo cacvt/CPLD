@@ -1,47 +1,34 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\Common_Controller\\synwork\\Common_Controller_Common_Controller_comp.srs|-top|CC_CPLD_TOP|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439970574
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440056346
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439970216
-#CUR:"C:\\lattice\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377018008
-#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_PROTECTION.vhd":1371065852
-#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_DEADTIME.vhd":1459372731
-#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_PLL.vhd":1459372593
-#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_CPLD_TOP.vhd":1463602116
-0 "C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
-1 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd" vhdl
-2 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd" vhdl
-3 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd" vhdl
-4 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd" vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\CPLD\\CPLD_PWM_DB\\Common_Controller\\synwork\\Common_Controller_Common_Controller_comp.srs|-top|CC_CPLD_TOP|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501933408
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493327504
+#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_PROTECTION.vhd":1371065852
+#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_CPLD_TOP.vhd":1510781701
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd" vhdl
+2 "C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
 1 -1
-2 -1
-3 0 
-4 3 1 2 
+2 1 
 
 # Dependency Lists (Users Of)
-0 3 
-1 4 
-2 4 
-3 4 
-4 -1
+0 -1
+1 2 
+2 -1
 
 # Design Unit to File Association
 arch work cc_protection behavioral 1
 module work cc_protection 1
-arch work cc_deadtime behavioral 2
-module work cc_deadtime 2
-config work structure_con 3
-arch work cc_pll structure 3
-module work cc_pll 3
-arch work cc_cpld_top behavioral 4
-module work cc_cpld_top 4
+arch work cc_cpld_top behavioral 2
+module work cc_cpld_top 2

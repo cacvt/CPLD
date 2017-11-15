@@ -1,286 +1,32 @@
 ----------------------------------------------------------------------
 Report for cell CC_CPLD_TOP.behavioral
 
-Register bits: 288 of 4320 (7%)
+Register bits: 1 of 4320 (0%)
 PIC Latch:       0
 I/O cells:       110
                                           Cell usage:
                                cell       count    Res Usage(%)
                                  BB       16       100.0
-                            EHXPLLJ        1       100.0
-                            FD1S3IX      254       100.0
+                            FD1S3AX        1       100.0
                                 GSR        1       100.0
                                  IB       45       100.0
-                                INV       18       100.0
                                  OB       49       100.0
-                           OFS1P3IX       34       100.0
-                           ORCALUT4      643       100.0
-                              PFUMX       36       100.0
+                           ORCALUT4       21       100.0
                                 PUR        1       100.0
-                                VHI       19       100.0
-                                VLO       20       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
 SUB MODULES 
-                        CC_DEADTIME        1       100.0
-                      CC_DEADTIME_0        1       100.0
-                      CC_DEADTIME_1        1       100.0
-                     CC_DEADTIME_10        1       100.0
-                     CC_DEADTIME_11        1       100.0
-                     CC_DEADTIME_12        1       100.0
-                     CC_DEADTIME_13        1       100.0
-                     CC_DEADTIME_14        1       100.0
-                     CC_DEADTIME_15        1       100.0
-                     CC_DEADTIME_16        1       100.0
-                      CC_DEADTIME_2        1       100.0
-                      CC_DEADTIME_3        1       100.0
-                      CC_DEADTIME_4        1       100.0
-                      CC_DEADTIME_5        1       100.0
-                      CC_DEADTIME_6        1       100.0
-                      CC_DEADTIME_7        1       100.0
-                      CC_DEADTIME_8        1       100.0
-                      CC_DEADTIME_9        1       100.0
-                             CC_PLL        1       100.0
+                      CC_PROTECTION        1       100.0
                             
-                         TOTAL          1156           
+                         TOTAL           139           
 ----------------------------------------------------------------------
-Report for cell CC_DEADTIME_16.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB9
+Report for cell CC_PROTECTION.netlist
+     Instance path:  PROTECTION
                                           Cell usage:
                                cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       35         5.4
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
+                            FD1S3AX        1       100.0
+                           ORCALUT4        1         4.8
+                                VHI        1        50.0
+                                VLO        1        50.0
                             
-                         TOTAL            53           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_15.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA9
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       35         5.4
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            53           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_14.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB8
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            54           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_13.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA8
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       34         5.3
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            52           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_12.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB7
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            54           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_11.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA7
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       35         5.4
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            53           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_10.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB6
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            54           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_9.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA6
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       34         5.3
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            52           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_8.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB5
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       37         5.8
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            55           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_7.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA5
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            54           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_6.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB4
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       37         5.8
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            55           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_5.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA4
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       34         5.3
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            52           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_4.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB3
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       38         5.9
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            56           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_3.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA3
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            54           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_2.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB2
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       15         5.9
-                           ORCALUT4       36         5.6
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            55           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_1.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA2
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       37         5.8
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            55           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME_0.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMB1
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       14         5.5
-                           ORCALUT4       37         5.8
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            55           
-----------------------------------------------------------------------
-Report for cell CC_DEADTIME.netlist
-  Original Cell name CC_DEADTIME
-     Instance path:  CPWMA1
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            FD1S3IX       15         5.9
-                           ORCALUT4       34         5.3
-                              PFUMX        2         5.6
-                                VHI        1         5.3
-                                VLO        1         5.0
-                            
-                         TOTAL            53           
-----------------------------------------------------------------------
-Report for cell CC_PLL.netlist
-     Instance path:  PLL
-                                          Cell usage:
-                               cell       count    Res Usage(%)
-                            EHXPLLJ        1       100.0
-                                VLO        1         5.0
-                            
-                         TOTAL             2           
+                         TOTAL             4           

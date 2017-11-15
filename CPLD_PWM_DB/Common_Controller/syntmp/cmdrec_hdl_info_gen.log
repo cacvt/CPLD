@@ -1,15 +1,9 @@
-C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs"  -top  CC_CPLD_TOP  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd" -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd" -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd" -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd"  -log  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\syntax.log"  -fileorder  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\syntmp\hdlorder.tcl" 
-rc:0 success:1
-C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs|o|0|0
-C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377018008|73964
-"C:\Users\yjhxfy\Google|i|0|0
-Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd"|i|0|0
-"C:\Users\yjhxfy\Google|i|0|0
-Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd"|i|0|0
-"C:\Users\yjhxfy\Google|i|0|0
-Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd"|i|0|0
-"C:\Users\yjhxfy\Google|i|0|0
-Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd"|i|0|0
-C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\syntax.log|o|1463602119|954
-C:\lattice\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439970378|2326016
-C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439970574|3183616
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs  -top  CC_CPLD_TOP  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\CPLD\CPLD_PWM_DB\Common_Controller\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd -lib work C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd  -log  C:\CPLD\CPLD_PWM_DB\Common_Controller\syntax.log  -fileorder  C:\CPLD\CPLD_PWM_DB\Common_Controller\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\Common_Controller_Common_Controller_hdl_.srs -top CC_CPLD_TOP -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\CC_CPLD_TOP.vhd -lib work ..\..\CC_PROTECTION.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\Common_Controller_Common_Controller_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493327504|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\CC_CPLD_TOP.vhd|io:i|time:1510781701|size:23719|exec:0|csum:F054922028A355AF2FF6A19386718D80
+file:..\..\CC_PROTECTION.vhd|io:i|time:1371065852|size:1919|exec:0|csum:4ECDC30C73E21AACE7C8A66003696FBF
+file:..\syntax.log|io:o|time:1510781718|size:979|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501910110|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

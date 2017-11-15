@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_fpga_mapper.srr</data>
+<data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_fpga_mapper.srr</data>
 <title>Synopsys Lattice Technology Mapper</title>
 </report_link>
 <job_status>
@@ -13,34 +13,34 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>11</data>
+<data>9</data>
 <report_link name="more">
-<data>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_notes.txt</data>
+<data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>4</data>
+<data>1</data>
 <report_link name="more">
-<data>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_warnings.txt</data>
+<data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_errors.txt</data>
+<data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:07s</data>
+<data>0h:00m:01s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:07s</data>
+<data>0h:00m:01s</data>
 </info>
 <info name="Peak Memory">
-<data>147MB</data>
+<data>145MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1463602129</data>
+<data type="timestamp">1510781722</data>
 </info>
 </job_info>
 </job_run_status>

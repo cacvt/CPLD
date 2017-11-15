@@ -209,9 +209,9 @@ end CC_CPLD_TOP;
 architecture Behavioral of CC_CPLD_TOP is
 
 
---   component CC_PLL
+   --component CC_PLL
 --		Port (CLKI: in  std_logic;
---    		CLKOP: out  std_logic
+ --   		CLKOP: out  std_logic
 --			);
 --	end component;
 	
@@ -288,10 +288,10 @@ architecture Behavioral of CC_CPLD_TOP is
 	-- Modified by XZ
 	signal SOFT_SS			: STD_LOGIC;	--soft start/soft from DSP
 	
-begin--    PLL : CC_PLL port map (
---		CLKI	=> CLK_C,
---		CLKOP	=> Clk_250MHz
---		);
+begin    --PLL : CC_PLL port map (
+	--	CLKI	=> CLK_C,
+	--	CLKOP	=> Clk_250MHz
+	--	);
 
 --	 modified by QW
 	--SYS_AFE_SS  <= IO11_C;	--DSPIO15 is for EXT SS Control input to DSP
@@ -389,24 +389,24 @@ begin--    PLL : CC_PLL port map (
 --==== PWM signal delivery ====--
 
 -- Buffer PWM inputs from DSP
-	PWMA_D(1) <= PWM1A_D;
-	PWMB_D(1) <= PWM1B_D;
-	PWMA_D(2) <= PWM2A_D;
-	PWMB_D(2) <= PWM2B_D;
-	PWMA_D(3) <= PWM3A_D;
-	PWMB_D(3) <= PWM3B_D;
-	PWMA_D(4) <= PWM4A_D;
-	PWMB_D(4) <= PWM4B_D;
-	PWMA_D(5) <= PWM5A_D;
-	PWMB_D(5) <= PWM5B_D;
-	PWMA_D(6) <= PWM6A_D;
-	PWMB_D(6) <= PWM6B_D;
-	PWMA_D(7) <= PWM7A_D;
-	PWMB_D(7) <= PWM7B_D;
-	PWMA_D(8) <= PWM8A_D;
-	PWMB_D(8) <= PWM8B_D;
-	PWMA_D(9) <= PWM9A_D;
-	PWMB_D(9) <= PWM9B_D;
+	PWMA_C(1) <= PWM1A_D;
+	PWMB_C(1) <= PWM1B_D;
+	PWMA_C(2) <= PWM2A_D;
+	PWMB_C(2) <= PWM2B_D;
+	PWMA_C(3) <= PWM3A_D;
+	PWMB_C(3) <= PWM3B_D;
+	PWMA_C(4) <= PWM4A_D;
+	PWMB_C(4) <= PWM4B_D;
+	PWMA_C(5) <= PWM5A_D;
+	PWMB_C(5) <= PWM5B_D;
+	PWMA_C(6) <= PWM6A_D;
+	PWMB_C(6) <= PWM6B_D;
+	PWMA_C(7) <= PWM7A_D;
+	PWMB_C(7) <= PWM7B_D;
+	PWMA_C(8) <= PWM8A_D;
+	PWMB_C(8) <= PWM8B_D;
+	PWMA_C(9) <= PWM9A_D;
+	PWMB_C(9) <= PWM9B_D;
 	
 -- Internal PWM logics --
 
@@ -766,7 +766,7 @@ begin--    PLL : CC_PLL port map (
 	IO0_C<= PWM_EN_On;
 	--IO1_C <= SYS_AFE_SS;
 	--IO1_C <= Clk_20MHz;
-	IO1_C <= CLK_C;
+	--IO1_C <= CLK_C;
 	IO2_C <= IO22_D;
 	IO3_C <= PWMB_O(1);
 	IO4_C <= PWMB_O(4);

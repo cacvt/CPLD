@@ -2,4 +2,4 @@
 
 -g RamCfg:Reset
 
--path "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB"  
+-path "C:/CPLD/CPLD_PWM_DB"  
