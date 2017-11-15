@@ -1,0 +1,1 @@
+C:/lattice/diamond/3.6_x64/bin/nt64/moduleparser.exe -PROJ frequency -pf C:/lattice/diamond/3.6_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg C:/lattice/diamond/3.6_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/frequency/source_files.lst

@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1101942</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(222): Semantic error in &quot;VOLTAGE 1.200 V;&quot;: </Dynamic>
+            <Dynamic>1.200</Dynamic>
+            <Dynamic>2.375</Dynamic>
+            <Dynamic>3.600</Dynamic>
+            <Navigation>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf</Navigation>
+            <Navigation>222</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(216): Semantic error in &quot;IOBUF PORT &quot;IO49_D&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>IO49_D</Dynamic>
+            <Navigation>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf</Navigation>
+            <Navigation>216</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>2 semantic errors</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM9B_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM9B_D</Dynamic>
+            <Dynamic>97</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM9A_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM9A_D</Dynamic>
+            <Dynamic>96</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM8B_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM8B_D</Dynamic>
+            <Dynamic>95</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM8A_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM8A_D</Dynamic>
+            <Dynamic>94</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM7B_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM7B_D</Dynamic>
+            <Dynamic>93</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM6B_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM6B_D</Dynamic>
+            <Dynamic>113</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PWM6A_D_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>PWM6A_D</Dynamic>
+            <Dynamic>112</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=IO1_C_c loads=2 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=IO1_C_c loads=2 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO14_D_c</Dynamic>
+            <Navigation>IO14_D_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO86_D_c</Dynamic>
+            <Navigation>IO86_D_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO87_D_c</Dynamic>
+            <Navigation>IO87_D_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO20_D_0</Dynamic>
+            <Navigation>IO20_D_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO21_D_0</Dynamic>
+            <Navigation>IO21_D_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO23_D_c</Dynamic>
+            <Navigation>IO23_D_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>TZ1n_0</Dynamic>
+            <Navigation>TZ1n_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>TZ2n_0</Dynamic>
+            <Navigation>TZ2n_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO1_c</Dynamic>
+            <Navigation>FO1_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO2_c</Dynamic>
+            <Navigation>FO2_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO3_c</Dynamic>
+            <Navigation>FO3_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO4_c</Dynamic>
+            <Navigation>FO4_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO5_c</Dynamic>
+            <Navigation>FO5_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>FO6_c</Dynamic>
+            <Navigation>FO6_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT1_c</Dynamic>
+            <Navigation>CMP_OUT1_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT2_c</Dynamic>
+            <Navigation>CMP_OUT2_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT3_c</Dynamic>
+            <Navigation>CMP_OUT3_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT4_c</Dynamic>
+            <Navigation>CMP_OUT4_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT5_c</Dynamic>
+            <Navigation>CMP_OUT5_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT6_c</Dynamic>
+            <Navigation>CMP_OUT6_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT7_c</Dynamic>
+            <Navigation>CMP_OUT7_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT8_c</Dynamic>
+            <Navigation>CMP_OUT8_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT9_c</Dynamic>
+            <Navigation>CMP_OUT9_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT10_c</Dynamic>
+            <Navigation>CMP_OUT10_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT11_c</Dynamic>
+            <Navigation>CMP_OUT11_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CMP_OUT12_c</Dynamic>
+            <Navigation>CMP_OUT12_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO9_C_c</Dynamic>
+            <Navigation>IO9_C_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO10_C_c</Dynamic>
+            <Navigation>IO10_C_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO11_C_c</Dynamic>
+            <Navigation>IO11_C_c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO12_C_0</Dynamic>
+            <Navigation>IO12_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO13_C_0</Dynamic>
+            <Navigation>IO13_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO14_C_0</Dynamic>
+            <Navigation>IO14_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO15_C_0</Dynamic>
+            <Navigation>IO15_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO16_C_0</Dynamic>
+            <Navigation>IO16_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO17_C_0</Dynamic>
+            <Navigation>IO17_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO18_C_0</Dynamic>
+            <Navigation>IO18_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO19_C_0</Dynamic>
+            <Navigation>IO19_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO20_C_0</Dynamic>
+            <Navigation>IO20_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO21_C_0</Dynamic>
+            <Navigation>IO21_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO22_C_0</Dynamic>
+            <Navigation>IO22_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IO23_C_0</Dynamic>
+            <Navigation>IO23_C_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>41</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:256:8:256:16|Signal pwm_en_on is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Signal pwm_en_on is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:280:8:280:19|Signal st_latch_clr is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>280</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>280</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Signal st_latch_clr is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:287:8:287:14|Signal soft_ss is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>287</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>287</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Signal soft_ss is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd&quot;:57:1:57:7|Incomplete sensitivity list - assuming completeness</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Incomplete sensitivity list - assuming completeness</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd&quot;:61:22:61:28|Referenced variable err_clr is not in sensitivity list</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Referenced variable err_clr is not in sensitivity list</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:256:8:256:16|PWM_EN_On is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>PWM_EN_On is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:179:2:179:6|IO8_C is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>179</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>179</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>IO8_C is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:178:2:178:6|IO7_C is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>IO7_C is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:177:2:177:6|IO6_C is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>177</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>177</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>IO6_C is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:175:2:175:6|IO5_C is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>IO5_C is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:81:2:81:8|PWM_ENn is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>PWM_ENn is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:41:2:41:7|IO85_D is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>IO85_D is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:40:2:40:7|IO84_D is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>IO84_D is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:38:2:38:7|IO15_D is not assigned a value (floating) -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>IO15_D is not assigned a value (floating) -- simulation mismatch possible. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:375:2:375:3|Pruning register ERR_STATUS_5(19 downto 1)</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>375</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>375</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register ERR_STATUS_5(19 downto 1)  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd&quot;:41:2:41:3|Register bit TIME_SET_1(7) is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Register bit TIME_SET_1(7) is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL189 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd&quot;:41:2:41:3|Register bit TIME_SET_2(7) is always 0, optimizing ...</Dynamic>
+            <Navigation>CL189</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Register bit TIME_SET_2(7) is always 0, optimizing ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd&quot;:41:2:41:3|Pruning register bit 7 of TIME_SET_2(7 downto 0)</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 7 of TIME_SET_2(7 downto 0)  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd&quot;:41:2:41:3|Pruning register bit 7 of TIME_SET_1(7 downto 0)</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 7 of TIME_SET_1(7 downto 0)  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:37:2:37:7|Input IO14_D is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO14_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:42:2:42:7|Input IO86_D is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO86_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:43:2:43:7|Input IO87_D is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO87_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:46:2:46:7|Inout IO20_D is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO20_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:47:2:47:7|Inout IO21_D is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO21_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:49:2:49:7|Input IO23_D is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO23_D is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:75:2:75:5|Inout TZ1n is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Inout TZ1n is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:76:2:76:5|Inout TZ2n is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Inout TZ2n is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:92:2:92:4|Input FO1 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO1 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:103:2:103:4|Input FO2 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO2 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:114:2:114:4|Input FO3 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO3 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:125:2:125:4|Input FO4 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>125</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>125</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO4 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:136:2:136:4|Input FO5 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO5 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:147:2:147:4|Input FO6 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>147</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>147</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Input FO6 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:151:2:151:9|Input CMP_OUT1 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>151</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>151</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT1 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:152:2:152:9|Input CMP_OUT2 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>152</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>152</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT2 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:153:2:153:9|Input CMP_OUT3 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT3 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:154:2:154:9|Input CMP_OUT4 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>154</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT4 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:155:2:155:9|Input CMP_OUT5 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>155</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>155</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT5 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:156:2:156:9|Input CMP_OUT6 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT6 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:157:2:157:9|Input CMP_OUT7 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>157</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>157</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT7 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:158:2:158:9|Input CMP_OUT8 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>158</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>158</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT8 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:159:2:159:9|Input CMP_OUT9 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>159</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>159</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input CMP_OUT9 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:160:2:160:10|Input CMP_OUT10 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>160</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>160</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input CMP_OUT10 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:161:2:161:10|Input CMP_OUT11 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>161</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>161</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input CMP_OUT11 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:162:2:162:10|Input CMP_OUT12 is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input CMP_OUT12 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:180:2:180:6|Input IO9_C is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Input IO9_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:181:2:181:7|Input IO10_C is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO10_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL159 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:182:2:182:7|Input IO11_C is unused</Dynamic>
+            <Navigation>CL159</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>182</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>182</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Input IO11_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:184:2:184:7|Inout IO12_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>184</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>184</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO12_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:185:2:185:7|Inout IO13_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>185</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>185</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO13_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:186:2:186:7|Inout IO14_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO14_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:187:2:187:7|Inout IO15_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>187</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>187</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO15_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:188:2:188:7|Inout IO16_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO16_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:189:2:189:7|Inout IO17_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>189</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>189</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO17_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:191:2:191:7|Inout IO18_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>191</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>191</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO18_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:192:2:192:7|Inout IO19_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>192</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>192</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO19_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:193:2:193:7|Inout IO20_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>193</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>193</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO20_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:194:2:194:7|Inout IO21_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>194</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>194</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO21_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:195:2:195:7|Inout IO22_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>195</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>195</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO22_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd&quot;:196:2:196:7|Inout IO23_C is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd</Navigation>
+            <Navigation>196</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>196</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Inout IO23_C is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd&quot;:44:19:44:40|Net PROTECTION.ST_LATCH_TRIG appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Net PROTECTION.ST_LATCH_TRIG appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd&quot;:50:2:50:3|Found signal identified as System clock which controls 1 sequential elements including PROTECTION.ERR_LATCH.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found signal identified as System clock which controls 1 sequential elements including PROTECTION.ERR_LATCH.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_deadtime.vhd&quot;:41:2:41:3|Found inferred clock CC_PLL|CLKOP_inferred_clock which controls 288 sequential elements including CPWMA1.TIME_SET_2[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_deadtime.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock CC_PLL|CLKOP_inferred_clock which controls 288 sequential elements including CPWMA1.TIME_SET_2[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO171 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd&quot;:59:2:59:3|Sequential instance PROTECTION.ERR_CLR_PLS reduced to a combinational gate by constant propagation</Dynamic>
+            <Navigation>MO171</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd</Navigation>
+            <Navigation>59</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>59</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Sequential instance PROTECTION.ERR_CLR_PLS reduced to a combinational gate by constant propagation </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO171 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd&quot;:50:2:50:3|Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation</Dynamic>
+            <Navigation>MO171</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_protection.vhd</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_pll.vhd&quot;:104:4:104:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld\cpld_pwm_db\cc_pll.vhd</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock CC_PLL|CLKOP_inferred_clock with period 3.20ns. Please declare a user-defined clock on object &quot;n:PLL.CLKOP&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock CC_PLL|CLKOP_inferred_clock with period 3.20ns. Please declare a user-defined clock on object &quot;n:PLL.CLKOP&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

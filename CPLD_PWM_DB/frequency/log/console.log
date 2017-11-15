@@ -1,0 +1,56 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile {C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/CC_PLL.vhd}
+# Adding file C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\CC_PLL.vhd ... Done
+vlib {C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/frequency/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/CC_PLL.vhd}
+# Compile...
+# File: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\CC_PLL.vhd
+# Compile Entity "CC_PLL"
+# Compile Architecture "Structure" of Entity "CC_PLL"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+entity Structure_CON
+# Cannot select this entity.
+vsim +access +r Structure_CON -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7067 kB (elbread=1023 elab2=5888 kernel=155 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\frequency\src\wave.asdb
+#  11:06 PM, Thursday, March 10, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: structure_con
+add wave *
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/frequency/src/wave.asdb'.
+run @1000ns
+# KERNEL: stopped at time: 1 us
+run @1us
+# KERNEL: stopped at time: 1 us
+run @10us
+# KERNEL: stopped at time: 10 us
+#  Simulation has been stopped

@@ -1,0 +1,47 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|CC_CPLD_TOP|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\Common_Controller\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439970574
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440056346
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439970216
+#CUR:"C:\\lattice\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377018008
+#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_CPLD_TOP.vhd":1463602116
+#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_PROTECTION.vhd":1371065852
+#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_DEADTIME.vhd":1459372731
+#CUR:"C:\\Users\\yjhxfy\\Google Drive\\MMC\\Hardware\\Board\\Code\\CPLD\\CPLD_PWM_DB\\CC_PLL.vhd":1459372593
+0 "C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd" vhdl
+2 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd" vhdl
+3 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd" vhdl
+4 "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 4 2 3 
+2 -1
+3 -1
+4 0 
+
+# Dependency Lists (Users Of)
+0 4 
+1 -1
+2 1 
+3 1 
+4 1 
+
+# Design Unit to File Association
+arch work cc_cpld_top behavioral 1
+module work cc_cpld_top 1
+arch work cc_protection behavioral 2
+module work cc_protection 2
+arch work cc_deadtime behavioral 3
+module work cc_deadtime 3
+config work structure_con 4
+arch work cc_pll structure 4
+module work cc_pll 4

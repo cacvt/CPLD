@@ -1,0 +1,7 @@
+C:\lattice\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  CC_CPLD_TOP  -multisrs  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs"  -osyn  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs"  -log  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr" 
+rc:0 success:1
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs|i|1463602120|12515
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs|o|1463602121|6352
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synlog\Common_Controller_Common_Controller_multi_srs_gen.srr|o|1463602121|541
+C:\lattice\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439970412|3007488
+C:\lattice\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439970598|3974144

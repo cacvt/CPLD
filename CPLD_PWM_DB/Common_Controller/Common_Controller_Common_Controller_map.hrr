@@ -1,0 +1,181 @@
+---------------------------------------------------
+Report for cell CC_CPLD_TOP
+   Instance path: CC_CPLD_TOP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     435.00        100.0
+                                 IOLGC	      34.00        100.0
+                                  LUT4	     644.00        100.0
+                                 IOREG	         34        100.0
+                                 IOBUF	         85        100.0
+                                PFUREG	        254        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        CC_DEADTIME_14	          1         5.5
+                         CC_DEADTIME_6	          1         6.2
+                                CC_PLL	          1         0.0
+                         CC_DEADTIME_8	          1         6.0
+                         CC_DEADTIME_9	          1         4.8
+                         CC_DEADTIME_7	          1         5.7
+                         CC_DEADTIME_3	          1         5.5
+                         CC_DEADTIME_5	          1         5.1
+                         CC_DEADTIME_4	          1         6.4
+                        CC_DEADTIME_16	          1         5.1
+                         CC_DEADTIME_2	          1         6.0
+                        CC_DEADTIME_15	          1         5.1
+                        CC_DEADTIME_10	          1         5.7
+                        CC_DEADTIME_12	          1         5.5
+                        CC_DEADTIME_13	          1         4.6
+                        CC_DEADTIME_11	          1         5.1
+                         CC_DEADTIME_0	          1         6.2
+                         CC_DEADTIME_1	          1         6.2
+                           CC_DEADTIME	          1         5.1
+---------------------------------------------------
+Report for cell CC_DEADTIME_16
+   Instance path: CC_CPLD_TOP/CPWMB9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         5.1
+                                  LUT4	      35.00         5.4
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_15
+   Instance path: CC_CPLD_TOP/CPWMA9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         5.1
+                                  LUT4	      35.00         5.4
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_14
+   Instance path: CC_CPLD_TOP/CPWMB8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00         5.5
+                                  LUT4	      36.00         5.6
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_13
+   Instance path: CC_CPLD_TOP/CPWMA8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         4.6
+                                  LUT4	      34.00         5.3
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_12
+   Instance path: CC_CPLD_TOP/CPWMB7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00         5.5
+                                  LUT4	      36.00         5.6
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_11
+   Instance path: CC_CPLD_TOP/CPWMA7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         5.1
+                                  LUT4	      35.00         5.4
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_10
+   Instance path: CC_CPLD_TOP/CPWMB6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00         5.7
+                                  LUT4	      36.00         5.6
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_9
+   Instance path: CC_CPLD_TOP/CPWMA6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00         4.8
+                                  LUT4	      34.00         5.3
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_8
+   Instance path: CC_CPLD_TOP/CPWMB5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         6.0
+                                  LUT4	      37.00         5.7
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_7
+   Instance path: CC_CPLD_TOP/CPWMA5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00         5.7
+                                  LUT4	      36.00         5.6
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_6
+   Instance path: CC_CPLD_TOP/CPWMB4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00         6.2
+                                  LUT4	      37.00         5.7
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_5
+   Instance path: CC_CPLD_TOP/CPWMA4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         5.1
+                                  LUT4	      34.00         5.3
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_4
+   Instance path: CC_CPLD_TOP/CPWMB3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.00         6.4
+                                  LUT4	      38.00         5.9
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_3
+   Instance path: CC_CPLD_TOP/CPWMA3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00         5.5
+                                  LUT4	      36.00         5.6
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_2
+   Instance path: CC_CPLD_TOP/CPWMB2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         6.0
+                                  LUT4	      36.00         5.6
+                                PFUREG	         15         5.9
+---------------------------------------------------
+Report for cell CC_DEADTIME_1
+   Instance path: CC_CPLD_TOP/CPWMA2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00         6.2
+                                  LUT4	      37.00         5.7
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME_0
+   Instance path: CC_CPLD_TOP/CPWMB1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00         6.2
+                                  LUT4	      37.00         5.7
+                                PFUREG	         14         5.5
+---------------------------------------------------
+Report for cell CC_DEADTIME
+   Instance path: CC_CPLD_TOP/CPWMA1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         5.1
+                                  LUT4	      34.00         5.3
+                                PFUREG	         15         5.9
+---------------------------------------------------
+Report for cell CC_PLL
+   Instance path: CC_CPLD_TOP/PLL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

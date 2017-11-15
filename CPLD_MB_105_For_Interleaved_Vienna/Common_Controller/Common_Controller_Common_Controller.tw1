@@ -1,0 +1,116 @@
+
+Loading design for application trce from file common_controller_common_controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.2.0.134
+Wed Apr 13 01:01:37 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o Common_Controller_Common_Controller.tw1 -gui Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller_map.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    1.200 V
+
+
+
+================================================================================
+Preference: Default path enumeration
+            114 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    8.517ns delay IO10_C to IO3_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        132.PAD to      132.PADDI IO10_C
+ROUTE         3   e 1.234      132.PADDI to     SLICE_0.B0 IO84_D_c
+CTOF_DEL    ---     0.443     SLICE_0.B0 to     SLICE_0.F0 SLICE_0
+ROUTE        14   e 1.234     SLICE_0.F0 to     SLICE_2.A0 N_21
+CTOF_DEL    ---     0.443     SLICE_2.A0 to     SLICE_2.F0 SLICE_2
+ROUTE         2   e 1.234     SLICE_2.F0 to       24.PADDO IO3_C_c
+DOPAD_DEL   ---     2.797       24.PADDO to         24.PAD IO3_C
+                  --------
+                    8.517   (56.5% logic, 43.5% route), 4 logic levels.
+
+Report:  344.234MHz is the maximum frequency for this preference.
+
+Report:    8.517ns is the maximum delay for this preference.
+
+
+================================================================================
+Preference: Default net enumeration
+            35 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    3.114ns maximum delay on IO1_C_c
+
+           Delays             Connection(s)
+         e 1.234ns        138.PADDI to IO22_D_MGIOL.CLK
+         e 3.114ns        138.PADDI to 26.PADDO        
+         e 1.617ns        138.PADDI to 120.PADDO       
+         e 1.234ns        138.PADDI to SLICE_0.A0      
+
+Report:    3.114ns is the maximum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|     8.517 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     3.114 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: IO1_C_c   Source: IO11_C.PAD   Loads: 4
+   No transfer within this clock domain is found
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 116 paths, 35 nets, and 102 connections (100.0% coverage)
+
+--------------------------------------------------------------------------------
+

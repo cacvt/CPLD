@@ -1,0 +1,14 @@
+@P:  Worst Slack : NA
+@P:  CC_CPLD_TOP|IO11_C - Estimated Frequency : NA
+@P:  CC_CPLD_TOP|IO11_C - Requested Frequency : 1.0 MHz
+@P:  CC_CPLD_TOP|IO11_C - Estimated Period : NA
+@P:  CC_CPLD_TOP|IO11_C - Requested Period : 1000.000
+@P:  CC_CPLD_TOP|IO11_C - Slack : NA
+@P:  Worst Slack(min analysis) : NA
+@P:  CC_CPLD_TOP|IO11_C - Estimated Frequency(min analysis) : NA
+@P:  CC_CPLD_TOP|IO11_C - Requested Frequency(min analysis) : 1.0 MHz
+@P:  CC_CPLD_TOP|IO11_C - Estimated Period(min analysis) : NA
+@P:  CC_CPLD_TOP|IO11_C - Requested Period(min analysis) : 1000.000
+@P:  CC_CPLD_TOP|IO11_C - Slack(min analysis) : NA
+@P:  Total Area : 15.0
+@P:  CPU Time : 0h:00m:01s

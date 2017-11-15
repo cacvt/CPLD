@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/21/2016 23:19:56
+#Project Location: C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong; Project name: Common_Controller
+prj_project open "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/Common_Controller.ldf"
+prj_project close
+#Stop recording: 4/22/2016 15:45:35

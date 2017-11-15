@@ -1,0 +1,1 @@
+run_tcl -fg Common_Controller_Common_Controller_synplify.tcl

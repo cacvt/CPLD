@@ -1,0 +1,5 @@
+MESSAGE "File: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\CC_PLL.vhd" 
+MESSAGE "Compile Entity "CC_PLL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "CC_PLL"" 
+MESSAGE "Compile Configuration "Structure_CON"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

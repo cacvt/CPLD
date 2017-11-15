@@ -1,0 +1,11 @@
+#Start recording tcl command: 5/1/2016 20:00:31
+#Project Location: C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB; Project name: Common_Controller
+prj_project open "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.ldf"
+pgr_project close
+pgr_project open "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 5/1/2016 20:04:29

@@ -1,0 +1,2 @@
+@W: MO171 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_protection.vhd":50:2:50:3|Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation 
+@W: MT420 |Found inferred clock CC_CPLD_TOP|IO11_C with period 1000.00ns. Please declare a user-defined clock on object "p:IO11_C"

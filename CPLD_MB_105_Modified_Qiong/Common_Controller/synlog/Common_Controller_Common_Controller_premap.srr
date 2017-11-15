@@ -1,0 +1,50 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\Common_Controller_Common_Controller_scck.rpt 
+Printing clock  summary report in "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\Common_Controller_Common_Controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: MT462 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld_mb_105_modified_qiong\cc_protection.vhd":44:19:44:40|Net PROTECTION.ST_LATCH_TRIG appears to be an unidentified clock source. Assuming default frequency. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=10  set on top level netlist CC_CPLD_TOP
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock
+Clock     Frequency     Period        Type      Group
+-----------------------------------------------------
+=====================================================
+
+@W: MT531 :"c:\users\yjhxfy\google drive\mmc\hardware\board\code\cpld_mb_105_modified_qiong\cc_protection.vhd":50:2:50:3|Found signal identified as System clock which controls 1 sequential elements including PROTECTION.ERR_LATCH.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 27 13:35:07 2016
+
+###########################################################]

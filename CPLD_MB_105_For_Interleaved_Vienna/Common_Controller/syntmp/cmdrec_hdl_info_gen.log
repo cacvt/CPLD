@@ -1,0 +1,9 @@
+C:\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs  -top  CC_CPLD_TOP  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\dm  -lite   -ui -fid2 -ram -sharing on  -ll 2000 -autosm -ignore_undefined_lib  -lib work C:\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd -lib work C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd -loga  C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\syntax.log  -fileorder  C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs|o|0|0
+C:\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377014408|73964
+C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd|i|1460523658|19445
+C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd|i|1371065852|1919
+C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\syntax.log|o|1460523688|1155
+C:\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe|i|1397620946|5463552
+C:\lscc\diamond\3.2_x64\synpbase\bin\c_vhdl.exe|i|1397620744|1982464

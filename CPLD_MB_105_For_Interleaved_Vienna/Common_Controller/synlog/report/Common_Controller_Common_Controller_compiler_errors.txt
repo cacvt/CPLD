@@ -1,0 +1,3 @@
+@E: CD184 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":604:8:604:9|target io10_c of assignment is not writeable
+@E|Parse errors encountered - exiting
+

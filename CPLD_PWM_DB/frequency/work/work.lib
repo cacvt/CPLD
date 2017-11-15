@@ -1,0 +1,34 @@
+timestamp=1457669176079
+
+[~A]
+ModifyID=1
+Version=73
+
+[cc_pll]
+A/structure=A/Structure 21|./../../CC_PLL.vhd|20|1*0
+BinI32/structure=3*0
+I=0*496
+I/structure=I/Structure 0*6117
+M=11|0|vc6|1457669176029|./../../CC_PLL.vhd|0*180*0x4d6381ea6890ed4f4ebb9e3be1273bafc3e386a0|0*420*0x5eebbfaf24833dd780412b1f91e05209
+M/structure=M/Structure 21|0|vc6|1457669176035|./../../CC_PLL.vhd|0*660*0xc92b65c161f745f365efcc72f810a903d501995b|0*6028*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../CC_PLL.vhd|14
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|0592902335cf2f4d28692e488964967920fb3e36e258d8d3fca6617e40b3f392
+Version/structure=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680d721f860f2816320f7eb70d6d162b7a9
+
+[structure_con]
+BinI32/structure_con=3*256
+Configures=CC_PLL.Structure
+E=1*13784
+I=0*6760
+M=2|0|vc6|1457669176048|./../../CC_PLL.vhd|0*6407*0x56b7d25aa4dae1e63d78261c2720e6201b9b7a2e|0*6668*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../CC_PLL.vhd|147
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|91bab8d02e27836b7ffe05e485a1ca605405807a56299549a0eccf38ac4ca90922ec49b163816034ab704ee957f3be44
+
+[~MFT]
+0=10|0work.mgf|6760|0
+1=2|1work.mgf|13784|0
+3=2|3work.mgf|256|0
+
+[~U]
+cc_pll=CC_PLL 11|0*0|
+structure_con=Structure_CON 2||

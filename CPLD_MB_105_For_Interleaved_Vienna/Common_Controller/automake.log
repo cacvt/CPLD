@@ -1,0 +1,1072 @@
+
+synpwrap -prj "Common_Controller_Common_Controller_synplify.tcl" -log "Common_Controller_Common_Controller.srf"
+Copyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.2.0.134
+
+==contents of Common_Controller_Common_Controller.srf
+#Build: Synplify Pro I-2013.09L-SP1-1 , Build 098R, Apr 15 2014
+#install: C:\lscc\diamond\3.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: VANTHOFF
+
+#Implementation: Common_Controller
+
+$ Start of Compile
+#Wed Apr 13 01:01:28 2016
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 147R, built Apr 16 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":27:7:27:17|Top entity is set to CC_CPLD_TOP.
+File C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd changed - recompiling
+File C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd changed - recompiling
+File C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd changed - recompiling
+@N: CD630 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":27:7:27:17|Synthesizing work.cc_cpld_top.behavioral 
+@W: CG296 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":424:1:424:7|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":473:14:473:19|Referenced variable io22_d is not in sensitivity list
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 9 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 10 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 11 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 12 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 13 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 14 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 15 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 16 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":221:8:221:13|Bit 17 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 9 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 10 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 11 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 12 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 13 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 14 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 15 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 16 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":222:8:222:13|Bit 17 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":232:8:232:13|Signal sys_es is undriven 
+@W: CD638 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":233:8:233:23|Signal sys_pwm_es_unlck is undriven 
+@W: CD638 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":234:8:234:14|Signal sys_rst is undriven 
+@W: CD638 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":247:8:247:19|Signal st_latch_clr is undriven 
+@N: CD630 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
+@W: CG296 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd":57:1:57:7|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd":61:22:61:28|Referenced variable err_clr is not in sensitivity list
+Post processing for work.cc_protection.behavioral
+Post processing for work.cc_cpld_top.behavioral
+@W: CL240 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":170:2:170:6|IO5_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":79:2:79:8|PWM_ENn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":338:2:338:3|Pruning register ERR_STATUS_5(19 downto 1)  
+@W: CL117 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":426:1:426:2|Latch generated from process for signal IO7_C; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":426:1:426:2|Latch generated from process for signal IO6_C; possible missing assignment in an if or case statement.
+@N: CL177 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":426:1:426:2|Sharing sequential element IO6_C.
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":37:2:37:7|Inout IO49_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":40:2:40:7|Input IO86_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":41:2:41:7|Input IO87_D is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":44:2:44:7|Inout IO20_D is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":45:2:45:7|Inout IO21_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":47:2:47:7|Input IO23_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":66:2:66:8|Input PWM7A_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":67:2:67:8|Input PWM7B_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":69:2:69:8|Input PWM8B_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":70:2:70:8|Input PWM9A_D is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":71:2:71:8|Input PWM9B_D is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":73:2:73:5|Inout TZ1n is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":74:2:74:5|Inout TZ2n is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":90:2:90:4|Input FO1 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":101:2:101:4|Input FO2 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":112:2:112:4|Input FO3 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":123:2:123:4|Input FO4 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":134:2:134:4|Input FO5 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":145:2:145:4|Input FO6 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":149:2:149:9|Input CMP_OUT1 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":150:2:150:9|Input CMP_OUT2 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":151:2:151:9|Input CMP_OUT3 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":152:2:152:9|Input CMP_OUT4 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT5 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT6 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT7 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT8 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT9 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":158:2:158:10|Input CMP_OUT10 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":159:2:159:10|Input CMP_OUT11 is unused
+@W: CL159 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":160:2:160:10|Input CMP_OUT12 is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":179:2:179:7|Inout IO12_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":180:2:180:7|Inout IO13_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":181:2:181:7|Inout IO14_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":182:2:182:7|Inout IO15_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":183:2:183:7|Inout IO16_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":184:2:184:7|Inout IO17_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":186:2:186:7|Inout IO18_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":187:2:187:7|Inout IO19_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":188:2:188:7|Inout IO20_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":189:2:189:7|Inout IO21_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":190:2:190:7|Inout IO22_C is unused
+@W: CL158 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd":191:2:191:7|Inout IO23_C is unused
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 13 01:01:29 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 908R, Built Apr 16 2014 10:10:17
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller_scck.rpt 
+Printing clock  summary report in "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@W: MT462 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_cpld_top.vhd":459:9:459:24|Net PWMA_O_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_protection.vhd":44:19:44:40|Net PROTECTION.ST_LATCH_TRIG appears to be an unidentified clock source. Assuming default frequency. 
+syn_allowed_resources : blockrams=10  set on top level netlist CC_CPLD_TOP
+
+
+Clock Summary
+**************
+
+Start     Requested     Requested     Clock     Clock
+Clock     Frequency     Period        Type      Group
+-----------------------------------------------------
+=====================================================
+
+@W: MT531 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_protection.vhd":50:2:50:3|Found signal identified as System clock which controls 2 sequential elements including PROTECTION.ERR_LATCH.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 13 01:01:30 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 908R, Built Apr 16 2014 10:10:17
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: MO171 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_protection.vhd":50:2:50:3|Sequential instance PROTECTION.ERR_LATCH reduced to a combinational gate by constant propagation 
+@N: BN362 :"c:\users\wangq\desktop\utas_multi_source\hardware\cpld\cpld_mb_105_for_interleaved_vienna\cc_protection.vhd":59:2:59:3|Removing sequential instance PROTECTION.ERR_CLR_PLS of view:PrimLib.dffr(prim) in hierarchy view:work.CC_CPLD_TOP(behavioral) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       IO11_C              port                   1          io7_c_0io      
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+I-2013.09L-SP1-1 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+
+@W: MT420 |Found inferred clock CC_CPLD_TOP|IO11_C with period 1000.00ns. Please declare a user-defined clock on object "p:IO11_C"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Apr 13 01:01:32 2016
+#
+
+
+Top view:               CC_CPLD_TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                       Requested     Estimated     Requested     Estimated               Clock        Clock                
+Starting Clock         Frequency     Frequency     Period        Period        Slack     Type         Group                
+---------------------------------------------------------------------------------------------------------------------------
+CC_CPLD_TOP|IO11_C     1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_0
+===========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-4
+
+Register bits: 0 of 4320 (0%)
+Latch bits:      1
+PIC Latch:       1
+I/O cells:       110
+
+
+Details:
+BB:             17
+GSR:            1
+IB:             44
+IFS1S1D:        1
+OB:             49
+ORCALUT4:       15
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 52MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 13 01:01:32 2016
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-4000HC -path "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/Common_Controller" -path "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna"   "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/Common_Controller/Common_Controller_Common_Controller.edi" "Common_Controller_Common_Controller.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to Common_Controller_Common_Controller.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-4000HC  -p "C:/lscc/diamond/3.2_x64/ispfpga/xo2c00/data"  -p "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/Common_Controller" -p "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna"  "Common_Controller_Common_Controller.ngo" "Common_Controller_Common_Controller.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'Common_Controller_Common_Controller.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.2_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.2_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.2_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.2_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO49_D_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO86_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO87_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO20_D_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO21_D_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO23_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="PWM7A_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="PWM7B_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="PWM8B_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="PWM9A_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="PWM9B_D_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="TZ1n_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="TZ2n_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO1_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO2_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO3_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO4_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO5_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="FO6_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT1_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT2_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT3_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT4_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT5_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT6_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT7_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT8_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT9_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT10_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT11_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="CMP_OUT12_c"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO12_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO13_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO14_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO15_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO16_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO17_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO18_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO19_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO20_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO21_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO22_C_0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="0" arg0="logical" arg1="IO23_C_0"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="43"  />
+
+Design Results:
+    129 blocks expanded
+complete the first expansion
+Writing 'Common_Controller_Common_Controller.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-4000HC -t TQFP144 -s 4 -oc Commercial   "Common_Controller_Common_Controller.ngd" -o "Common_Controller_Common_Controller_map.ncd" -pr "Common_Controller_Common_Controller.prf" -mp "Common_Controller_Common_Controller.mrp" -lpf "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/Common_Controller/Common_Controller_Common_Controller_synplify.lpf" -lpf "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/Common_Controller.lpf"             
+map:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Common_Controller_Common_Controller.ngd
+   Picdevice="LCMXO2-4000HC"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-4000HCTQFP144, Performance used: 4.
+
+Loading device for application baspr from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="N_20"  />
+
+
+
+Design Summary:
+   Number of registers:      1 out of  4665 (0%)
+      PFU registers:            0 out of  4320 (0%)
+      PIO registers:            1 out of   345 (0%)
+   Number of SLICEs:        14 out of  2160 (1%)
+      SLICEs as Logic/ROM:     14 out of  2160 (1%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:          0 out of  2160 (0%)
+   Number of LUT4s:         16 out of  4320 (0%)
+      Number of logic LUTs:       16
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:      0 (0 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 84 + 4(JTAG) out of 115 (77%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net IO1_C_c: 1 loads, 1 rising, 0 falling (Driver: PIO IO11_C )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net N_20 merged into GSR:  1
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net N_21: 14 loads
+     Net PWM9B_C_c: 6 loads
+     Net IO84_D_c: 3 loads
+     Net IO8_C_c: 3 loads
+     Net IO9_C_c: 3 loads
+     Net IO2_C_c: 2 loads
+     Net IO3_C_c: 2 loads
+     Net IO4_C_c: 2 loads
+     Net IO7_C_c: 2 loads
+     Net N_20: 1 loads
+    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="113"  />
+    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;IO49_D&quot; SITE &quot;113&quot; ;&#xA;" arg2="LOCATE COMP &quot;PWM6B_D&quot; SITE &quot;113&quot; ;&#xA;"  />
+ 
+
+   Number of warnings:  3
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 50 MB
+
+Dumping design to file Common_Controller_Common_Controller_map.ncd.
+
+trce -f "Common_Controller_Common_Controller.mt" -o "Common_Controller_Common_Controller.tw1" "Common_Controller_Common_Controller_map.ncd" "Common_Controller_Common_Controller.prf"
+trce:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file common_controller_common_controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.2.0.134
+Wed Apr 13 01:01:37 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o Common_Controller_Common_Controller.tw1 -gui Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller_map.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    1.200 V
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 116 paths, 35 nets, and 102 connections (100.0% coverage)
+
+--------------------------------------------------------------------------------
+
+Total time: 0 secs 
+
+ldbanno "Common_Controller_Common_Controller_map.ncd" -n Verilog -o "Common_Controller_Common_Controller_mapvo.vo" -w -neg
+ldbanno: version Diamond (64-bit) 3.2.0.134
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Writing a Verilog netlist using the orca library type based on the Common_Controller_Common_Controller_map design file.
+
+
+Loading design for application ldbanno from file Common_Controller_Common_Controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Converting design Common_Controller_Common_Controller_map.ncd into .ldb format.
+Writing Verilog netlist to file Common_Controller_Common_Controller_mapvo.vo
+Writing SDF timing to file Common_Controller_Common_Controller_mapvo.sdf
+    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
+
+ldbanno "Common_Controller_Common_Controller_map.ncd" -n VHDL -o "Common_Controller_Common_Controller_mapvho.vho" -w -neg
+ldbanno: version Diamond (64-bit) 3.2.0.134
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Writing a VHDL netlist using the orca library type based on the Common_Controller_Common_Controller_map design file.
+
+
+Loading design for application ldbanno from file Common_Controller_Common_Controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application ldbanno from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Converting design Common_Controller_Common_Controller_map.ncd into .ldb format.
+Writing VHDL netlist to file Common_Controller_Common_Controller_mapvho.vho
+Writing SDF timing to file Common_Controller_Common_Controller_mapvho.sdf
+    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
+
+mpartrce -p "Common_Controller_Common_Controller.p2t" -f "Common_Controller_Common_Controller.p3t" -tf "Common_Controller_Common_Controller.pt" "Common_Controller_Common_Controller_map.ncd" "Common_Controller_Common_Controller.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Common_Controller_Common_Controller_map.ncd"
+Wed Apr 13 01:01:40 2016
+
+PAR: Place And Route Diamond (64-bit) 3.2.0.134.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.dir/5_1.ncd Common_Controller_Common_Controller.prf
+Preference file: Common_Controller_Common_Controller.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Common_Controller_Common_Controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   84+4(JTAG)/280     31% used
+                  84+4(JTAG)/115     77% bonded
+   IOLOGIC            1/280          <1% used
+
+   SLICE             14/2160         <1% used
+
+   GSR                1/1           100% used
+
+
+Number of Signals: 35
+Number of Connections: 102
+
+Pin Constraint Summary:
+   83 out of 83 pins locked (100% locked).
+
+No signal is selected as primary clock.
+
+
+No signal is selected as secondary clock.
+
+Signal N_20 is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+.......
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 43881.
+Finished Placer Phase 1.  REAL time: 4 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  43502
+Finished Placer Phase 2.  REAL time: 4 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+
+  PRIMARY  : 0 out of 8 (0%)
+  SECONDARY: 0 out of 8 (0%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   84 + 4(JTAG) out of 280 (31.4%) PIO sites used.
+   84 + 4(JTAG) out of 115 (76.5%) bonded PIO sites used.
+   Number of PIO comps: 84; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 23 / 28 ( 82%) | 3.3V       | -         |
+| 1        | 10 / 29 ( 34%) | 3.3V       | -         |
+| 2        | 26 / 29 ( 89%) | 3.3V       | -         |
+| 3        | 9 / 9 (100%)   | 3.3V       | -         |
+| 4        | 8 / 10 ( 80%)  | 3.3V       | -         |
+| 5        | 8 / 10 ( 80%)  | 3.3V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 3 secs 
+
+Dumping design to file Common_Controller_Common_Controller.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 102 unrouted.
+Starting router resource preassignment
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=IO1_C_c loads=4 clock_loads=1"  />
+
+Completed router resource preassignment. Real time: 5 secs 
+
+Start NBR router at 01:01:45 04/13/16
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design. Thanks.                                       
+*****************************************************************
+
+Start NBR special constraint process at 01:01:45 04/13/16
+
+Start NBR section for initial routing at 01:01:45 04/13/16
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 5 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 01:01:45 04/13/16
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 5 secs 
+
+Start NBR section for re-routing at 01:01:45 04/13/16
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 5 secs 
+
+Start NBR section for post-routing at 01:01:45 04/13/16
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=IO1_C_c loads=4 clock_loads=1"  />
+
+Total CPU time 4 secs 
+Total REAL time: 5 secs 
+Completely routed.
+End of route.  102 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Common_Controller_Common_Controller.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 4 secs 
+Total REAL time to completion: 6 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "Common_Controller_Common_Controller.pt" -o "Common_Controller_Common_Controller.twr" "Common_Controller_Common_Controller.ncd" "Common_Controller_Common_Controller.prf"
+trce:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.2.0.134
+Wed Apr 13 01:01:46 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    1.200 V
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 116 paths, 35 nets, and 102 connections (100.0% coverage)
+
+--------------------------------------------------------------------------------
+
+Total time: 0 secs 
+
+iotiming  "Common_Controller_Common_Controller.ncd" "Common_Controller_Common_Controller.prf"
+I/O Timing Report:
+:  version Diamond (64-bit) 3.2.0.134
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application iotiming from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Running Performance Grade: 4
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Running Performance Grade: 5
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Running Performance Grade: 6
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+Running Performance Grade: M
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+Done.
+
+bitgen -f "Common_Controller_Common_Controller.t2b" -w "Common_Controller_Common_Controller.ncd" -jedec "Common_Controller_Common_Controller.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.2.0.134
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Common_Controller_Common_Controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.2_x64/ispfpga.
+Package Status:                     Final          Version 1.36
+Performance Hardware Data Status:   Final          Version 25.4
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Common_Controller_Common_Controller.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.83.
+ 
+Saving bit stream in "Common_Controller_Common_Controller.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        767 Pages (128*767 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory:  767 Pages (Page 0 to Page 766).
+Initialized UFM Pages:                     0 Page.
+ 

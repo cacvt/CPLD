@@ -1,0 +1,103 @@
+line 5789, col 42: Option set not found: vcs_ECP4_lib.
+line 5803, col 44: Option set not found: vcs_ECP45M_lib.
+
+
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.2_x64\synpbase\win64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.2_x64\synpbase
+Date:        Wed Apr 13 01:01:28 2016
+Version:     I-2013.09L-SP1-1 
+
+Arguments:   -product synplify_pro  -batch Common_Controller_Common_Controller_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srr"
+
+
+
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+
+Copied C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srr to C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srf
+
+log file: "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srr"
+
+
+
+
+
+Running proj_1|Common_Controller
+
+
+Running: Compile on proj_1|Common_Controller
+
+
+Running: Compile Process on proj_1|Common_Controller
+
+
+Running: Compile Input on proj_1|Common_Controller
+
+Copied C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs to C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Copied C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srr to C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srf
+
+Complete: Compile Process on proj_1|Common_Controller
+
+
+Running: Pre-mapping on proj_1|Common_Controller
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+
+Complete: Compile on proj_1|Common_Controller
+
+
+Running: Map on proj_1|Common_Controller
+
+
+Running: Map & Optimize on proj_1|Common_Controller
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Complete: Map on proj_1|Common_Controller
+
+Copied C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srr to C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\Common_Controller_Common_Controller.srf
+
+Complete: Logic Synthesis on proj_1|Common_Controller
+
+TCL script complete: "Common_Controller_Common_Controller_synplify.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+Save changes for project:
+C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\Common_Controller\proj_1.prj
+
+batch mode default:no
+

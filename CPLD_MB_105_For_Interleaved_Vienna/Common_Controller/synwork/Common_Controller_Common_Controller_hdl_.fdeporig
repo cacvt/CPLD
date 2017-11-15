@@ -1,0 +1,33 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|CC_CPLD_TOP|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\wangq\\Desktop\\UTAS_Multi_Source\\Hardware\\CPLD\\CPLD_MB_105_For_Interleaved_Vienna\\Common_Controller\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\bin64\\c_vhdl.exe":1397620946
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\location.map":1397749650
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std1164.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\numeric.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1397620828
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\arith.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1397620578
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377014408
+#CUR:"C:\\Users\\wangq\\Desktop\\UTAS_Multi_Source\\Hardware\\CPLD\\CPLD_MB_105_For_Interleaved_Vienna\\CC_CPLD_TOP.vhd":1460523658
+#CUR:"C:\\Users\\wangq\\Desktop\\UTAS_Multi_Source\\Hardware\\CPLD\\CPLD_MB_105_For_Interleaved_Vienna\\CC_PROTECTION.vhd":1371065852
+0 "C:\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_CPLD_TOP.vhd" vhdl
+2 "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_For_Interleaved_Vienna\CC_PROTECTION.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 2 
+2 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+2 1 
+
+# Design Unit to File Association
+arch work cc_cpld_top behavioral 1
+module work cc_cpld_top 1
+arch work cc_protection behavioral 2
+module work cc_protection 2

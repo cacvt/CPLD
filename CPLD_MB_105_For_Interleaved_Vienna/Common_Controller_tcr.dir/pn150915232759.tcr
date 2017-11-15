@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/15/2015 23:14:17
+#Project Location: C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_Modified_Qiong; Project name: Common_Controller
+prj_project open "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_Modified_Qiong/Common_Controller.ldf"
+pgr_project open "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_Modified_Qiong/Common_Controller/Common_Controller.xcf"
+pgr_project close
+#Stop recording: 9/15/2015 23:27:59

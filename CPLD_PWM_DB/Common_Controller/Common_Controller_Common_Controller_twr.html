@@ -1,0 +1,1176 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.6.0.83.4</big></U></B>
+Wed May 18 16:09:10 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<FONT COLOR=red><LI><A href='#par_twr_pref_0_0' Target='right'><FONT COLOR=red>FREQUENCY NET "Clk_250MHz" 250.000000 MHz (215 errors)</FONT></A></LI>
+</FONT>            1991 items scored, 215 timing errors detected.
+Warning: 170.794MHz is the maximum frequency for this preference.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>FREQUENCY NET "IO1_C_c" 10.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: FREQUENCY NET "Clk_250MHz" 250.000000 MHz ;
+            1991 items scored, 215 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 1.855ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA5/TIME_SET_2[5]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA5_BPWM_Nio  (to Clk_250MHz +)
+
+   Delay:               5.874ns  (20.0% logic, 80.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.874ns physical path delay CPWMA5/SLICE_38 to PWM9B_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.172ns skew and
+      0.153ns DO_SET requirement (totaling 4.019ns) by 1.855ns
+
+ Physical Path Details:
+
+      Data path CPWMA5/SLICE_38 to PWM9B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452     R17C5D.CLK to      R17C5D.Q1 CPWMA5/SLICE_38 (from Clk_250MHz)
+ROUTE         5     1.409      R17C5D.Q1 to      R18C5D.A0 CPWMA5/TIME_SET_2[5]
+CTOOFX_DEL  ---     0.721      R18C5D.A0 to    R18C5D.OFX0 CPWMA5/TIME_SET_2_RNI1HC6[3]/SLICE_164
+ROUTE         1     3.292    R18C5D.OFX0 to  IOL_R19A.OPOS CPWMA5.un1_time_set_2_i (to Clk_250MHz)
+                  --------
+                    5.874   (20.0% logic, 80.0% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA5/SLICE_38:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to     R17C5D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM9B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.913     LPLL.CLKOP to   IOL_R19A.CLK Clk_250MHz
+                  --------
+                    1.913   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.793ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[5]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.813ns  (20.2% logic, 79.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.813ns physical path delay CPWMB5/SLICE_106 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.793ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_106 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R12C26D.CLK to     R12C26D.Q1 CPWMB5/SLICE_106 (from Clk_250MHz)
+ROUTE         7     1.029     R12C26D.Q1 to     R12C26C.B0 CPWMB5/TIME_SET_1[5]
+CTOOFX_DEL  ---     0.721     R12C26C.B0 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.813   (20.2% logic, 79.8% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_106:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R12C26D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.750ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[4]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.770ns  (20.3% logic, 79.7% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.770ns physical path delay CPWMB5/SLICE_106 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.750ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_106 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R12C26D.CLK to     R12C26D.Q0 CPWMB5/SLICE_106 (from Clk_250MHz)
+ROUTE         6     0.986     R12C26D.Q0 to     R12C26C.A0 CPWMB5/TIME_SET_1[4]
+CTOOFX_DEL  ---     0.721     R12C26C.A0 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.770   (20.3% logic, 79.7% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_106:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R12C26D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.547ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[2]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.567ns  (21.1% logic, 78.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.567ns physical path delay CPWMB5/SLICE_105 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.547ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_105 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R12C27B.CLK to     R12C27B.Q0 CPWMB5/SLICE_105 (from Clk_250MHz)
+ROUTE         8     0.783     R12C27B.Q0 to     R12C26C.C0 CPWMB5/TIME_SET_1[2]
+CTOOFX_DEL  ---     0.721     R12C26C.C0 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.567   (21.1% logic, 78.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_105:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R12C27B.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.536ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[5]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.556ns  (21.1% logic, 78.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.556ns physical path delay CPWMB5/SLICE_106 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.536ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_106 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R12C26D.CLK to     R12C26D.Q1 CPWMB5/SLICE_106 (from Clk_250MHz)
+ROUTE         7     0.772     R12C26D.Q1 to     R12C26C.C1 CPWMB5/TIME_SET_1[5]
+CTOOFX_DEL  ---     0.721     R12C26C.C1 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.556   (21.1% logic, 78.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_106:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R12C26D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.466ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA5/TIME_SET_2[4]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA5_BPWM_Nio  (to Clk_250MHz +)
+
+   Delay:               5.485ns  (21.4% logic, 78.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.485ns physical path delay CPWMA5/SLICE_38 to PWM9B_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.172ns skew and
+      0.153ns DO_SET requirement (totaling 4.019ns) by 1.466ns
+
+ Physical Path Details:
+
+      Data path CPWMA5/SLICE_38 to PWM9B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452     R17C5D.CLK to      R17C5D.Q0 CPWMA5/SLICE_38 (from Clk_250MHz)
+ROUTE         6     1.020      R17C5D.Q0 to      R18C5D.B0 CPWMA5/TIME_SET_2[4]
+CTOOFX_DEL  ---     0.721      R18C5D.B0 to    R18C5D.OFX0 CPWMA5/TIME_SET_2_RNI1HC6[3]/SLICE_164
+ROUTE         1     3.292    R18C5D.OFX0 to  IOL_R19A.OPOS CPWMA5.un1_time_set_2_i (to Clk_250MHz)
+                  --------
+                    5.485   (21.4% logic, 78.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA5/SLICE_38:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to     R17C5D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM9B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.913     LPLL.CLKOP to   IOL_R19A.CLK Clk_250MHz
+                  --------
+                    1.913   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.441ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[3]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.461ns  (15.2% logic, 84.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.461ns physical path delay CPWMB5/SLICE_105 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.441ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_105 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R12C27B.CLK to     R12C27B.Q1 CPWMB5/SLICE_105 (from Clk_250MHz)
+ROUTE         7     1.022     R12C27B.Q1 to     R12C26C.M0 CPWMB5/TIME_SET_1[3]
+MTOOFX_DEL  ---     0.376     R12C26C.M0 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.461   (15.2% logic, 84.8% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_105:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R12C27B.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.433ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[6]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.453ns  (21.5% logic, 78.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.453ns physical path delay CPWMB5/SLICE_107 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.433ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_107 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R13C26D.CLK to     R13C26D.Q0 CPWMB5/SLICE_107 (from Clk_250MHz)
+ROUTE         6     0.669     R13C26D.Q0 to     R12C26C.D0 CPWMB5/TIME_SET_1[6]
+CTOOFX_DEL  ---     0.721     R12C26C.D0 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.453   (21.5% logic, 78.5% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_107:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R13C26D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.433ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB5/TIME_SET_1[6]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB5_BPWM_Pio  (to Clk_250MHz +)
+
+   Delay:               5.453ns  (21.5% logic, 78.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.453ns physical path delay CPWMB5/SLICE_107 to PWM10A_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.433ns
+
+ Physical Path Details:
+
+      Data path CPWMB5/SLICE_107 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R13C26D.CLK to     R13C26D.Q0 CPWMB5/SLICE_107 (from Clk_250MHz)
+ROUTE         6     0.669     R13C26D.Q0 to     R12C26C.D1 CPWMB5/TIME_SET_1[6]
+CTOOFX_DEL  ---     0.721     R12C26C.D1 to   R12C26C.OFX0 CPWMB5/TIME_SET_1_RNI15P62[3]/SLICE_163
+ROUTE         1     3.611   R12C26C.OFX0 to   IOL_L4B.OPOS CPWMB5.un4_bpwm_i (to Clk_250MHz)
+                  --------
+                    5.453   (21.5% logic, 78.5% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB5/SLICE_107:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R13C26D.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM10A_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L4B.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 1.332ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB6/TIME_SET_2[4]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB6_BPWM_Nio  (to Clk_250MHz +)
+
+   Delay:               5.352ns  (21.9% logic, 78.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.352ns physical path delay CPWMB6/SLICE_118 to PWM12B_C_MGIOL exceeds
+      4.000ns delay constraint less
+     -0.173ns skew and
+      0.153ns DO_SET requirement (totaling 4.020ns) by 1.332ns
+
+ Physical Path Details:
+
+      Data path CPWMB6/SLICE_118 to PWM12B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    R13C20A.CLK to     R13C20A.Q0 CPWMB6/SLICE_118 (from Clk_250MHz)
+ROUTE         6     1.067     R13C20A.Q0 to     R14C20B.D0 CPWMB6/TIME_SET_2[4]
+CTOOFX_DEL  ---     0.721     R14C20B.D0 to   R14C20B.OFX0 CPWMB6/TIME_SET_2_RNIFSE62[3]/SLICE_159
+ROUTE         1     3.112   R14C20B.OFX0 to   IOL_L8A.OPOS CPWMB6.un1_time_set_2_i (to Clk_250MHz)
+                  --------
+                    5.352   (21.9% logic, 78.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB6/SLICE_118:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.741     LPLL.CLKOP to    R13C20A.CLK Clk_250MHz
+                  --------
+                    1.741   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to PWM12B_C_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     1.914     LPLL.CLKOP to    IOL_L8A.CLK Clk_250MHz
+                  --------
+                    1.914   (0.0% logic, 100.0% route), 0 logic levels.
+
+Warning: 170.794MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: FREQUENCY NET "IO1_C_c" 10.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "Clk_250MHz" 250.000000   |             |             |
+MHz ;                                   |  250.000 MHz|  170.794 MHz|   2 *
+                                        |             |             |
+FREQUENCY NET "IO1_C_c" 10.000000 MHz ; |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+1 preference(marked by "*" above) not met.
+
+No net is responsible for more than 10% of the timing errors.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: IO1_C_c   Source: CLK_C.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: Clk_250MHz   Source: PLL/PLLInst_0.CLKOP   Loads: 181
+   Covered under: FREQUENCY NET "Clk_250MHz" 250.000000 MHz ;
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 215  Score: 88535
+Cumulative negative slack: 88535
+
+Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.6.0.83.4</big></U></B>
+Wed May 18 16:09:11 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_1_0' Target='right'>FREQUENCY NET "Clk_250MHz" 250.000000 MHz (0 errors)</A></LI>            1991 items scored, 0 timing errors detected.
+
+<LI><A href='#par_twr_pref_1_1' Target='right'>FREQUENCY NET "IO1_C_c" 10.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+<A name="par_twr_pref_1_0"></A>Preference: FREQUENCY NET "Clk_250MHz" 250.000000 MHz ;
+            1991 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA4/TIME_SET_2[6]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA4/TIME_SET_2[6]  (to Clk_250MHz +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay CPWMA4/SLICE_31 to CPWMA4/SLICE_31 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path CPWMA4/SLICE_31 to CPWMA4/SLICE_31:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R16C12B.CLK to     R16C12B.Q0 CPWMA4/SLICE_31 (from Clk_250MHz)
+ROUTE         5     0.132     R16C12B.Q0 to     R16C12B.A0 CPWMA4/TIME_SET_2[6]
+CTOF_DEL    ---     0.101     R16C12B.A0 to     R16C12B.F0 CPWMA4/SLICE_31
+ROUTE         1     0.000     R16C12B.F0 to    R16C12B.DI0 CPWMA4/fb_0 (to Clk_250MHz)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_31:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C12B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_31:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C12B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA4/TIME_SET_1[5]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA4/TIME_SET_1[5]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA4/SLICE_26 to CPWMA4/SLICE_26 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA4/SLICE_26 to CPWMA4/SLICE_26:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R16C25C.CLK to     R16C25C.Q1 CPWMA4/SLICE_26 (from Clk_250MHz)
+ROUTE         5     0.133     R16C25C.Q1 to     R16C25C.A1 CPWMA4/TIME_SET_1[5]
+CTOF_DEL    ---     0.101     R16C25C.A1 to     R16C25C.F1 CPWMA4/SLICE_26
+ROUTE         1     0.000     R16C25C.F1 to    R16C25C.DI1 CPWMA4/un1_TIME_SET_1[2] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_26:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C25C.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_26:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C25C.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA1/TIME_SET_1[2]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA1/TIME_SET_1[2]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA1/SLICE_1 to CPWMA1/SLICE_1 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA1/SLICE_1 to CPWMA1/SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R12C12A.CLK to     R12C12A.Q0 CPWMA1/SLICE_1 (from Clk_250MHz)
+ROUTE         8     0.133     R12C12A.Q0 to     R12C12A.A0 CPWMA1/TIME_SET_1[2]
+CTOF_DEL    ---     0.101     R12C12A.A0 to     R12C12A.F0 CPWMA1/SLICE_1
+ROUTE         1     0.000     R12C12A.F0 to    R12C12A.DI0 CPWMA1/un1_TIME_SET_1[5] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA1/SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R12C12A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA1/SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R12C12A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA5/TIME_SET_2[0]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA5/TIME_SET_2[0]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA5/SLICE_36 to CPWMA5/SLICE_36 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA5/SLICE_36 to CPWMA5/SLICE_36:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R17C5B.CLK to      R17C5B.Q0 CPWMA5/SLICE_36 (from Clk_250MHz)
+ROUTE         5     0.133      R17C5B.Q0 to      R17C5B.A0 CPWMA5/TIME_SET_2[0]
+CTOF_DEL    ---     0.101      R17C5B.A0 to      R17C5B.F0 CPWMA5/SLICE_36
+ROUTE         1     0.000      R17C5B.F0 to     R17C5B.DI0 CPWMA5/un1_TIME_SET_2[7] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA5/SLICE_36:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to     R17C5B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA5/SLICE_36:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to     R17C5B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA4/TIME_SET_1[0]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA4/TIME_SET_1[0]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA4/SLICE_24 to CPWMA4/SLICE_24 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA4/SLICE_24 to CPWMA4/SLICE_24:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R16C25A.CLK to     R16C25A.Q0 CPWMA4/SLICE_24 (from Clk_250MHz)
+ROUTE         5     0.133     R16C25A.Q0 to     R16C25A.A0 CPWMA4/TIME_SET_1[0]
+CTOF_DEL    ---     0.101     R16C25A.A0 to     R16C25A.F0 CPWMA4/SLICE_24
+ROUTE         1     0.000     R16C25A.F0 to    R16C25A.DI0 CPWMA4/un1_TIME_SET_1[7] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_24:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C25A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA4/SLICE_24:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C25A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA1/TIME_SET_2[0]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA1/TIME_SET_2[0]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA1/SLICE_4 to CPWMA1/SLICE_4 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA1/SLICE_4 to CPWMA1/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R16C26B.CLK to     R16C26B.Q0 CPWMA1/SLICE_4 (from Clk_250MHz)
+ROUTE         5     0.133     R16C26B.Q0 to     R16C26B.A0 CPWMA1/TIME_SET_2[0]
+CTOF_DEL    ---     0.101     R16C26B.A0 to     R16C26B.F0 CPWMA1/SLICE_4
+ROUTE         1     0.000     R16C26B.F0 to    R16C26B.DI0 CPWMA1/un1_TIME_SET_2[7] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA1/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C26B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA1/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C26B.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA3/TIME_SET_2[1]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA3/TIME_SET_2[1]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA3/SLICE_20 to CPWMA3/SLICE_20 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA3/SLICE_20 to CPWMA3/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C22A.CLK to     R19C22A.Q1 CPWMA3/SLICE_20 (from Clk_250MHz)
+ROUTE         5     0.133     R19C22A.Q1 to     R19C22A.A1 CPWMA3/TIME_SET_2[1]
+CTOF_DEL    ---     0.101     R19C22A.A1 to     R19C22A.F1 CPWMA3/SLICE_20
+ROUTE         1     0.000     R19C22A.F1 to    R19C22A.DI1 CPWMA3/un1_TIME_SET_2[6] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA3/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C22A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA3/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C22A.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA3/TIME_SET_2[6]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA3/TIME_SET_2[6]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA3/SLICE_23 to CPWMA3/SLICE_23 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA3/SLICE_23 to CPWMA3/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C23C.CLK to     R19C23C.Q0 CPWMA3/SLICE_23 (from Clk_250MHz)
+ROUTE         6     0.133     R19C23C.Q0 to     R19C23C.A0 CPWMA3/TIME_SET_2[6]
+CTOF_DEL    ---     0.101     R19C23C.A0 to     R19C23C.F0 CPWMA3/SLICE_23
+ROUTE         1     0.000     R19C23C.F0 to    R19C23C.DI0 CPWMA3/fb_0 (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA3/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C23C.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA3/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C23C.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMA2/TIME_SET_2[6]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMA2/TIME_SET_2[6]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMA2/SLICE_15 to CPWMA2/SLICE_15 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMA2/SLICE_15 to CPWMA2/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R16C10D.CLK to     R16C10D.Q0 CPWMA2/SLICE_15 (from Clk_250MHz)
+ROUTE         6     0.133     R16C10D.Q0 to     R16C10D.A0 CPWMA2/TIME_SET_2[6]
+CTOF_DEL    ---     0.101     R16C10D.A0 to     R16C10D.F0 CPWMA2/SLICE_15
+ROUTE         1     0.000     R16C10D.F0 to    R16C10D.DI0 CPWMA2/fb_0 (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMA2/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C10D.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMA2/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R16C10D.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.380ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              CPWMB8/TIME_SET_2[1]  (from Clk_250MHz +)
+   Destination:    FF         Data in        CPWMB8/TIME_SET_2[1]  (to Clk_250MHz +)
+
+   Delay:               0.367ns  (63.8% logic, 36.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.367ns physical path delay CPWMB8/SLICE_132 to CPWMB8/SLICE_132 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.380ns
+
+ Physical Path Details:
+
+      Data path CPWMB8/SLICE_132 to CPWMB8/SLICE_132:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C12D.CLK to     R19C12D.Q1 CPWMB8/SLICE_132 (from Clk_250MHz)
+ROUTE         5     0.133     R19C12D.Q1 to     R19C12D.A1 CPWMB8/TIME_SET_2[1]
+CTOF_DEL    ---     0.101     R19C12D.A1 to     R19C12D.F1 CPWMB8/SLICE_132
+ROUTE         1     0.000     R19C12D.F1 to    R19C12D.DI1 CPWMB8/un1_TIME_SET_2[6] (to Clk_250MHz)
+                  --------
+                    0.367   (63.8% logic, 36.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path PLL/PLLInst_0 to CPWMB8/SLICE_132:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C12D.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path PLL/PLLInst_0 to CPWMB8/SLICE_132:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       181     0.668     LPLL.CLKOP to    R19C12D.CLK Clk_250MHz
+                  --------
+                    0.668   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+================================================================================
+<A name="par_twr_pref_1_1"></A>Preference: FREQUENCY NET "IO1_C_c" 10.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+<A name="ptwr_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "Clk_250MHz" 250.000000   |             |             |
+MHz ;                                   |     0.000 ns|     0.379 ns|   2  
+                                        |             |             |
+FREQUENCY NET "IO1_C_c" 10.000000 MHz ; |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: IO1_C_c   Source: CLK_C.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: Clk_250MHz   Source: PLL/PLLInst_0.CLKOP   Loads: 181
+   Covered under: FREQUENCY NET "Clk_250MHz" 250.000000 MHz ;
+
+
+<A name="ptwr_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1991 paths, 2 nets, and 2592 connections (92.14% coverage)
+
+
+
+<A name="ptwr_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 215 (setup), 0 (hold)
+Score: 88535 (setup), 0 (hold)
+Cumulative negative slack: 88535 (88535+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

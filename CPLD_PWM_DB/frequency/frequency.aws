@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+frequency=frequency.adf
+[Settings]
+Active=frequency
+[Expand]
+frequency=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

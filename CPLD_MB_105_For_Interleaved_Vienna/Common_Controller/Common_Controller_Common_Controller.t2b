@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna"  

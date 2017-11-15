@@ -1,0 +1,17 @@
+[Files List]
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/arith_p.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/arith_b.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\machxo2/src/MACHXO2COMP.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/timing_p_2000.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/timing_b_2000.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/prmtvs_p_2000.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/prmtvs_b_2000.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/unsigned_p.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\ieee/src/unsigned_b.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\machxo2/src/MACHXO2_MISC.vhd=S
+C:\lattice\diamond\3.6_x64\active-hdl\vlib\machxo2/src/MACHXO2_CMB.vhd=S
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB/CC_PLL.vhd=S

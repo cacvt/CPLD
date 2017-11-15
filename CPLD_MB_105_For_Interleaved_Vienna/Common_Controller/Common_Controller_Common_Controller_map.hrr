@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell CC_CPLD_TOP
+   Instance path: CC_CPLD_TOP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         84        100.0

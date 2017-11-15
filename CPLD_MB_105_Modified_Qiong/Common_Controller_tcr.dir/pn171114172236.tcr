@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/14/2017 17:20:13
+#Project Location: C:/Users/cacee14/Google Drive/Energy Harvesting/WEC/50kW/Control_Board/Code/CPLD/CPLD_MB_105_Modified_Qiong; Project name: Common_Controller
+prj_project open "C:/Users/cacee14/Google Drive/Energy Harvesting/WEC/50kW/Control_Board/Code/CPLD/CPLD_MB_105_Modified_Qiong/Common_Controller.ldf"
+pgr_project open "C:/Users/cacee14/Google Drive/Energy Harvesting/WEC/50kW/Control_Board/Code/CPLD/CPLD_MB_105_Modified_Qiong/Common_Controller/Common_Controller.xcf"
+prj_project close
+#Stop recording: 11/14/2017 17:22:36

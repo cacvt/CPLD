@@ -1,0 +1,110 @@
+
+Loading design for application trce from file common_controller_common_controller_map.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.6.0.83.4
+Sun Mar 27 13:35:16 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o Common_Controller_Common_Controller.tw1 -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/promote.xml Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller_map.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+Preference: Default path enumeration
+            26 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    8.075ns delay PWM5B_D to PWM5B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        110.PAD to      110.PADDI PWM5B_D
+ROUTE         1   e 4.146      110.PADDI to       33.PADDO PWM5B_C_c
+DOPAD_DEL   ---     2.797       33.PADDO to         33.PAD PWM5B_C
+                  --------
+                    8.075   (48.7% logic, 51.3% route), 2 logic levels.
+
+Report:    8.075ns is the maximum delay for this preference.
+
+
+================================================================================
+Preference: Default net enumeration
+            24 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    4.146ns maximum delay on PWM5B_C_c
+
+           Delays             Connection(s)
+         e 4.146ns        110.PADDI to 33.PADDO        
+
+Report:    4.146ns is the maximum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|     8.075 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     4.146 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 0 clocks:
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 26 paths, 24 nets, and 66 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+

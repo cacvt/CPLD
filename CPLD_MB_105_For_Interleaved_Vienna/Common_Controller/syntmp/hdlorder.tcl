@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.2_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/CC_PROTECTION.vhd" "C:/Users/wangq/Desktop/UTAS_Multi_Source/Hardware/CPLD/CPLD_MB_105_For_Interleaved_Vienna/CC_CPLD_TOP.vhd" 

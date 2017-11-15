@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":27:7:27:17|Top entity is set to CC_CPLD_TOP.
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":27:7:27:17|Synthesizing work.cc_cpld_top.behavioral 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
+@N|Running in 64-bit mode
+

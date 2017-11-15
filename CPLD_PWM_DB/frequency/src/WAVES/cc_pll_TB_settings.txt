@@ -1,0 +1,41 @@
+[SETTINGS]
+UUT_entity%cc_pll%
+UUT_architecture%structure%
+WAVES_entity%cc_pll_wb%
+WAVES_architecture%TB_ARCHITECTURE%
+MONITOR%YES%
+DSN_PATH%$dsn\src\WAVES%
+WAVES_STANDARD_PATH%$ALDEC\DAT\WAVES%
+OUTPUT_DIRECTORY%C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\frequency\src\WAVES%
+VECTORS_FILE%%
+TEST_PINS_FILE%cc_pll_TB_pins.vhd%
+TB_FILE%cc_pll_TB.vhd%
+DECLARATIONS_FILE%cc_pll_TB_declaration.vhd%
+HEADER_FILE%cc_pll_TB_header%
+MACRO_FILE%cc_pll_TB_runtest.do%
+UUT_entity_FILE%CPLD_PWM_DB/CC_PLL.vhd%
+TIMING_CONFIGURATION%NO%
+LIBRARY_NAME%work%
+LIBRARY_TYPE%work%
+ENABLE_FILE%none%
+
+[GENERICS]
+
+[PORTS]
+CLKI%in%STD_LOGIC%NO%NOCLK%
+CLKOP%out%STD_LOGIC%NO%NOCLK%
+CLKOS2%out%STD_LOGIC%NO%NOCLK%
+
+[CLOCKS]
+
+[SDF]
+
+[INCLUDE]
+library ieee;
+use ieee.std_logic_1164.all;
+library machxo2;
+use machxo2.components.all;
+
+[VHDL_FILES]
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\CC_PLL.vhd
+

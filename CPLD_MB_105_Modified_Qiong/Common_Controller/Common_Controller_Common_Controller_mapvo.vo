@@ -1,0 +1,1293 @@
+
+// Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.6.0.83.4
+
+// ldbanno -n Verilog -o Common_Controller_Common_Controller_mapvo.vo -w -neg -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/promote.xml Common_Controller_Common_Controller_map.ncd 
+// Netlist created on Sun Mar 27 13:35:12 2016
+// Netlist written on Sun Mar 27 13:35:18 2016
+// Design is for device LCMXO2-4000HC
+// Design is for package TQFP144
+// Design is for performance grade 4
+
+`timescale 1 ns / 1 ps
+
+module CC_CPLD_TOP ( IO14_D, IO15_D, IO49_D, IO84_D, IO85_D, IO86_D, IO87_D, 
+                     IO20_D, IO21_D, IO22_D, IO23_D, PWM1A_D, PWM1B_D, PWM2A_D, 
+                     PWM2B_D, PWM3A_D, PWM3B_D, PWM4A_D, PWM4B_D, PWM5A_D, 
+                     PWM5B_D, PWM6A_D, PWM6B_D, PWM7A_D, PWM7B_D, PWM8A_D, 
+                     PWM8B_D, PWM9A_D, PWM9B_D, TZ1n, TZ2n, PWM_ENn, PWM1A_C, 
+                     PWM1B_C, PWM2A_C, PWM2B_C, PWM3A_C, PWM3B_C, FO1, PWM4A_C, 
+                     PWM4B_C, PWM5A_C, PWM5B_C, PWM6A_C, PWM6B_C, FO2, PWM7A_C, 
+                     PWM7B_C, PWM8A_C, PWM8B_C, PWM9A_C, PWM9B_C, FO3, 
+                     PWM10A_C, PWM10B_C, PWM11A_C, PWM11B_C, PWM12A_C, 
+                     PWM12B_C, FO4, PWM13A_C, PWM13B_C, PWM14A_C, PWM14B_C, 
+                     PWM15A_C, PWM15B_C, FO5, PWM16A_C, PWM16B_C, PWM17A_C, 
+                     PWM17B_C, PWM18A_C, PWM18B_C, FO6, CMP_OUT1, CMP_OUT2, 
+                     CMP_OUT3, CMP_OUT4, CMP_OUT5, CMP_OUT6, CMP_OUT7, 
+                     CMP_OUT8, CMP_OUT9, CMP_OUT10, CMP_OUT11, CMP_OUT12, 
+                     IO0_C, IO1_C, IO2_C, IO3_C, IO4_C, IO5_C, IO6_C, IO7_C, 
+                     IO8_C, IO9_C, IO10_C, IO11_C, IO12_C, IO13_C, IO14_C, 
+                     IO15_C, IO16_C, IO17_C, IO18_C, IO19_C, IO20_C, IO21_C, 
+                     IO22_C, IO23_C );
+  input  IO14_D, IO86_D, IO87_D, IO22_D, IO23_D, PWM1A_D, PWM1B_D, PWM2A_D, 
+         PWM2B_D, PWM3A_D, PWM3B_D, PWM4A_D, PWM4B_D, PWM5A_D, PWM5B_D, 
+         PWM6A_D, PWM6B_D, PWM7A_D, PWM7B_D, PWM8A_D, PWM8B_D, PWM9A_D, 
+         PWM9B_D, FO1, FO2, FO3, FO4, FO5, FO6, CMP_OUT1, CMP_OUT2, CMP_OUT3, 
+         CMP_OUT4, CMP_OUT5, CMP_OUT6, CMP_OUT7, CMP_OUT8, CMP_OUT9, CMP_OUT10, 
+         CMP_OUT11, CMP_OUT12, IO9_C, IO10_C, IO11_C;
+  output IO15_D, IO84_D, IO85_D, PWM_ENn, PWM1A_C, PWM1B_C, PWM2A_C, PWM2B_C, 
+         PWM3A_C, PWM3B_C, PWM4A_C, PWM4B_C, PWM5A_C, PWM5B_C, PWM6A_C, 
+         PWM6B_C, PWM7A_C, PWM7B_C, PWM8A_C, PWM8B_C, PWM9A_C, PWM9B_C, 
+         PWM10A_C, PWM10B_C, PWM11A_C, PWM11B_C, PWM12A_C, PWM12B_C, PWM13A_C, 
+         PWM13B_C, PWM14A_C, PWM14B_C, PWM15A_C, PWM15B_C, PWM16A_C, PWM16B_C, 
+         PWM17A_C, PWM17B_C, PWM18A_C, PWM18B_C, IO0_C, IO1_C, IO2_C, IO3_C, 
+         IO4_C, IO5_C, IO6_C, IO7_C, IO8_C;
+  inout  IO49_D, IO20_D, IO21_D, TZ1n, TZ2n, IO12_C, IO13_C, IO14_C, IO15_C, 
+         IO16_C, IO17_C, IO18_C, IO19_C, IO20_C, IO21_C, IO22_C, IO23_C;
+  wire   GND, IO1_C_c, IO8_C_c, IO84_D_c, IO9_C_c, IO4_C_c, IO3_C_c, IO2_C_c, 
+         PWM9B_C_c, PWM9A_C_c, PWM8B_C_c, PWM8A_C_c, PWM7B_C_c, PWM7A_C_c, 
+         PWM6B_C_c, PWM6A_C_c, PWM5B_C_c, PWM5A_C_c, PWM4A_C_c, PWM3B_C_c, 
+         PWM3A_C_c, PWM2B_C_c, PWM2A_C_c, PWM1A_C_c, VCCI;
+
+  SLICE_0 SLICE_0( .F0(GND));
+  IO49_D IO49_D_I( .PADDO(GND), .IO49_D(IO49_D));
+  PWM10A_C PWM10A_C_I( .PADDO(GND), .PWM10A_C(PWM10A_C));
+  IO15_D IO15_D_I( .PADDO(IO1_C_c), .IO15_D(IO15_D));
+  IO14_D IO14_D_I( .PADDI(IO8_C_c), .IO14_D(IO14_D));
+  IO23_C IO23_C_I( .PADDO(GND), .IO23_C(IO23_C));
+  IO22_C IO22_C_I( .PADDO(GND), .IO22_C(IO22_C));
+  IO21_C IO21_C_I( .PADDO(GND), .IO21_C(IO21_C));
+  IO20_C IO20_C_I( .PADDO(GND), .IO20_C(IO20_C));
+  IO19_C IO19_C_I( .PADDO(GND), .IO19_C(IO19_C));
+  IO18_C IO18_C_I( .PADDO(GND), .IO18_C(IO18_C));
+  IO17_C IO17_C_I( .PADDO(GND), .IO17_C(IO17_C));
+  IO16_C IO16_C_I( .PADDO(GND), .IO16_C(IO16_C));
+  IO15_C IO15_C_I( .PADDO(GND), .IO15_C(IO15_C));
+  IO14_C IO14_C_I( .PADDO(GND), .IO14_C(IO14_C));
+  IO13_C IO13_C_I( .PADDO(GND), .IO13_C(IO13_C));
+  IO12_C IO12_C_I( .PADDO(GND), .IO12_C(IO12_C));
+  IO11_C IO11_C_I( .PADDI(IO1_C_c), .IO11_C(IO11_C));
+  IO10_C IO10_C_I( .PADDI(IO84_D_c), .IO10_C(IO10_C));
+  IO9_C IO9_C_I( .PADDI(IO9_C_c), .IO9_C(IO9_C));
+  IO8_C IO8_C_I( .PADDO(IO8_C_c), .IO8_C(IO8_C));
+  IO7_C IO7_C_I( .PADDO(GND), .IO7_C(IO7_C));
+  IO6_C IO6_C_I( .PADDO(GND), .IO6_C(IO6_C));
+  IO5_C IO5_C_I( .PADDO(GND), .IO5_C(IO5_C));
+  IO4_C IO4_C_I( .PADDO(IO4_C_c), .IO4_C(IO4_C));
+  IO3_C IO3_C_I( .PADDO(IO3_C_c), .IO3_C(IO3_C));
+  IO2_C IO2_C_I( .PADDO(IO2_C_c), .IO2_C(IO2_C));
+  IO1_C IO1_C_I( .PADDO(IO1_C_c), .IO1_C(IO1_C));
+  IO0_C IO0_C_I( .PADDO(GND), .IO0_C(IO0_C));
+  PWM18B_C PWM18B_C_I( .PADDO(GND), .PWM18B_C(PWM18B_C));
+  PWM18A_C PWM18A_C_I( .PADDO(GND), .PWM18A_C(PWM18A_C));
+  PWM17B_C PWM17B_C_I( .PADDO(GND), .PWM17B_C(PWM17B_C));
+  PWM17A_C PWM17A_C_I( .PADDO(GND), .PWM17A_C(PWM17A_C));
+  PWM16B_C PWM16B_C_I( .PADDO(GND), .PWM16B_C(PWM16B_C));
+  PWM16A_C PWM16A_C_I( .PADDO(GND), .PWM16A_C(PWM16A_C));
+  PWM15B_C PWM15B_C_I( .PADDO(GND), .PWM15B_C(PWM15B_C));
+  PWM15A_C PWM15A_C_I( .PADDO(GND), .PWM15A_C(PWM15A_C));
+  PWM14B_C PWM14B_C_I( .PADDO(GND), .PWM14B_C(PWM14B_C));
+  PWM14A_C PWM14A_C_I( .PADDO(GND), .PWM14A_C(PWM14A_C));
+  PWM13B_C PWM13B_C_I( .PADDO(GND), .PWM13B_C(PWM13B_C));
+  PWM13A_C PWM13A_C_I( .PADDO(GND), .PWM13A_C(PWM13A_C));
+  PWM12B_C PWM12B_C_I( .PADDO(GND), .PWM12B_C(PWM12B_C));
+  PWM12A_C PWM12A_C_I( .PADDO(GND), .PWM12A_C(PWM12A_C));
+  PWM11B_C PWM11B_C_I( .PADDO(GND), .PWM11B_C(PWM11B_C));
+  PWM11A_C PWM11A_C_I( .PADDO(GND), .PWM11A_C(PWM11A_C));
+  PWM10B_C PWM10B_C_I( .PADDO(GND), .PWM10B_C(PWM10B_C));
+  PWM9B_C PWM9B_C_I( .PADDO(PWM9B_C_c), .PWM9B_C(PWM9B_C));
+  PWM9A_C PWM9A_C_I( .PADDO(PWM9A_C_c), .PWM9A_C(PWM9A_C));
+  PWM8B_C PWM8B_C_I( .PADDO(PWM8B_C_c), .PWM8B_C(PWM8B_C));
+  PWM8A_C PWM8A_C_I( .PADDO(PWM8A_C_c), .PWM8A_C(PWM8A_C));
+  PWM7B_C PWM7B_C_I( .PADDO(PWM7B_C_c), .PWM7B_C(PWM7B_C));
+  PWM7A_C PWM7A_C_I( .PADDO(PWM7A_C_c), .PWM7A_C(PWM7A_C));
+  PWM6B_C PWM6B_C_I( .PADDO(PWM6B_C_c), .PWM6B_C(PWM6B_C));
+  PWM6A_C PWM6A_C_I( .PADDO(PWM6A_C_c), .PWM6A_C(PWM6A_C));
+  PWM5B_C PWM5B_C_I( .PADDO(PWM5B_C_c), .PWM5B_C(PWM5B_C));
+  PWM5A_C PWM5A_C_I( .PADDO(PWM5A_C_c), .PWM5A_C(PWM5A_C));
+  PWM4B_C PWM4B_C_I( .PADDO(IO4_C_c), .PWM4B_C(PWM4B_C));
+  PWM4A_C PWM4A_C_I( .PADDO(PWM4A_C_c), .PWM4A_C(PWM4A_C));
+  PWM3B_C PWM3B_C_I( .PADDO(PWM3B_C_c), .PWM3B_C(PWM3B_C));
+  PWM3A_C PWM3A_C_I( .PADDO(PWM3A_C_c), .PWM3A_C(PWM3A_C));
+  PWM2B_C PWM2B_C_I( .PADDO(PWM2B_C_c), .PWM2B_C(PWM2B_C));
+  PWM2A_C PWM2A_C_I( .PADDO(PWM2A_C_c), .PWM2A_C(PWM2A_C));
+  PWM1B_C PWM1B_C_I( .PADDO(IO3_C_c), .PWM1B_C(PWM1B_C));
+  PWM1A_C PWM1A_C_I( .PADDO(PWM1A_C_c), .PWM1A_C(PWM1A_C));
+  PWM_ENn PWM_ENn_I( .PADDO(GND), .PWM_ENn(PWM_ENn));
+  TZ2n TZ2n_I( .PADDO(GND), .TZ2n(TZ2n));
+  TZ1n TZ1n_I( .PADDO(GND), .TZ1n(TZ1n));
+  PWM9B_D PWM9B_D_I( .PADDI(PWM9B_C_c), .PWM9B_D(PWM9B_D));
+  PWM9A_D PWM9A_D_I( .PADDI(PWM9A_C_c), .PWM9A_D(PWM9A_D));
+  PWM8B_D PWM8B_D_I( .PADDI(PWM8B_C_c), .PWM8B_D(PWM8B_D));
+  PWM8A_D PWM8A_D_I( .PADDI(PWM8A_C_c), .PWM8A_D(PWM8A_D));
+  PWM7B_D PWM7B_D_I( .PADDI(PWM7B_C_c), .PWM7B_D(PWM7B_D));
+  PWM7A_D PWM7A_D_I( .PADDI(PWM7A_C_c), .PWM7A_D(PWM7A_D));
+  PWM6B_D PWM6B_D_I( .PADDI(PWM6B_C_c), .PWM6B_D(PWM6B_D));
+  PWM6A_D PWM6A_D_I( .PADDI(PWM6A_C_c), .PWM6A_D(PWM6A_D));
+  PWM5B_D PWM5B_D_I( .PADDI(PWM5B_C_c), .PWM5B_D(PWM5B_D));
+  PWM5A_D PWM5A_D_I( .PADDI(PWM5A_C_c), .PWM5A_D(PWM5A_D));
+  PWM4B_D PWM4B_D_I( .PADDI(IO4_C_c), .PWM4B_D(PWM4B_D));
+  PWM4A_D PWM4A_D_I( .PADDI(PWM4A_C_c), .PWM4A_D(PWM4A_D));
+  PWM3B_D PWM3B_D_I( .PADDI(PWM3B_C_c), .PWM3B_D(PWM3B_D));
+  PWM3A_D PWM3A_D_I( .PADDI(PWM3A_C_c), .PWM3A_D(PWM3A_D));
+  PWM2B_D PWM2B_D_I( .PADDI(PWM2B_C_c), .PWM2B_D(PWM2B_D));
+  PWM2A_D PWM2A_D_I( .PADDI(PWM2A_C_c), .PWM2A_D(PWM2A_D));
+  PWM1B_D PWM1B_D_I( .PADDI(IO3_C_c), .PWM1B_D(PWM1B_D));
+  PWM1A_D PWM1A_D_I( .PADDI(PWM1A_C_c), .PWM1A_D(PWM1A_D));
+  IO22_D IO22_D_I( .PADDI(IO2_C_c), .IO22_D(IO22_D));
+  IO21_D IO21_D_I( .PADDO(GND), .IO21_D(IO21_D));
+  IO20_D IO20_D_I( .PADDO(GND), .IO20_D(IO20_D));
+  IO85_D IO85_D_I( .PADDO(IO9_C_c), .IO85_D(IO85_D));
+  IO84_D IO84_D_I( .PADDO(IO84_D_c), .IO84_D(IO84_D));
+  VHI VHI_INST( .Z(VCCI));
+  PUR PUR_INST( .PUR(VCCI));
+  GSR GSR_INST( .GSR(VCCI));
+endmodule
+
+module SLICE_0 ( output F0 );
+  wire   GNDI;
+
+  lut4 GND( .A(GNDI), .B(GNDI), .C(GNDI), .D(GNDI), .Z(F0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+  endspecify
+
+endmodule
+
+module lut4 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h0000) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module IO49_D ( input PADDO, inout IO49_D );
+  wire   GNDI;
+
+  xo2iobuf IO49_D_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO49_D), .PADI(IO49_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO49_D) = (0:0:0,0:0:0);
+    $width (posedge IO49_D, 0:0:0);
+    $width (negedge IO49_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf ( input I, T, output Z, PAD, input PADI );
+
+  IBPD INST1( .I(PADI), .O(Z));
+  OBZPD INST2( .I(I), .T(T), .O(PAD));
+endmodule
+
+module PWM10A_C ( input PADDO, output PWM10A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM10A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM10A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM10A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf0001 ( input I, T, output PAD );
+
+  OBZPD INST5( .I(I), .T(T), .O(PAD));
+endmodule
+
+module vcc ( output PWR1 );
+
+  VHI INST1( .Z(PWR1));
+endmodule
+
+module IO15_D ( input PADDO, output IO15_D );
+  wire   GNDI;
+
+  xo2iobuf0002 IO15_D_pad( .I(PADDO), .T(GNDI), .PAD(IO15_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO15_D) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf0002 ( input I, T, output PAD );
+
+  OBZPD INST5( .I(I), .T(T), .O(PAD));
+endmodule
+
+module IO14_D ( output PADDI, input IO14_D );
+
+  xo2iobuf0003 IO14_D_pad( .Z(PADDI), .PAD(IO14_D));
+
+  specify
+    (IO14_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge IO14_D, 0:0:0);
+    $width (negedge IO14_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf0003 ( output Z, input PAD );
+
+  IBPD INST1( .I(PAD), .O(Z));
+endmodule
+
+module IO23_C ( input PADDO, inout IO23_C );
+  wire   GNDI;
+
+  xo2iobuf IO23_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO23_C), .PADI(IO23_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO23_C) = (0:0:0,0:0:0);
+    $width (posedge IO23_C, 0:0:0);
+    $width (negedge IO23_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO22_C ( input PADDO, inout IO22_C );
+  wire   GNDI;
+
+  xo2iobuf IO22_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO22_C), .PADI(IO22_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO22_C) = (0:0:0,0:0:0);
+    $width (posedge IO22_C, 0:0:0);
+    $width (negedge IO22_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO21_C ( input PADDO, inout IO21_C );
+  wire   GNDI;
+
+  xo2iobuf IO21_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO21_C), .PADI(IO21_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO21_C) = (0:0:0,0:0:0);
+    $width (posedge IO21_C, 0:0:0);
+    $width (negedge IO21_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO20_C ( input PADDO, inout IO20_C );
+  wire   GNDI;
+
+  xo2iobuf IO20_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO20_C), .PADI(IO20_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO20_C) = (0:0:0,0:0:0);
+    $width (posedge IO20_C, 0:0:0);
+    $width (negedge IO20_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO19_C ( input PADDO, inout IO19_C );
+  wire   GNDI;
+
+  xo2iobuf IO19_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO19_C), .PADI(IO19_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO19_C) = (0:0:0,0:0:0);
+    $width (posedge IO19_C, 0:0:0);
+    $width (negedge IO19_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO18_C ( input PADDO, inout IO18_C );
+  wire   GNDI;
+
+  xo2iobuf IO18_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO18_C), .PADI(IO18_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO18_C) = (0:0:0,0:0:0);
+    $width (posedge IO18_C, 0:0:0);
+    $width (negedge IO18_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO17_C ( input PADDO, inout IO17_C );
+  wire   GNDI;
+
+  xo2iobuf IO17_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO17_C), .PADI(IO17_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO17_C) = (0:0:0,0:0:0);
+    $width (posedge IO17_C, 0:0:0);
+    $width (negedge IO17_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO16_C ( input PADDO, inout IO16_C );
+  wire   GNDI;
+
+  xo2iobuf IO16_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO16_C), .PADI(IO16_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO16_C) = (0:0:0,0:0:0);
+    $width (posedge IO16_C, 0:0:0);
+    $width (negedge IO16_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO15_C ( input PADDO, inout IO15_C );
+  wire   GNDI;
+
+  xo2iobuf IO15_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO15_C), .PADI(IO15_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO15_C) = (0:0:0,0:0:0);
+    $width (posedge IO15_C, 0:0:0);
+    $width (negedge IO15_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO14_C ( input PADDO, inout IO14_C );
+  wire   GNDI;
+
+  xo2iobuf IO14_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO14_C), .PADI(IO14_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO14_C) = (0:0:0,0:0:0);
+    $width (posedge IO14_C, 0:0:0);
+    $width (negedge IO14_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO13_C ( input PADDO, inout IO13_C );
+  wire   GNDI;
+
+  xo2iobuf IO13_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO13_C), .PADI(IO13_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO13_C) = (0:0:0,0:0:0);
+    $width (posedge IO13_C, 0:0:0);
+    $width (negedge IO13_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO12_C ( input PADDO, inout IO12_C );
+  wire   GNDI;
+
+  xo2iobuf IO12_C_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO12_C), .PADI(IO12_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO12_C) = (0:0:0,0:0:0);
+    $width (posedge IO12_C, 0:0:0);
+    $width (negedge IO12_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO11_C ( output PADDI, input IO11_C );
+
+  xo2iobuf0003 IO11_C_pad( .Z(PADDI), .PAD(IO11_C));
+
+  specify
+    (IO11_C => PADDI) = (0:0:0,0:0:0);
+    $width (posedge IO11_C, 0:0:0);
+    $width (negedge IO11_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO10_C ( output PADDI, input IO10_C );
+
+  xo2iobuf0003 IO10_C_pad( .Z(PADDI), .PAD(IO10_C));
+
+  specify
+    (IO10_C => PADDI) = (0:0:0,0:0:0);
+    $width (posedge IO10_C, 0:0:0);
+    $width (negedge IO10_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO9_C ( output PADDI, input IO9_C );
+
+  xo2iobuf0003 IO9_C_pad( .Z(PADDI), .PAD(IO9_C));
+
+  specify
+    (IO9_C => PADDI) = (0:0:0,0:0:0);
+    $width (posedge IO9_C, 0:0:0);
+    $width (negedge IO9_C, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO8_C ( input PADDO, output IO8_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO8_C_pad( .I(PADDO), .T(GNDI), .PAD(IO8_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO8_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO7_C ( input PADDO, output IO7_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO7_C_pad( .I(PADDO), .T(GNDI), .PAD(IO7_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO7_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO6_C ( input PADDO, output IO6_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO6_C_pad( .I(PADDO), .T(GNDI), .PAD(IO6_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO6_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO5_C ( input PADDO, output IO5_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO5_C_pad( .I(PADDO), .T(GNDI), .PAD(IO5_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO5_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO4_C ( input PADDO, output IO4_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO4_C_pad( .I(PADDO), .T(GNDI), .PAD(IO4_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO4_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO3_C ( input PADDO, output IO3_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO3_C_pad( .I(PADDO), .T(GNDI), .PAD(IO3_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO3_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO2_C ( input PADDO, output IO2_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO2_C_pad( .I(PADDO), .T(GNDI), .PAD(IO2_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO2_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO1_C ( input PADDO, output IO1_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO1_C_pad( .I(PADDO), .T(GNDI), .PAD(IO1_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO1_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO0_C ( input PADDO, output IO0_C );
+  wire   GNDI;
+
+  xo2iobuf0002 IO0_C_pad( .I(PADDO), .T(GNDI), .PAD(IO0_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO0_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM18B_C ( input PADDO, output PWM18B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM18B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM18B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM18B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM18A_C ( input PADDO, output PWM18A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM18A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM18A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM18A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM17B_C ( input PADDO, output PWM17B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM17B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM17B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM17B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM17A_C ( input PADDO, output PWM17A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM17A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM17A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM17A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM16B_C ( input PADDO, output PWM16B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM16B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM16B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM16B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM16A_C ( input PADDO, output PWM16A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM16A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM16A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM16A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM15B_C ( input PADDO, output PWM15B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM15B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM15B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM15B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM15A_C ( input PADDO, output PWM15A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM15A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM15A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM15A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM14B_C ( input PADDO, output PWM14B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM14B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM14B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM14B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM14A_C ( input PADDO, output PWM14A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM14A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM14A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM14A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM13B_C ( input PADDO, output PWM13B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM13B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM13B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM13B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM13A_C ( input PADDO, output PWM13A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM13A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM13A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM13A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM12B_C ( input PADDO, output PWM12B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM12B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM12B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM12B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM12A_C ( input PADDO, output PWM12A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM12A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM12A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM12A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM11B_C ( input PADDO, output PWM11B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM11B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM11B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM11B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM11A_C ( input PADDO, output PWM11A_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM11A_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM11A_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM11A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM10B_C ( input PADDO, output PWM10B_C );
+  wire   VCCI;
+
+  xo2iobuf0001 PWM10B_C_pad( .I(PADDO), .T(VCCI), .PAD(PWM10B_C));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => PWM10B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM9B_C ( input PADDO, output PWM9B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM9B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM9B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM9B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM9A_C ( input PADDO, output PWM9A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM9A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM9A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM9A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM8B_C ( input PADDO, output PWM8B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM8B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM8B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM8B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM8A_C ( input PADDO, output PWM8A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM8A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM8A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM8A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM7B_C ( input PADDO, output PWM7B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM7B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM7B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM7B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM7A_C ( input PADDO, output PWM7A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM7A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM7A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM7A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM6B_C ( input PADDO, output PWM6B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM6B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM6B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM6B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM6A_C ( input PADDO, output PWM6A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM6A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM6A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM6A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM5B_C ( input PADDO, output PWM5B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM5B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM5B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM5B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM5A_C ( input PADDO, output PWM5A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM5A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM5A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM5A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM4B_C ( input PADDO, output PWM4B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM4B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM4B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM4B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM4A_C ( input PADDO, output PWM4A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM4A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM4A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM4A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM3B_C ( input PADDO, output PWM3B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM3B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM3B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM3B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM3A_C ( input PADDO, output PWM3A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM3A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM3A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM3A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM2B_C ( input PADDO, output PWM2B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM2B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM2B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM2B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM2A_C ( input PADDO, output PWM2A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM2A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM2A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM2A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM1B_C ( input PADDO, output PWM1B_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM1B_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM1B_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM1B_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM1A_C ( input PADDO, output PWM1A_C );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM1A_C_pad( .I(PADDO), .T(GNDI), .PAD(PWM1A_C));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM1A_C) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module PWM_ENn ( input PADDO, output PWM_ENn );
+  wire   GNDI;
+
+  xo2iobuf0002 PWM_ENn_pad( .I(PADDO), .T(GNDI), .PAD(PWM_ENn));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => PWM_ENn) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module TZ2n ( input PADDO, inout TZ2n );
+  wire   GNDI;
+
+  xo2iobuf TZ2n_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(TZ2n), .PADI(TZ2n));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => TZ2n) = (0:0:0,0:0:0);
+    $width (posedge TZ2n, 0:0:0);
+    $width (negedge TZ2n, 0:0:0);
+  endspecify
+
+endmodule
+
+module TZ1n ( input PADDO, inout TZ1n );
+  wire   GNDI;
+
+  xo2iobuf TZ1n_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(TZ1n), .PADI(TZ1n));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => TZ1n) = (0:0:0,0:0:0);
+    $width (posedge TZ1n, 0:0:0);
+    $width (negedge TZ1n, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM9B_D ( output PADDI, input PWM9B_D );
+
+  xo2iobuf0003 PWM9B_D_pad( .Z(PADDI), .PAD(PWM9B_D));
+
+  specify
+    (PWM9B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM9B_D, 0:0:0);
+    $width (negedge PWM9B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM9A_D ( output PADDI, input PWM9A_D );
+
+  xo2iobuf0003 PWM9A_D_pad( .Z(PADDI), .PAD(PWM9A_D));
+
+  specify
+    (PWM9A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM9A_D, 0:0:0);
+    $width (negedge PWM9A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM8B_D ( output PADDI, input PWM8B_D );
+
+  xo2iobuf0003 PWM8B_D_pad( .Z(PADDI), .PAD(PWM8B_D));
+
+  specify
+    (PWM8B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM8B_D, 0:0:0);
+    $width (negedge PWM8B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM8A_D ( output PADDI, input PWM8A_D );
+
+  xo2iobuf0003 PWM8A_D_pad( .Z(PADDI), .PAD(PWM8A_D));
+
+  specify
+    (PWM8A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM8A_D, 0:0:0);
+    $width (negedge PWM8A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM7B_D ( output PADDI, input PWM7B_D );
+
+  xo2iobuf0003 PWM7B_D_pad( .Z(PADDI), .PAD(PWM7B_D));
+
+  specify
+    (PWM7B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM7B_D, 0:0:0);
+    $width (negedge PWM7B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM7A_D ( output PADDI, input PWM7A_D );
+
+  xo2iobuf0003 PWM7A_D_pad( .Z(PADDI), .PAD(PWM7A_D));
+
+  specify
+    (PWM7A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM7A_D, 0:0:0);
+    $width (negedge PWM7A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM6B_D ( output PADDI, input PWM6B_D );
+
+  xo2iobuf0003 PWM6B_D_pad( .Z(PADDI), .PAD(PWM6B_D));
+
+  specify
+    (PWM6B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM6B_D, 0:0:0);
+    $width (negedge PWM6B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM6A_D ( output PADDI, input PWM6A_D );
+
+  xo2iobuf0003 PWM6A_D_pad( .Z(PADDI), .PAD(PWM6A_D));
+
+  specify
+    (PWM6A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM6A_D, 0:0:0);
+    $width (negedge PWM6A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM5B_D ( output PADDI, input PWM5B_D );
+
+  xo2iobuf0003 PWM5B_D_pad( .Z(PADDI), .PAD(PWM5B_D));
+
+  specify
+    (PWM5B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM5B_D, 0:0:0);
+    $width (negedge PWM5B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM5A_D ( output PADDI, input PWM5A_D );
+
+  xo2iobuf0003 PWM5A_D_pad( .Z(PADDI), .PAD(PWM5A_D));
+
+  specify
+    (PWM5A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM5A_D, 0:0:0);
+    $width (negedge PWM5A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM4B_D ( output PADDI, input PWM4B_D );
+
+  xo2iobuf0003 PWM4B_D_pad( .Z(PADDI), .PAD(PWM4B_D));
+
+  specify
+    (PWM4B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM4B_D, 0:0:0);
+    $width (negedge PWM4B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM4A_D ( output PADDI, input PWM4A_D );
+
+  xo2iobuf0003 PWM4A_D_pad( .Z(PADDI), .PAD(PWM4A_D));
+
+  specify
+    (PWM4A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM4A_D, 0:0:0);
+    $width (negedge PWM4A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM3B_D ( output PADDI, input PWM3B_D );
+
+  xo2iobuf0003 PWM3B_D_pad( .Z(PADDI), .PAD(PWM3B_D));
+
+  specify
+    (PWM3B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM3B_D, 0:0:0);
+    $width (negedge PWM3B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM3A_D ( output PADDI, input PWM3A_D );
+
+  xo2iobuf0003 PWM3A_D_pad( .Z(PADDI), .PAD(PWM3A_D));
+
+  specify
+    (PWM3A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM3A_D, 0:0:0);
+    $width (negedge PWM3A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM2B_D ( output PADDI, input PWM2B_D );
+
+  xo2iobuf0003 PWM2B_D_pad( .Z(PADDI), .PAD(PWM2B_D));
+
+  specify
+    (PWM2B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM2B_D, 0:0:0);
+    $width (negedge PWM2B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM2A_D ( output PADDI, input PWM2A_D );
+
+  xo2iobuf0003 PWM2A_D_pad( .Z(PADDI), .PAD(PWM2A_D));
+
+  specify
+    (PWM2A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM2A_D, 0:0:0);
+    $width (negedge PWM2A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM1B_D ( output PADDI, input PWM1B_D );
+
+  xo2iobuf0003 PWM1B_D_pad( .Z(PADDI), .PAD(PWM1B_D));
+
+  specify
+    (PWM1B_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM1B_D, 0:0:0);
+    $width (negedge PWM1B_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module PWM1A_D ( output PADDI, input PWM1A_D );
+
+  xo2iobuf0003 PWM1A_D_pad( .Z(PADDI), .PAD(PWM1A_D));
+
+  specify
+    (PWM1A_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge PWM1A_D, 0:0:0);
+    $width (negedge PWM1A_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO22_D ( output PADDI, input IO22_D );
+
+  xo2iobuf0003 IO22_D_pad( .Z(PADDI), .PAD(IO22_D));
+
+  specify
+    (IO22_D => PADDI) = (0:0:0,0:0:0);
+    $width (posedge IO22_D, 0:0:0);
+    $width (negedge IO22_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO21_D ( input PADDO, inout IO21_D );
+  wire   GNDI;
+
+  xo2iobuf IO21_D_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO21_D), .PADI(IO21_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO21_D) = (0:0:0,0:0:0);
+    $width (posedge IO21_D, 0:0:0);
+    $width (negedge IO21_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO20_D ( input PADDO, inout IO20_D );
+  wire   GNDI;
+
+  xo2iobuf IO20_D_pad( .I(PADDO), .T(GNDI), .Z(), .PAD(IO20_D), .PADI(IO20_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO20_D) = (0:0:0,0:0:0);
+    $width (posedge IO20_D, 0:0:0);
+    $width (negedge IO20_D, 0:0:0);
+  endspecify
+
+endmodule
+
+module IO85_D ( input PADDO, output IO85_D );
+  wire   GNDI;
+
+  xo2iobuf0002 IO85_D_pad( .I(PADDO), .T(GNDI), .PAD(IO85_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO85_D) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module IO84_D ( input PADDO, output IO84_D );
+  wire   GNDI;
+
+  xo2iobuf0002 IO84_D_pad( .I(PADDO), .T(GNDI), .PAD(IO84_D));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => IO84_D) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule

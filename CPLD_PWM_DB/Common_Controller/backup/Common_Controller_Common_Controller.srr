@@ -1,0 +1,27 @@
+#Build: Synplify Pro I-2013.09L-SP1-1 , Build 098R, Apr 15 2014
+#install: C:\lscc\diamond\3.2_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: VANTHOFF
+
+#Implementation: Common_Controller
+
+$ Start of Compile
+#Mon Apr 27 14:54:59 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 147R, built Apr 16 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd":24:7:24:19|Top entity is set to CC_PROTECTION.
+@E: CD541 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":124:2:124:4|Expecting ;
+@E: CD541 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":192:2:192:7|Expecting ;
+@E: CG234 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":192:2:192:7|Duplicate definition of io23_c
+@E: CD421 :"C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":197:50:197:51|Expecting entity name, got keyword is
+4 errors parsing file C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd
+@END
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 27 14:54:59 2015
+
+###########################################################]

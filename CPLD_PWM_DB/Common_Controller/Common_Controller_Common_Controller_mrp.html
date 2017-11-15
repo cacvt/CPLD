@@ -1,0 +1,715 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+         Lattice Mapping Report File for Design Module 'CC_CPLD_TOP'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t TQFP144 -s 4 -oc Commercial
+     Common_Controller_Common_Controller.ngd -o
+     Common_Controller_Common_Controller_map.ncd -pr
+     Common_Controller_Common_Controller.prf -mp
+     Common_Controller_Common_Controller.mrp -lpf C:/Users/yjhxfy/Google Drive/M
+     MC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller
+     _Common_Controller_synplify.lpf -lpf C:/Users/yjhxfy/Google
+     Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf -gui
+     -msgset C:/Users/yjhxfy/Google
+     Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCTQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.6.0.83.4
+Mapped on:  05/18/16  16:08:53
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    288 out of  4665 (6%)
+      PFU registers:          254 out of  4320 (6%)
+      PIO registers:           34 out of   345 (10%)
+   Number of SLICEs:       435 out of  2160 (20%)
+      SLICEs as Logic/ROM:    435 out of  2160 (20%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:          0 out of  2160 (0%)
+   Number of LUT4s:        644 out of  4320 (15%)
+      Number used as logic LUTs:        644
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 85 + 4(JTAG) out of 115 (77%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+
+     ripple logic.
+   Number of clocks:  2
+     Net Clk_250MHz: 181 loads, 181 rising, 0 falling (Driver: PLL/PLLInst_0 )
+     Net IO1_C_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK_C )
+   Number of Clock Enables:  0
+   Number of LSRs:  18
+     Net PWM9B_D_c: 10 loads, 8 LSLICEs
+     Net PWM9A_D_c: 10 loads, 8 LSLICEs
+     Net PWM8B_D_c: 10 loads, 8 LSLICEs
+     Net PWM8A_D_c: 10 loads, 8 LSLICEs
+     Net PWM7B_D_c: 10 loads, 8 LSLICEs
+     Net PWM7A_D_c: 10 loads, 8 LSLICEs
+     Net PWM6B_D_c: 10 loads, 8 LSLICEs
+     Net PWM6A_D_c: 10 loads, 8 LSLICEs
+     Net PWM5B_D_c: 10 loads, 8 LSLICEs
+     Net PWM5A_D_c: 10 loads, 8 LSLICEs
+     Net PWM4B_D_c: 10 loads, 8 LSLICEs
+     Net PWM4A_D_c: 10 loads, 8 LSLICEs
+     Net PWM3B_D_c: 10 loads, 8 LSLICEs
+     Net PWM3A_D_c: 10 loads, 8 LSLICEs
+     Net PWM2B_D_c: 10 loads, 9 LSLICEs
+     Net PWM2A_D_c: 10 loads, 8 LSLICEs
+     Net PWM1B_D_c: 10 loads, 8 LSLICEs
+     Net PWM1A_D_c: 10 loads, 9 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net PWM5A_D_c: 10 loads
+     Net PWM5B_D_c: 10 loads
+     Net PWM6A_D_c: 10 loads
+     Net PWM6B_D_c: 10 loads
+     Net PWM7A_D_c: 10 loads
+     Net PWM7B_D_c: 10 loads
+     Net PWM8A_D_c: 10 loads
+     Net PWM8B_D_c: 10 loads
+     Net PWM9A_D_c: 10 loads
+     Net PWM9B_D_c: 10 loads
+
+
+
+
+   Number of warnings:  4
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: C:/Users/yjhxfy/Google
+     Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(222):
+     Semantic error in "VOLTAGE 1.200 V;": Voltage specified 1.200V is beyond
+     the range [2.375V to 3.600V]. This preference has been disabled.
+WARNING - map: C:/Users/yjhxfy/Google
+     Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf(216):
+     Semantic error in "IOBUF PORT "IO49_D" IO_TYPE=LVCMOS33 ;": Port "IO49_D"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: Preference parsing results:  2 semantic errors detected.
+
+WARNING - map: There are semantic errors in the preference file
+     C:/Users/yjhxfy/Google
+     Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller.lpf.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| IO20_D              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO15_D              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO23_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO22_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO21_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO20_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO19_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO18_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO17_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO16_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO15_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO14_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO13_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO12_C              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO8_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO7_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO6_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO5_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO4_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO3_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO2_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO1_C               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO0_C               | OUTPUT    | LVCMOS33  |            |
+
++---------------------+-----------+-----------+------------+
+| CLK_C               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM18B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM18A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM17B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM17A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM16B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM16A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM15B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM15A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM14B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM14A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM13B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM13A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM12B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM12A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM11B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM11A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM10B_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM10A_C            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM9B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM9A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM8B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM8A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM7B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM7A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM6B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM6A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM5B_C             | OUTPUT    | LVCMOS33  | OUT        |
+
++---------------------+-----------+-----------+------------+
+| PWM5A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM4B_C             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM4A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM3B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM3A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM2B_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM2A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM1B_C             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM1A_C             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM_ENn             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TZ2n                | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TZ1n                | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM9B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM9A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM8B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM8A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM7B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM7A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM6B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM6A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM5B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM5A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM4B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM4A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM3B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM3A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM2B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM2A_D             | INPUT     | LVCMOS33  |            |
+
++---------------------+-----------+-----------+------------+
+| PWM1B_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PWM1A_D             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO22_D              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO21_D              | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO85_D              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| IO84_D              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block IO86_D_pad undriven or does not drive anything - clipped.
+Block IO87_D_pad undriven or does not drive anything - clipped.
+Block IO23_D_pad undriven or does not drive anything - clipped.
+Block FO1_pad undriven or does not drive anything - clipped.
+Block FO2_pad undriven or does not drive anything - clipped.
+Block FO3_pad undriven or does not drive anything - clipped.
+Block FO4_pad undriven or does not drive anything - clipped.
+Block FO5_pad undriven or does not drive anything - clipped.
+Block FO6_pad undriven or does not drive anything - clipped.
+Block CMP_OUT1_pad undriven or does not drive anything - clipped.
+Block CMP_OUT2_pad undriven or does not drive anything - clipped.
+Block CMP_OUT3_pad undriven or does not drive anything - clipped.
+Block CMP_OUT4_pad undriven or does not drive anything - clipped.
+Block CMP_OUT5_pad undriven or does not drive anything - clipped.
+Block CMP_OUT6_pad undriven or does not drive anything - clipped.
+Block CMP_OUT7_pad undriven or does not drive anything - clipped.
+Block CMP_OUT8_pad undriven or does not drive anything - clipped.
+Block CMP_OUT9_pad undriven or does not drive anything - clipped.
+Block CMP_OUT10_pad undriven or does not drive anything - clipped.
+Block CMP_OUT11_pad undriven or does not drive anything - clipped.
+Block CMP_OUT12_pad undriven or does not drive anything - clipped.
+Block IO9_C_pad undriven or does not drive anything - clipped.
+Block IO10_C_pad undriven or does not drive anything - clipped.
+Block IO11_C_pad undriven or does not drive anything - clipped.
+Block CPWMA1/VCC undriven or does not drive anything - clipped.
+Block CPWMA1/GND undriven or does not drive anything - clipped.
+Block CPWMB1/VCC undriven or does not drive anything - clipped.
+Block CPWMB1/GND undriven or does not drive anything - clipped.
+Block CPWMA2/VCC undriven or does not drive anything - clipped.
+Block CPWMA2/GND undriven or does not drive anything - clipped.
+Block CPWMB2/VCC undriven or does not drive anything - clipped.
+Block CPWMB2/GND undriven or does not drive anything - clipped.
+Block CPWMA3/VCC undriven or does not drive anything - clipped.
+Block CPWMA3/GND undriven or does not drive anything - clipped.
+Block CPWMB3/VCC undriven or does not drive anything - clipped.
+Block CPWMB3/GND undriven or does not drive anything - clipped.
+Block CPWMA4/VCC undriven or does not drive anything - clipped.
+
+Block CPWMA4/GND undriven or does not drive anything - clipped.
+Block CPWMB4/VCC undriven or does not drive anything - clipped.
+Block CPWMB4/GND undriven or does not drive anything - clipped.
+Block CPWMA5/VCC undriven or does not drive anything - clipped.
+Block CPWMA5/GND undriven or does not drive anything - clipped.
+Block CPWMB5/VCC undriven or does not drive anything - clipped.
+Block CPWMB5/GND undriven or does not drive anything - clipped.
+Block CPWMA6/VCC undriven or does not drive anything - clipped.
+Block CPWMA6/GND undriven or does not drive anything - clipped.
+Block CPWMB6/VCC undriven or does not drive anything - clipped.
+Block CPWMB6/GND undriven or does not drive anything - clipped.
+Block CPWMA7/VCC undriven or does not drive anything - clipped.
+Block CPWMA7/GND undriven or does not drive anything - clipped.
+Block CPWMB7/VCC undriven or does not drive anything - clipped.
+Block CPWMB7/GND undriven or does not drive anything - clipped.
+Block CPWMA8/VCC undriven or does not drive anything - clipped.
+Block CPWMA8/GND undriven or does not drive anything - clipped.
+Block CPWMB8/VCC undriven or does not drive anything - clipped.
+Block CPWMB8/GND undriven or does not drive anything - clipped.
+Block CPWMA9/VCC undriven or does not drive anything - clipped.
+Block CPWMA9/GND undriven or does not drive anything - clipped.
+Block CPWMB9/VCC undriven or does not drive anything - clipped.
+Block CPWMB9/GND undriven or does not drive anything - clipped.
+Block IO14_D_pad undriven or does not drive anything - clipped.
+Signal PWM9A_D_c_i was merged into signal PWM9A_D_c
+Signal PWM8B_D_c_i was merged into signal PWM8B_D_c
+Signal PWM8A_D_c_i was merged into signal PWM8A_D_c
+Signal PWM7B_D_c_i was merged into signal PWM7B_D_c
+Signal PWM7A_D_c_i was merged into signal PWM7A_D_c
+Signal PWM6B_D_c_i was merged into signal PWM6B_D_c
+Signal PWM6A_D_c_i was merged into signal PWM6A_D_c
+Signal PWM5B_D_c_i was merged into signal PWM5B_D_c
+Signal PWM5A_D_c_i was merged into signal PWM5A_D_c
+Signal PWM4B_D_c_i was merged into signal PWM4B_D_c
+Signal PWM4A_D_c_i was merged into signal PWM4A_D_c
+Signal PWM3B_D_c_i was merged into signal PWM3B_D_c
+Signal PWM3A_D_c_i was merged into signal PWM3A_D_c
+Signal PWM2B_D_c_i was merged into signal PWM2B_D_c
+Signal PWM2A_D_c_i was merged into signal PWM2A_D_c
+Signal PWM1B_D_c_i was merged into signal PWM1B_D_c
+Signal PWM1A_D_c_i was merged into signal PWM1A_D_c
+Signal PWM9B_D_c_i was merged into signal PWM9B_D_c
+Signal PLL/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal IO86_D_c undriven or does not drive anything - clipped.
+Signal IO86_D undriven or does not drive anything - clipped.
+Signal IO87_D_c undriven or does not drive anything - clipped.
+Signal IO87_D undriven or does not drive anything - clipped.
+Signal IO21_D_0 undriven or does not drive anything - clipped.
+Signal IO23_D_c undriven or does not drive anything - clipped.
+Signal IO23_D undriven or does not drive anything - clipped.
+Signal TZ1n_0 undriven or does not drive anything - clipped.
+Signal TZ2n_0 undriven or does not drive anything - clipped.
+Signal FO1_c undriven or does not drive anything - clipped.
+Signal FO1 undriven or does not drive anything - clipped.
+Signal FO2_c undriven or does not drive anything - clipped.
+
+Signal FO2 undriven or does not drive anything - clipped.
+Signal FO3_c undriven or does not drive anything - clipped.
+Signal FO3 undriven or does not drive anything - clipped.
+Signal FO4_c undriven or does not drive anything - clipped.
+Signal FO4 undriven or does not drive anything - clipped.
+Signal FO5_c undriven or does not drive anything - clipped.
+Signal FO5 undriven or does not drive anything - clipped.
+Signal FO6_c undriven or does not drive anything - clipped.
+Signal FO6 undriven or does not drive anything - clipped.
+Signal CMP_OUT1_c undriven or does not drive anything - clipped.
+Signal CMP_OUT1 undriven or does not drive anything - clipped.
+Signal CMP_OUT2_c undriven or does not drive anything - clipped.
+Signal CMP_OUT2 undriven or does not drive anything - clipped.
+Signal CMP_OUT3_c undriven or does not drive anything - clipped.
+Signal CMP_OUT3 undriven or does not drive anything - clipped.
+Signal CMP_OUT4_c undriven or does not drive anything - clipped.
+Signal CMP_OUT4 undriven or does not drive anything - clipped.
+Signal CMP_OUT5_c undriven or does not drive anything - clipped.
+Signal CMP_OUT5 undriven or does not drive anything - clipped.
+Signal CMP_OUT6_c undriven or does not drive anything - clipped.
+Signal CMP_OUT6 undriven or does not drive anything - clipped.
+Signal CMP_OUT7_c undriven or does not drive anything - clipped.
+Signal CMP_OUT7 undriven or does not drive anything - clipped.
+Signal CMP_OUT8_c undriven or does not drive anything - clipped.
+Signal CMP_OUT8 undriven or does not drive anything - clipped.
+Signal CMP_OUT9_c undriven or does not drive anything - clipped.
+Signal CMP_OUT9 undriven or does not drive anything - clipped.
+Signal CMP_OUT10_c undriven or does not drive anything - clipped.
+Signal CMP_OUT10 undriven or does not drive anything - clipped.
+Signal CMP_OUT11_c undriven or does not drive anything - clipped.
+Signal CMP_OUT11 undriven or does not drive anything - clipped.
+Signal CMP_OUT12_c undriven or does not drive anything - clipped.
+Signal CMP_OUT12 undriven or does not drive anything - clipped.
+Signal IO9_C_c undriven or does not drive anything - clipped.
+Signal IO9_C undriven or does not drive anything - clipped.
+Signal IO10_C_c undriven or does not drive anything - clipped.
+Signal IO10_C undriven or does not drive anything - clipped.
+Signal IO11_C_c undriven or does not drive anything - clipped.
+Signal IO11_C undriven or does not drive anything - clipped.
+Signal IO12_C_0 undriven or does not drive anything - clipped.
+Signal IO13_C_0 undriven or does not drive anything - clipped.
+Signal IO14_C_0 undriven or does not drive anything - clipped.
+Signal IO15_C_0 undriven or does not drive anything - clipped.
+Signal IO16_C_0 undriven or does not drive anything - clipped.
+Signal IO17_C_0 undriven or does not drive anything - clipped.
+Signal IO18_C_0 undriven or does not drive anything - clipped.
+Signal IO19_C_0 undriven or does not drive anything - clipped.
+Signal IO20_C_0 undriven or does not drive anything - clipped.
+Signal IO21_C_0 undriven or does not drive anything - clipped.
+Signal IO22_C_0 undriven or does not drive anything - clipped.
+Signal IO23_C_0 undriven or does not drive anything - clipped.
+Signal PLL/CLKINTFB undriven or does not drive anything - clipped.
+Signal PLL/DPHSRC undriven or does not drive anything - clipped.
+Signal PLL/PLLACK undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO0 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO1 undriven or does not drive anything - clipped.
+
+Signal PLL/PLLDATO2 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO3 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO4 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO5 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO6 undriven or does not drive anything - clipped.
+Signal PLL/PLLDATO7 undriven or does not drive anything - clipped.
+Signal PLL/REFCLK undriven or does not drive anything - clipped.
+Signal PLL/INTLOCK undriven or does not drive anything - clipped.
+Signal PLL/LOCK undriven or does not drive anything - clipped.
+Signal PLL/CLKOS3 undriven or does not drive anything - clipped.
+Signal PLL/CLKOS2 undriven or does not drive anything - clipped.
+Signal PLL/CLKOS undriven or does not drive anything - clipped.
+Signal IO14_D_c undriven or does not drive anything - clipped.
+Signal IO14_D undriven or does not drive anything - clipped.
+Signal IO20_D_0 undriven or does not drive anything - clipped.
+Block PWM9A_D_pad_RNI5INC was optimized away.
+Block PWM8B_D_pad_RNI5HHD was optimized away.
+Block PWM8A_D_pad_RNI4B29 was optimized away.
+Block PWM7B_D_pad_RNI4AS9 was optimized away.
+Block PWM7A_D_pad_RNI34D5 was optimized away.
+Block PWM6B_D_pad_RNI3376 was optimized away.
+Block PWM6A_D_pad_RNI2TN1 was optimized away.
+Block PWM5B_D_pad_RNI2SH2 was optimized away.
+Block PWM5A_D_pad_RNI1M2E was optimized away.
+Block PWM4B_D_pad_RNI1LSE was optimized away.
+Block PWM4A_D_pad_RNI0FDA was optimized away.
+Block PWM3B_D_pad_RNI0E7B was optimized away.
+Block PWM3A_D_pad_RNIV7O6 was optimized away.
+Block PWM2B_D_pad_RNIV6I7 was optimized away.
+Block PWM2A_D_pad_RNIU033 was optimized away.
+Block PWM1B_D_pad_RNIUVS3 was optimized away.
+Block PWM1A_D_pad_RNITPDF was optimized away.
+Block PWM9B_D_pad_RNI6O61 was optimized away.
+Block PLL/GND was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                PLL/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             PIN      IO1_C_c
+  Output Clock(P):                         NODE     Clk_250MHz
+  Output Clock(S):                                  NONE
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     Clk_250MHz
+  Reset Signal:                                     NONE
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                                  NONE
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      10.0000
+  Output Clock(P) Frequency (MHz):                  250.0000
+  Output Clock(S) Frequency (MHz):                  NA
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    25
+  CLKOP Divider:                                    2
+  CLKOS Divider:                                    1
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 FALLING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: PLL/PLLInst_0
+         Type: EHXPLLJ
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 55 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

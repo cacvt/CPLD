@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Top entity is set to CC_CPLD_TOP.
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Synthesizing work.cc_cpld_top.behavioral 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":16:7:16:17|Synthesizing work.cc_deadtime.behavioral 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd":14:7:14:12|Synthesizing work.cc_pll.structure 
+@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box 
+@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box 
+@N|Running in 64-bit mode
+

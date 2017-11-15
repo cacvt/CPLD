@@ -1,0 +1,51 @@
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+// Design: CC_CPLD_TOP
+// Package: TQFP144
+// ncd File: common_controller_common_controller.ncd
+// Version: Diamond (64-bit) 3.6.0.83.4
+// Written on Sun Mar 27 13:35:32 2016
+// M: Minimum Performance Grade
+// iotiming Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)

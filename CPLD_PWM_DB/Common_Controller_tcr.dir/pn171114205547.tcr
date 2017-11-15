@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/14/2017 17:33:27
+#Project Location: C:/CPLD/CPLD_PWM_DB; Project name: Common_Controller
+prj_project open "C:/CPLD/CPLD_PWM_DB/Common_Controller.ldf"
+pgr_project open "C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller.xcf"
+prj_project close
+#Stop recording: 11/14/2017 20:55:47

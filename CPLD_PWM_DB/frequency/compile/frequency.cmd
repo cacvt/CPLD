@@ -1,0 +1,1 @@
+-w -s "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\frequency\library.cfg"  -j "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\frequency\projlib.cfg"  -d "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\frequency\compile"   -work work  -dbg -e 100 "C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_PWM_DB/CC_PLL.vhd"

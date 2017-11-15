@@ -1,0 +1,18 @@
+----------------------------------------------------------------------
+Report for cell CC_CPLD_TOP.behavioral
+
+Register bits: 0 of 4320 (0%)
+PIC Latch:       0
+I/O cells:       110
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB       17       100.0
+                                GSR        1       100.0
+                                 IB       44       100.0
+                                 OB       31       100.0
+                                OBZ       18       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL           114           

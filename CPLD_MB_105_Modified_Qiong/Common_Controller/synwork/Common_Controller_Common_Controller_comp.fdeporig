@@ -1,0 +1,33 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|CC_CPLD_TOP|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\bin64\\c_vhdl.exe":1397617346
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\location.map":1397746050
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std1164.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\numeric.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1397617228
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\arith.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1397616978
+#CUR:"C:\\lscc\\diamond\\3.2_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377010808
+#CUR:"C:\\Users\\wangq\\Desktop\\UTAS_Multi_Source\\Hardware\\CPLD\\CPLD_MB_105_Modified_Qiong\\CC_PROTECTION.vhd":1371062252
+#CUR:"C:\\Users\\wangq\\Desktop\\UTAS_Multi_Source\\Hardware\\CPLD\\CPLD_MB_105_Modified_Qiong\\CC_CPLD_TOP.vhd":1449181345
+0 "C:\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd" vhdl
+2 "C:\Users\wangq\Desktop\UTAS_Multi_Source\Hardware\CPLD\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 1 
+
+# Dependency Lists (Users Of)
+0 -1
+1 2 
+2 -1
+
+# Design Unit to File Association
+arch work cc_protection behavioral 1
+module work cc_protection 1
+arch work cc_cpld_top behavioral 2
+module work cc_cpld_top 2

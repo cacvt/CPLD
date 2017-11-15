@@ -1,0 +1,1 @@
+project -fileorder "C:/lattice/diamond/3.6_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/yjhxfy/Google\ Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/CC_PROTECTION.vhd" "C:/Users/yjhxfy/Google\ Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/CC_CPLD_TOP.vhd" 

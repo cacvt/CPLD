@@ -1,0 +1,348 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: C:/lattice/diamond/3.6_x64/ispfpga.
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.6.0.83.4</big></U></B>
+Sun Mar 27 13:35:29 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o Common_Controller_Common_Controller.twr -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD_MB_105_Modified_Qiong/promote.xml Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf 
+Design file:     common_controller_common_controller.ncd
+Preference file: common_controller_common_controller.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_0_0' Target='right'>Default path enumeration(0 errors)</A></LI>            26 items scored, 0 timing errors detected.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>Default net enumeration(0 errors)</A></LI>            24 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: Default path enumeration
+            26 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   10.702ns delay PWM4B_D to PWM4B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        109.PAD to      109.PADDI PWM4B_D
+ROUTE         2     6.773      109.PADDI to       31.PADDO IO4_C_c
+DOPAD_DEL   ---     2.797       31.PADDO to         31.PAD PWM4B_C
+                  --------
+                   10.702   (36.7% logic, 63.3% route), 2 logic levels.
+
+Report:    9.955ns delay PWM6A_D to PWM6A_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        112.PAD to      112.PADDI PWM6A_D
+ROUTE         1     6.026      112.PADDI to       34.PADDO PWM6A_C_c
+DOPAD_DEL   ---     2.797       34.PADDO to         34.PAD PWM6A_C
+                  --------
+                    9.955   (39.5% logic, 60.5% route), 2 logic levels.
+
+Report:    9.887ns delay PWM3B_D to PWM3B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        106.PAD to      106.PADDI PWM3B_D
+ROUTE         1     5.958      106.PADDI to       22.PADDO PWM3B_C_c
+DOPAD_DEL   ---     2.797       22.PADDO to         22.PAD PWM3B_C
+                  --------
+                    9.887   (39.7% logic, 60.3% route), 2 logic levels.
+
+Report:    9.818ns delay PWM4A_D to PWM4A_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        107.PAD to      107.PADDI PWM4A_D
+ROUTE         1     5.889      107.PADDI to       28.PADDO PWM4A_C_c
+DOPAD_DEL   ---     2.797       28.PADDO to         28.PAD PWM4A_C
+                  --------
+                    9.818   (40.0% logic, 60.0% route), 2 logic levels.
+
+Report:    9.800ns delay PWM3A_D to PWM3A_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        104.PAD to      104.PADDI PWM3A_D
+ROUTE         1     5.871      104.PADDI to       21.PADDO PWM3A_C_c
+DOPAD_DEL   ---     2.797       21.PADDO to         21.PAD PWM3A_C
+                  --------
+                    9.800   (40.1% logic, 59.9% route), 2 logic levels.
+
+Report:    9.486ns delay PWM5A_D to PWM5A_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        111.PAD to      111.PADDI PWM5A_D
+ROUTE         1     5.557      111.PADDI to       32.PADDO PWM5A_C_c
+DOPAD_DEL   ---     2.797       32.PADDO to         32.PAD PWM5A_C
+                  --------
+                    9.486   (41.4% logic, 58.6% route), 2 logic levels.
+
+Report:    9.486ns delay PWM5B_D to PWM5B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        110.PAD to      110.PADDI PWM5B_D
+ROUTE         1     5.557      110.PADDI to       33.PADDO PWM5B_C_c
+DOPAD_DEL   ---     2.797       33.PADDO to         33.PAD PWM5B_C
+                  --------
+                    9.486   (41.4% logic, 58.6% route), 2 logic levels.
+
+Report:    9.456ns delay PWM6B_D to PWM6B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        113.PAD to      113.PADDI PWM6B_D
+ROUTE         1     5.527      113.PADDI to       35.PADDO PWM6B_C_c
+DOPAD_DEL   ---     2.797       35.PADDO to         35.PAD PWM6B_C
+                  --------
+                    9.456   (41.6% logic, 58.4% route), 2 logic levels.
+
+Report:    9.433ns delay PWM4B_D to IO4_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132        109.PAD to      109.PADDI PWM4B_D
+ROUTE         2     5.504      109.PADDI to       23.PADDO IO4_C_c
+DOPAD_DEL   ---     2.797       23.PADDO to         23.PAD IO4_C
+                  --------
+                    9.433   (41.7% logic, 58.3% route), 2 logic levels.
+
+Report:    9.420ns delay PWM1B_D to PWM1B_C
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.132         98.PAD to       98.PADDI PWM1B_D
+ROUTE         2     5.491       98.PADDI to       17.PADDO IO3_C_c
+DOPAD_DEL   ---     2.797       17.PADDO to         17.PAD PWM1B_C
+                  --------
+                    9.420   (41.7% logic, 58.3% route), 2 logic levels.
+
+Report:   10.702ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: Default net enumeration
+            24 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    7.032ns maximum delay on GND
+
+           Delays             Connection(s)
+           3.310ns        R6C21A.F0 to 71.PADDO        
+           6.507ns        R6C21A.F0 to 45.PADDO        
+           2.353ns        R6C21A.F0 to 119.PADDO       
+           1.854ns        R6C21A.F0 to 121.PADDO       
+           6.080ns        R6C21A.F0 to 47.PADDO        
+           4.651ns        R6C21A.F0 to 5.PADDO         
+           4.651ns        R6C21A.F0 to 6.PADDO         
+           4.725ns        R6C21A.F0 to 9.PADDO         
+           4.725ns        R6C21A.F0 to 10.PADDO        
+           4.718ns        R6C21A.F0 to 11.PADDO        
+           7.032ns        R6C21A.F0 to 38.PADDO        
+           7.032ns        R6C21A.F0 to 39.PADDO        
+           7.032ns        R6C21A.F0 to 40.PADDO        
+           7.032ns        R6C21A.F0 to 41.PADDO        
+           7.032ns        R6C21A.F0 to 42.PADDO        
+           7.032ns        R6C21A.F0 to 43.PADDO        
+           6.080ns        R6C21A.F0 to 48.PADDO        
+           5.634ns        R6C21A.F0 to 49.PADDO        
+           5.634ns        R6C21A.F0 to 50.PADDO        
+           5.194ns        R6C21A.F0 to 52.PADDO        
+           5.194ns        R6C21A.F0 to 54.PADDO        
+           4.701ns        R6C21A.F0 to 55.PADDO        
+           5.156ns        R6C21A.F0 to 27.PADDO        
+           4.651ns        R6C21A.F0 to 2.PADDO         
+           4.651ns        R6C21A.F0 to 1.PADDO         
+           3.317ns        R6C21A.F0 to 143.PADDO       
+           1.867ns        R6C21A.F0 to 127.PADDO       
+           1.861ns        R6C21A.F0 to 126.PADDO       
+           1.861ns        R6C21A.F0 to 125.PADDO       
+           3.751ns        R6C21A.F0 to 139.PADDO       
+           3.751ns        R6C21A.F0 to 140.PADDO       
+           3.317ns        R6C21A.F0 to 142.PADDO       
+           4.701ns        R6C21A.F0 to 56.PADDO        
+           4.701ns        R6C21A.F0 to 57.PADDO        
+           4.701ns        R6C21A.F0 to 58.PADDO        
+           4.689ns        R6C21A.F0 to 59.PADDO        
+           4.689ns        R6C21A.F0 to 60.PADDO        
+           3.310ns        R6C21A.F0 to 70.PADDO        
+           4.217ns        R6C21A.F0 to 4.PADDO         
+           1.867ns        R6C21A.F0 to 128.PADDO       
+
+Report:    6.773ns maximum delay on IO4_C_c
+
+           Delays             Connection(s)
+           6.773ns        109.PADDI to 31.PADDO        
+           5.504ns        109.PADDI to 23.PADDO        
+
+Report:    6.026ns maximum delay on PWM6A_C_c
+
+           Delays             Connection(s)
+           6.026ns        112.PADDI to 34.PADDO        
+
+Report:    5.958ns maximum delay on PWM3B_C_c
+
+           Delays             Connection(s)
+           5.958ns        106.PADDI to 22.PADDO        
+
+Report:    5.889ns maximum delay on PWM4A_C_c
+
+           Delays             Connection(s)
+           5.889ns        107.PADDI to 28.PADDO        
+
+Report:    5.871ns maximum delay on PWM3A_C_c
+
+           Delays             Connection(s)
+           5.871ns        104.PADDI to 21.PADDO        
+
+Report:    5.557ns maximum delay on PWM5A_C_c
+
+           Delays             Connection(s)
+           5.557ns        111.PADDI to 32.PADDO        
+
+Report:    5.557ns maximum delay on PWM5B_C_c
+
+           Delays             Connection(s)
+           5.557ns        110.PADDI to 33.PADDO        
+
+Report:    5.527ns maximum delay on PWM6B_C_c
+
+           Delays             Connection(s)
+           5.527ns        113.PADDI to 35.PADDO        
+
+Report:    5.491ns maximum delay on IO3_C_c
+
+           Delays             Connection(s)
+           5.491ns         98.PADDI to 17.PADDO        
+           5.379ns         98.PADDI to 24.PADDO        
+
+Report:    7.032ns is the maximum delay for this preference.
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|    10.702 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     7.032 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 0 clocks:
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 26 paths, 24 nets, and 66 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,47 @@
+Active-HDL 10.2.3312.5682  2016-03-10 23:06:16
+
+Elaboration top modules:
+VHDL Configuration            structure_con
+
+
+-------------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+CC_PLL   | structure    | work    |      | 10.2.3312.5682  (Windows) | -dbg
+vlo      | v            | machxo2 |      | 10.2.3312.5682  (Windows) | -vendor lattice
+ehxpllj  | v            | machxo2 |      | 10.2.3312.5682  (Windows) | -vendor lattice
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Configuration      | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+structure_con           | work    |      | 10.2.3312.5682  (Windows) | -dbg
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+standard                | std     |      |                           | <unavailable>
+TEXTIO                  | std     |      | 10.2.3312.5682  (Windows) |  -2008
+std_logic_1164          | ieee    |      | 10.2.3312.5682  (Windows) |  -2008
+std_logic_arith         | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+components              | machxo2 |      | 10.2.3312.5682  (Windows) | -vendor lattice
+VITAL_Timing            | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+VITAL_Primitives        | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+machxo2                 | LATTICE Diamond 3.6, MACHXO2 VHDL LIBRARY
+std                     | Standard VHDL library
+work                    | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r Structure_CON -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

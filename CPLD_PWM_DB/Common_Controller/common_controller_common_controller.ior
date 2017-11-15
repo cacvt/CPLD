@@ -1,0 +1,105 @@
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+Loading design for application iotiming from file common_controller_common_controller.ncd.
+Design name: CC_CPLD_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 31.4.
+// Design: CC_CPLD_TOP
+// Package: TQFP144
+// ncd File: common_controller_common_controller.ncd
+// Version: Diamond (64-bit) 3.6.0.83.4
+// Written on Wed May 18 16:09:14 2016
+// M: Minimum Performance Grade
+// iotiming Common_Controller_Common_Controller.ncd Common_Controller_Common_Controller.prf -gui -msgset C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port    Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+PWM1A_D CLK_C R     6.023      4      -0.876     M
+PWM1B_D CLK_C R     5.979      4      -0.868     M
+PWM2A_D CLK_C R     6.750      4      -0.976     M
+PWM2B_D CLK_C R     7.543      4      -1.008     M
+PWM3A_D CLK_C R     5.886      4      -0.872     M
+PWM3B_D CLK_C R     5.604      4      -1.155     M
+PWM4A_D CLK_C R     4.652      4      -0.838     M
+PWM4B_D CLK_C R     5.730      4      -0.862     M
+PWM5A_D CLK_C R     6.033      4      -0.859     M
+PWM5B_D CLK_C R     6.794      4      -0.618     M
+PWM6A_D CLK_C R     4.666      4      -1.008     M
+PWM6B_D CLK_C R     4.238      4      -0.906     M
+PWM7A_D CLK_C R     2.386      4      -0.490     M
+PWM7B_D CLK_C R     4.995      4      -1.108     M
+PWM8A_D CLK_C R     4.684      4      -1.028     M
+PWM8B_D CLK_C R     5.157      4      -1.164     M
+PWM9A_D CLK_C R     3.330      4      -0.665     M
+PWM9B_D CLK_C R     3.757      4      -0.771     M
+
+
+// Clock to Output Delay
+
+Port     Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+IO3_C    CLK_C R     8.749         4        2.697          M
+IO4_C    CLK_C R     7.305         4        2.314          M
+PWM10A_C CLK_C R     5.365         4        1.809          M
+PWM10B_C CLK_C R     5.365         4        1.809          M
+PWM11A_C CLK_C R     5.365         4        1.809          M
+PWM11B_C CLK_C R     5.365         4        1.809          M
+PWM12A_C CLK_C R     5.365         4        1.809          M
+PWM12B_C CLK_C R     5.365         4        1.809          M
+PWM13A_C CLK_C R     5.290         4        1.816          M
+PWM13B_C CLK_C R     5.290         4        1.816          M
+PWM14A_C CLK_C R     5.290         4        1.816          M
+PWM14B_C CLK_C R     5.290         4        1.816          M
+PWM15A_C CLK_C R     5.290         4        1.816          M
+PWM15B_C CLK_C R     5.290         4        1.816          M
+PWM16A_C CLK_C R     5.290         4        1.816          M
+PWM16B_C CLK_C R     5.290         4        1.816          M
+PWM17A_C CLK_C R     5.290         4        1.816          M
+PWM17B_C CLK_C R     5.290         4        1.816          M
+PWM18A_C CLK_C R     5.290         4        1.816          M
+PWM18B_C CLK_C R     5.290         4        1.816          M
+PWM1A_C  CLK_C R     5.291         4        1.818          M
+PWM1B_C  CLK_C R     9.273         4        2.844          M
+PWM2A_C  CLK_C R     5.291         4        1.818          M
+PWM2B_C  CLK_C R     5.291         4        1.818          M
+PWM3A_C  CLK_C R     5.291         4        1.818          M
+PWM3B_C  CLK_C R     5.291         4        1.818          M
+PWM4A_C  CLK_C R     5.279         4        1.810          M
+PWM4B_C  CLK_C R     7.792         4        2.446          M
+PWM5A_C  CLK_C R     5.279         4        1.810          M
+PWM5B_C  CLK_C R     5.279         4        1.810          M
+PWM6A_C  CLK_C R     5.279         4        1.810          M
+PWM6B_C  CLK_C R     5.279         4        1.810          M
+PWM7A_C  CLK_C R     5.290         4        1.816          M
+PWM7B_C  CLK_C R     5.290         4        1.816          M
+PWM8A_C  CLK_C R     5.290         4        1.816          M
+PWM8B_C  CLK_C R     5.290         4        1.816          M
+PWM9A_C  CLK_C R     5.309         4        1.809          M
+PWM9B_C  CLK_C R     5.309         4        1.809          M

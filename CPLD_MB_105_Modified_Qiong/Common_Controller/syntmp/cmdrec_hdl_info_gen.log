@@ -1,0 +1,11 @@
+C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs"  -top  CC_CPLD_TOP  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd" -lib work "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd"  -log  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\syntax.log"  -fileorder  "C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\syntmp\hdlorder.tcl" 
+rc:0 success:1
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\synwork\Common_Controller_Common_Controller_hdl_.srs|o|0|0
+C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377018008|73964
+"C:\Users\yjhxfy\Google|i|0|0
+Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd"|i|0|0
+"C:\Users\yjhxfy\Google|i|0|0
+Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd"|i|0|0
+C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\syntax.log|o|1459100103|964
+C:\lattice\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439970378|2326016
+C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439970574|3183616

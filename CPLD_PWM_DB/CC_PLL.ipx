@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="CC_PLL" module="PLL" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2016 03 30 17:16:44.624" version="5.8" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="CC_PLL.lpc" type="lpc" modified="2016 03 30 17:16:33.566"/>
+		<File name="CC_PLL.vhd" type="top_level_vhdl" modified="2016 03 30 17:16:33.608"/>
+		<File name="CC_PLL_tmpl.vhd" type="template_vhdl" modified="2016 03 30 17:16:33.611"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,11 @@
+i<>.\..\CC_PROTECTION.vhd
+i<>.\..\CC_CPLD_TOP.vhd
+i<>.\..\CC_DEADTIME.vhd
+i<>.\..\CC_PLL.vhd
+i<>.\..\CCC_PLL.vhd
+i<>.\src\WAVES\cc_pll_TB_pins.vhd
+i<>.\src\WAVES\cc_pll_TB_declaration.vhd
+i<>.\..\..\..\..\..\..\..\..\..\lattice\diamond\3.6_x64\active-hdl\dat\waves\waves_objects.vhd
+i<>.\..\..\..\..\..\..\..\..\..\lattice\diamond\3.6_x64\active-hdl\dat\waves\monitor_utilities.vhd
+i<>.\..\..\..\..\..\..\..\..\..\lattice\diamond\3.6_x64\active-hdl\dat\waves\waves_generator.vhd
+i<>.\src\WAVES\cc_pll_TB.vhd

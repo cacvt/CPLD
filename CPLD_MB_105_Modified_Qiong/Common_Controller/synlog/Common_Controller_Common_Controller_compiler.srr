@@ -1,0 +1,136 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":27:7:27:17|Top entity is set to CC_CPLD_TOP.
+File C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\location.map changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\snps_haps_pkg.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std1164.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\numeric.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\umr_capim.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\arith.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\unsigned.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\hyperents.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd changed - recompiling
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd changed - recompiling
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\lattice\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\location.map changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\snps_haps_pkg.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std1164.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\numeric.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\umr_capim.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\arith.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\unsigned.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\hyperents.vhd changed - recompiling
+File C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd changed - recompiling
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd changed - recompiling
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd changed - recompiling
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":27:7:27:17|Synthesizing work.cc_cpld_top.behavioral 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 9 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 10 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 11 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 12 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 13 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 14 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 15 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 16 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":221:8:221:13|Bit 17 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 9 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 10 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 11 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 12 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 13 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 14 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 15 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 16 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":222:8:222:13|Bit 17 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":226:8:226:16|Signal pwm_en_on is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":232:8:232:13|Signal sys_es is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":233:8:233:23|Signal sys_pwm_es_unlck is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":234:8:234:14|Signal sys_rst is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":247:8:247:19|Signal st_latch_clr is undriven 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
+@W: CG296 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd":57:1:57:7|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_PROTECTION.vhd":61:22:61:28|Referenced variable err_clr is not in sensitivity list
+Post processing for work.cc_protection.behavioral
+Post processing for work.cc_cpld_top.behavioral
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":226:8:226:16|PWM_EN_On is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":173:2:173:6|IO7_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":172:2:172:6|IO6_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":170:2:170:6|IO5_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":79:2:79:8|PWM_ENn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":338:2:338:3|Pruning register ERR_STATUS_5(19 downto 1)  
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":37:2:37:7|Inout IO49_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":40:2:40:7|Input IO86_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":41:2:41:7|Input IO87_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":44:2:44:7|Inout IO20_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":45:2:45:7|Inout IO21_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":47:2:47:7|Input IO23_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":73:2:73:5|Inout TZ1n is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":74:2:74:5|Inout TZ2n is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":90:2:90:4|Input FO1 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":101:2:101:4|Input FO2 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":112:2:112:4|Input FO3 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":123:2:123:4|Input FO4 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":134:2:134:4|Input FO5 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":145:2:145:4|Input FO6 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":149:2:149:9|Input CMP_OUT1 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":150:2:150:9|Input CMP_OUT2 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":151:2:151:9|Input CMP_OUT3 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":152:2:152:9|Input CMP_OUT4 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT5 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT6 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT7 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT8 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT9 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":158:2:158:10|Input CMP_OUT10 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":159:2:159:10|Input CMP_OUT11 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":160:2:160:10|Input CMP_OUT12 is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":179:2:179:7|Inout IO12_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":180:2:180:7|Inout IO13_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":181:2:181:7|Inout IO14_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":182:2:182:7|Inout IO15_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":183:2:183:7|Inout IO16_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":184:2:184:7|Inout IO17_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":186:2:186:7|Inout IO18_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":187:2:187:7|Inout IO19_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":188:2:188:7|Inout IO20_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":189:2:189:7|Inout IO21_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":190:2:190:7|Inout IO22_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\CC_CPLD_TOP.vhd":191:2:191:7|Inout IO23_C is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 27 13:35:03 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\lattice\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_MB_105_Modified_Qiong\Common_Controller\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 27 13:35:05 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 27 13:35:05 2016
+
+###########################################################]

@@ -1,0 +1,111 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lattice\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Top entity is set to CC_CPLD_TOP.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":29:7:29:17|Synthesizing work.cc_cpld_top.behavioral 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":256:8:256:16|Signal pwm_en_on is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":280:8:280:19|Signal st_latch_clr is undriven 
+@W: CD638 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":287:8:287:14|Signal soft_ss is undriven 
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":16:7:16:17|Synthesizing work.cc_deadtime.behavioral 
+Post processing for work.cc_deadtime.behavioral
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral 
+@W: CG296 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":57:1:57:7|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":61:22:61:28|Referenced variable err_clr is not in sensitivity list
+Post processing for work.cc_protection.behavioral
+@N: CD630 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_PLL.vhd":14:7:14:12|Synthesizing work.cc_pll.structure 
+@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box 
+Post processing for work.ehxpllj.syn_black_box
+@N: CD630 :"C:\lattice\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box 
+Post processing for work.vlo.syn_black_box
+Post processing for work.cc_pll.structure
+Post processing for work.cc_cpld_top.behavioral
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":256:8:256:16|PWM_EN_On is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":179:2:179:6|IO8_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":178:2:178:6|IO7_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":177:2:177:6|IO6_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":175:2:175:6|IO5_C is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":81:2:81:8|PWM_ENn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":41:2:41:7|IO85_D is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":40:2:40:7|IO84_D is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":38:2:38:7|IO15_D is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":375:2:375:3|Pruning register ERR_STATUS_5(19 downto 1)  
+@W: CL189 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Register bit TIME_SET_1(7) is always 0, optimizing ...
+@W: CL189 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Register bit TIME_SET_2(7) is always 0, optimizing ...
+@W: CL260 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Pruning register bit 7 of TIME_SET_2(7 downto 0)  
+@W: CL260 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_DEADTIME.vhd":41:2:41:3|Pruning register bit 7 of TIME_SET_1(7 downto 0)  
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":37:2:37:7|Input IO14_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":42:2:42:7|Input IO86_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":43:2:43:7|Input IO87_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":46:2:46:7|Inout IO20_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":47:2:47:7|Inout IO21_D is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":49:2:49:7|Input IO23_D is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":75:2:75:5|Inout TZ1n is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":76:2:76:5|Inout TZ2n is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":92:2:92:4|Input FO1 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":103:2:103:4|Input FO2 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":114:2:114:4|Input FO3 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":125:2:125:4|Input FO4 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":136:2:136:4|Input FO5 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":147:2:147:4|Input FO6 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":151:2:151:9|Input CMP_OUT1 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":152:2:152:9|Input CMP_OUT2 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT3 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT4 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT5 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT6 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT7 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":158:2:158:9|Input CMP_OUT8 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":159:2:159:9|Input CMP_OUT9 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":160:2:160:10|Input CMP_OUT10 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":161:2:161:10|Input CMP_OUT11 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":162:2:162:10|Input CMP_OUT12 is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":180:2:180:6|Input IO9_C is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":181:2:181:7|Input IO10_C is unused
+@W: CL159 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":182:2:182:7|Input IO11_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":184:2:184:7|Inout IO12_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":185:2:185:7|Inout IO13_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":186:2:186:7|Inout IO14_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":187:2:187:7|Inout IO15_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":188:2:188:7|Inout IO16_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":189:2:189:7|Inout IO17_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":191:2:191:7|Inout IO18_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":192:2:192:7|Inout IO19_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":193:2:193:7|Inout IO20_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":194:2:194:7|Inout IO21_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":195:2:195:7|Inout IO22_C is unused
+@W: CL158 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":196:2:196:7|Inout IO23_C is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 18 16:08:40 2016
+
+###########################################################]
+Inconsistency encountered while reading the file dependency file: C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD\CPLD_PWM_DB\Common_Controller\synwork\layer0.fdep; problem reading the design unit mappings
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\Common_Controller\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 18 16:08:40 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 18 16:08:40 2016
+
+###########################################################]
