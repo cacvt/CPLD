@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
-<ispXCF version="3.6.0">
+<ispXCF version="3.9.0">
 	<Comment></Comment>
 	<Chain>
 		<Comm>JTAG</Comm>
@@ -19,8 +19,8 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/yjhxfy/Google Drive/MMC/Hardware/Board/Code/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.jed</File>
-			<FileTime>03/30/16 17:19:40</FileTime>
+			<File>C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.jed</File>
+			<FileTime>05/18/16 16:09:23</FileTime>
 			<JedecChecksum>0x4CA1</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
@@ -42,10 +42,11 @@
 		<StartTAP>TLR</StartTAP>
 		<EndTAP>TLR</EndTAP>
 		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
 	</ProjectOptions>
 	<CableOptions>
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
-		<USBID>Lattice HW-USBN-2B Ch A Location 0000 Serial VER00001A</USBID>
+		<USBID>Lattice HW-USBN-2B Ch A Location 0002 Serial VER00001A</USBID>
 	</CableOptions>
 </ispXCF>
