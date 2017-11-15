@@ -17,6 +17,7 @@
 -- Additional Comments:
 --
 -- Modified by Jianghui
+-- Modified by Chien-An, Nov 2017 for 10kW WEC project, comments DEADTIME and PLL modules
 -- Complementary PWMs and dead-time are generated in CPLD
 ----------------------------------------------------------------------------------
 library IEEE;
@@ -207,11 +208,11 @@ end CC_CPLD_TOP;
 architecture Behavioral of CC_CPLD_TOP is
 
 
-   component CC_PLL
-		Port (CLKI: in  std_logic;
-     		CLKOP: out  std_logic
-			);
-	end component;
+--   component CC_PLL
+--		Port (CLKI: in  std_logic;
+--    		CLKOP: out  std_logic
+--			);
+--	end component;
 	
 	component CC_PROTECTION is
 	    Port (
@@ -223,17 +224,17 @@ architecture Behavioral of CC_CPLD_TOP is
 		);
 	end component;
 	
-	component CC_DEADTIME is
-		Port (
+--	component CC_DEADTIME is
+--		Port (
 			-- Inputs --
 			--iHSCLK   : in STD_LOGIC;
-		iCLK_4ns : in STD_LOGIC;
-			iPWM			: in	STD_LOGIC;		-- 
+--		iCLK_4ns : in STD_LOGIC;
+--			iPWM			: in	STD_LOGIC;		-- 
 			-- Outputs --
-			oPWM_P			: out	STD_LOGIC;		-- 
-			oPWM_N	: out	STD_LOGIC		-- 
-		);
-	end component;
+--			oPWM_P			: out	STD_LOGIC;		-- 
+--			oPWM_N	: out	STD_LOGIC		-- 
+--		);
+--	end component;
 	
 	-- Global clock signals from PLL
 	--signal HSCLK	:	STD_LOGIC;
@@ -286,10 +287,10 @@ architecture Behavioral of CC_CPLD_TOP is
 	-- Modified by XZ
 	signal SOFT_SS			: STD_LOGIC;	--soft start/soft from DSP
 	
-begin    PLL : CC_PLL port map (
-		CLKI	=> CLK_C,
-		CLKOP	=> Clk_250MHz
-		);
+begin--    PLL : CC_PLL port map (
+--		CLKI	=> CLK_C,
+--		CLKOP	=> Clk_250MHz
+--		);
 
 --	 modified by QW
 	--SYS_AFE_SS  <= IO11_C;	--DSPIO15 is for EXT SS Control input to DSP
@@ -452,131 +453,131 @@ begin    PLL : CC_PLL port map (
 
 -- Generate dead time in CPLD --
 
-    CPWMA1 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMA_D(1),
-		oPWM_P   	=> PWMA_C(1),
-		oPWM_N  	 => PWMB_C(1)
-		);
+--    CPWMA1 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMA_D(1),
+--		oPWM_P   	=> PWMA_C(1),
+--		oPWM_N  	 => PWMB_C(1)
+--		);
 		
-    CPWMB1 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(1),
-		oPWM_P   	=> PWMA_C(2),
-		oPWM_N  	 => PWMB_C(2)
-		);
+ --   CPWMB1 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(1),
+--		oPWM_P   	=> PWMA_C(2),
+--		oPWM_N  	 => PWMB_C(2)
+--		);
 	
-	CPWMA2 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMA_D(2),
-		oPWM_P   	=> PWMA_C(3),
-		oPWM_N  	 => PWMB_C(3)
-		);
+--	CPWMA2 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMA_D(2),
+--		oPWM_P   	=> PWMA_C(3),
+--		oPWM_N  	 => PWMB_C(3)
+--		);
 	
-	CPWMB2 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMB_D(2),
-		oPWM_P   	=> PWMA_C(4),
-		oPWM_N  	 => PWMB_C(4)
-		);	
+--	CPWMB2 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMB_D(2),
+--		oPWM_P   	=> PWMA_C(4),
+--		oPWM_N  	 => PWMB_C(4)
+--		);	
 		
-	CPWMA3 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMA_D(3),
-		oPWM_P   	=> PWMA_C(5),
-		oPWM_N  	 => PWMB_C(5)
-		);
+--	CPWMA3 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMA_D(3),
+--		oPWM_P   	=> PWMA_C(5),
+--		oPWM_N  	 => PWMB_C(5)
+--		);
 	
-	CPWMB3 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(3),
-		oPWM_P   	=> PWMA_C(6),
-		oPWM_N  	 => PWMB_C(6)
-		);		
+--	CPWMB3 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(3),
+--		oPWM_P   	=> PWMA_C(6),
+--		oPWM_N  	 => PWMB_C(6)
+--		);		
 		
-	CPWMA4 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMA_D(4),
-		oPWM_P   	=> PWMA_C(7),
-		oPWM_N  	 => PWMB_C(7)
-		);
+--	CPWMA4 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMA_D(4),
+--		oPWM_P   	=> PWMA_C(7),
+--		oPWM_N  	 => PWMB_C(7)
+--		);
 	
-	CPWMB4 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMB_D(4),
-		oPWM_P   	=> PWMA_C(8),
-		oPWM_N  	 => PWMB_C(8)
-		);		
+--	CPWMB4 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMB_D(4),
+--		oPWM_P   	=> PWMA_C(8),
+--		oPWM_N  	 => PWMB_C(8)
+--		);		
 
-	CPWMA5 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMA_D(5),
-		oPWM_P   	=> PWMA_C(9),
-		oPWM_N  	 => PWMB_C(9)
-		);
+--	CPWMA5 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMA_D(5),
+--		oPWM_P   	=> PWMA_C(9),
+--		oPWM_N  	 => PWMB_C(9)
+--		);
 	
-	CPWMB5 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(5),
-		oPWM_P   	=> PWMA_C(10),
-		oPWM_N  	 => PWMB_C(10)
-		);		
+--	CPWMB5 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(5),
+--		oPWM_P   	=> PWMA_C(10),
+--		oPWM_N  	 => PWMB_C(10)
+--		);		
 		
-	CPWMA6 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMA_D(6),
-		oPWM_P   	=> PWMA_C(11),
-		oPWM_N  	 => PWMB_C(11)
-		);
+--	CPWMA6 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMA_D(6),
+--		oPWM_P   	=> PWMA_C(11),
+--		oPWM_N  	 => PWMB_C(11)
+--		);
 	
-	CPWMB6 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(6),
-		oPWM_P   	=> PWMA_C(12),
-		oPWM_N  	 => PWMB_C(12)
-		);		
+--	CPWMB6 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(6),
+--		oPWM_P   	=> PWMA_C(12),
+--		oPWM_N  	 => PWMB_C(12)
+--		);		
 		
-	CPWMA7 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMA_D(7),
-		oPWM_P   	=> PWMA_C(13),
-		oPWM_N  	 => PWMB_C(13)
-		);
+--	CPWMA7 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMA_D(7),
+--		oPWM_P   	=> PWMA_C(13),
+--		oPWM_N  	 => PWMB_C(13)
+--		);
 	
-	CPWMB7 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMB_D(7),
-		oPWM_P   	=> PWMA_C(14),
-		oPWM_N  	 => PWMB_C(14)
-		);		
+--	CPWMB7 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMB_D(7),
+--		oPWM_P   	=> PWMA_C(14),
+--		oPWM_N  	 => PWMB_C(14)
+--		);		
 		
-	CPWMA8 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMA_D(8),
-		oPWM_P   	=> PWMA_C(15),
-		oPWM_N  	 => PWMB_C(15)
-		);
+--	CPWMA8 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMA_D(8),
+--		oPWM_P   	=> PWMA_C(15),
+--		oPWM_N  	 => PWMB_C(15)
+--		);
 	
-	CPWMB8 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(8),
-		oPWM_P   	=> PWMA_C(16),
-		oPWM_N  	 => PWMB_C(16)
-		);		
+--	CPWMB8 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(8),
+--		oPWM_P   	=> PWMA_C(16),
+--		oPWM_N  	 => PWMB_C(16)
+--		);		
 		
-	CPWMA9 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz,  
-		iPWM 	    => PWMA_D(9),
-		oPWM_P   	=> PWMA_C(17),
-		oPWM_N  	 => PWMB_C(17)
-		);
+--	CPWMA9 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz,  
+--		iPWM 	    => PWMA_D(9),
+--		oPWM_P   	=> PWMA_C(17),
+--		oPWM_N  	 => PWMB_C(17)
+--		);
 	
-	CPWMB9 : CC_DEADTIME port map (
-		iCLK_4ns 	=> Clk_250MHz, 
-		iPWM 	    => PWMB_D(9),
-		oPWM_P   	=> PWMA_C(18),
-		oPWM_N  	 => PWMB_C(18)
-		);
+--	CPWMB9 : CC_DEADTIME port map (
+--		iCLK_4ns 	=> Clk_250MHz, 
+--		iPWM 	    => PWMB_D(9),
+--		oPWM_P   	=> PWMA_C(18),
+--		oPWM_N  	 => PWMB_C(18)
+--		);
 
 --=======Error handlling and PWM en
 --	Modified by XZ
