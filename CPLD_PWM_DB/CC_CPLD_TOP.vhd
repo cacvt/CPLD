@@ -352,7 +352,7 @@ begin--    PLL : CC_PLL port map (
 
 -- Modified by XZ
 	-- Bypass Error singal for test
-	ERR_ALL	<= '0';
+--	ERR_ALL	<= '0';
 
 
 --	original by ZS	
