@@ -18,6 +18,7 @@
 --
 -- Modified by Jianghui
 -- Modified by Chien-An, Nov 2017 for 10kW WEC project, comments DEADTIME and PLL modules
+-- FO1 only, CMP 12-8 only
 -- Complementary PWMs and dead-time are generated in CPLD
 ----------------------------------------------------------------------------------
 library IEEE;
@@ -359,9 +360,12 @@ begin--    PLL : CC_PLL port map (
 --	ERR_ALL <= 	ERR_ANALOG(1) OR ERR_ANALOG(2)  OR ERR_ANALOG(3)  OR ERR_ANALOG(4)  OR
 --				ERR_ANALOG(5) OR ERR_ANALOG(6)  OR ERR_ANALOG(7)  OR ERR_ANALOG(8)  OR
 --				ERR_ANALOG(9) OR ERR_ANALOG(10) OR ERR_ANALOG(11) OR ERR_ANALOG(12) OR
---				ERR_FO(1)     OR ERR_FO(2)      OR ERR_FO(3)      OR ERR_FO(4)      OR
---				ERR_FO(5)     OR ERR_FO(6);
-				
+--				ERR_FO(1); 
+				--    OR ERR_FO(2)      OR ERR_FO(3)      OR ERR_FO(4)      OR
+				--    ERR_FO(5)     OR ERR_FO(6);
+	ERR_ALL <= 	ERR_ANALOG(8)  OR ERR_ANALOG(9) OR ERR_ANALOG(10) OR ERR_ANALOG(11) OR 
+				ERR_ANALOG(12) OR ERR_FO(1); 
+
 	PROTECTION : CC_PROTECTION port map (
 		ERR_SET => ERR_SET,
 		ERR_CLR => ERR_CLR,
