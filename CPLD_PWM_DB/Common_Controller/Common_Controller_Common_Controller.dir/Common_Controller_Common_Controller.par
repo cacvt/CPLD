@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Nov 15 16:35:30 2017
+Thu Nov 16 15:18:17 2017
 
 C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f
 Common_Controller_Common_Controller.p2t
@@ -18,10 +18,10 @@ Preference file: Common_Controller_Common_Controller.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -            -            -            -            09           Success
+5_1   *      0            -            -            -            -            07           Success
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 9 secs 
+Total (real) run time for 1-seed: 7 secs 
 
 par done!

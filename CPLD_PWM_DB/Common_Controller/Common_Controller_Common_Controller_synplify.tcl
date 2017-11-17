@@ -44,7 +44,7 @@ set_option -resolve_multiple_driver 0
 
 #-- add_file options
 add_file -vhdl {C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP.vhd}
+add_file -vhdl -lib "work" {C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP_OLD.vhd}
 add_file -vhdl -lib "work" {C:/CPLD/CPLD_PWM_DB/CC_PROTECTION.vhd}
 
 #-- top module name

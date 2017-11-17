@@ -19,7 +19,7 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="Warnings">
-<data>2</data>
+<data>3</data>
 <report_link name="more">
 <data>C:\CPLD\CPLD_PWM_DB\Common_Controller\synlog\report\Common_Controller_Common_Controller_premap_warnings.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>141MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1510781721</data>
+<data type="timestamp">1510863493</data>
 </info>
 </job_info>
 </job_run_status>

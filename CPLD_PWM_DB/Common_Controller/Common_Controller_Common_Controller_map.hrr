@@ -3,18 +3,18 @@ Report for cell CC_CPLD_TOP
    Instance path: CC_CPLD_TOP
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      21.00        100.0
-                                  LUT4	      22.00        100.0
+                                  SLIC	      23.00        100.0
+                                  LUT4	      25.00        100.0
                                  IOBUF	         90        100.0
                                 PFUREG	          1        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                         CC_PROTECTION	          1         6.3
+                         CC_PROTECTION	          1        14.5
 ---------------------------------------------------
 Report for cell CC_PROTECTION
    Instance path: CC_CPLD_TOP/PROTECTION
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       1.33         6.3
-                                  LUT4	       1.00         4.5
+                                  SLIC	       3.33        14.5
+                                  LUT4	       3.00        12.0
                                 PFUREG	          1        100.0

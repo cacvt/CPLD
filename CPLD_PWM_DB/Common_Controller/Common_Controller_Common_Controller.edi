@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 11 15 16 35 22)
+      (timeStamp 2017 11 16 15 18 14)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "M-2017.03L-SP1-1, mapper maplat, Build 1796R"))
      )
@@ -86,9 +86,8 @@
     (cell CC_PROTECTION (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port CMP_OUT10_c (direction INPUT))
-           (port CMP_OUT11_c (direction INPUT))
-           (port ERR_ALL_3 (direction INPUT))
+           (port IO3_C_c (direction OUTPUT))
+           (port IO5_C_c (direction OUTPUT))
            (port ERR_LATCH (direction OUTPUT))
            (port ERR_ALL (direction INPUT))
          )
@@ -96,12 +95,21 @@
           (instance ERR_LATCH (viewRef PRIM (cellRef FD1S3AX (libraryRef LUCENT)))
           )
           (instance ERR_NEW (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(!D !A+D (!C !A+C (B !A)))"))
+           (property lut_function (string "(!B A)"))
+          )
+          (instance ERR_FLG (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
+           (property lut_function (string "(B+A)"))
+          )
+          (instance ERR_LATCH_RNIAT5F (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
+           (property lut_function (string "(!B !A)"))
           )
           (instance VCC (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
           (instance GND (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
           (net ERR_ALL (joined
            (portRef ERR_ALL)
+           (portRef B (instanceRef ERR_LATCH_RNIAT5F))
+           (portRef A (instanceRef ERR_FLG))
+           (portRef A (instanceRef ERR_NEW))
            (portRef D (instanceRef ERR_LATCH))
           ))
           (net (rename ERR_NEW_inferred_clock "ERR_NEW") (joined
@@ -110,20 +118,18 @@
           ))
           (net ERR_LATCH (joined
            (portRef Q (instanceRef ERR_LATCH))
-           (portRef A (instanceRef ERR_NEW))
+           (portRef A (instanceRef ERR_LATCH_RNIAT5F))
+           (portRef B (instanceRef ERR_FLG))
+           (portRef B (instanceRef ERR_NEW))
            (portRef ERR_LATCH)
           ))
-          (net ERR_ALL_3 (joined
-           (portRef ERR_ALL_3)
-           (portRef B (instanceRef ERR_NEW))
+          (net IO5_C_c (joined
+           (portRef Z (instanceRef ERR_FLG))
+           (portRef IO5_C_c)
           ))
-          (net CMP_OUT11_c (joined
-           (portRef CMP_OUT11_c)
-           (portRef C (instanceRef ERR_NEW))
-          ))
-          (net CMP_OUT10_c (joined
-           (portRef CMP_OUT10_c)
-           (portRef D (instanceRef ERR_NEW))
+          (net IO3_C_c (joined
+           (portRef Z (instanceRef ERR_LATCH_RNIAT5F))
+           (portRef IO3_C_c)
           ))
          )
         (property orig_inst_of (string "CC_PROTECTION"))
@@ -468,68 +474,93 @@
           )
           (instance IO14_D_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
           )
+          (instance ERR_ALL (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
+           (property lut_function (string "(D+(C+(!B+!A)))"))
+          )
+          (instance ERR_V (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
+           (property lut_function (string "(!B+!A)"))
+          )
+          (instance ERR_ALL_1 (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
+           (property lut_function (string "(!C+(!B+!A))"))
+          )
           (instance (rename PWMA_O_1 "PWMA_O[1]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_2 "PWMA_O[2]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_3 "PWMA_O[3]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_4 "PWMA_O[4]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_5 "PWMA_O[5]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_6 "PWMA_O[6]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_7 "PWMA_O[7]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_8 "PWMA_O[8]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMA_O_9 "PWMA_O[9]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_1 "PWMB_O[1]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_2 "PWMB_O[2]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_3 "PWMB_O[3]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_4 "PWMB_O[4]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_5 "PWMB_O[5]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_6 "PWMB_O[6]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_7 "PWMB_O[7]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_8 "PWMB_O[8]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance (rename PWMB_O_9 "PWMB_O[9]") (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C (!B !A))"))
-          )
-          (instance ERR_ALL (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(C+(!B+!A))"))
-          )
-          (instance ERR_ALL_3 (viewRef PRIM (cellRef ORCALUT4 (libraryRef LUCENT)))
-           (property lut_function (string "(D+(!C+(!B+!A)))"))
+           (property lut_function (string "(!C (!B A))"))
           )
           (instance PROTECTION (viewRef netlist (cellRef CC_PROTECTION))
           )
+          (net ERR_ALL (joined
+           (portRef Z (instanceRef ERR_ALL))
+           (portRef ERR_ALL (instanceRef PROTECTION))
+           (portRef C (instanceRef PWMB_O_9))
+           (portRef C (instanceRef PWMB_O_8))
+           (portRef C (instanceRef PWMB_O_7))
+           (portRef C (instanceRef PWMB_O_6))
+           (portRef C (instanceRef PWMB_O_5))
+           (portRef C (instanceRef PWMB_O_4))
+           (portRef C (instanceRef PWMB_O_3))
+           (portRef C (instanceRef PWMB_O_2))
+           (portRef C (instanceRef PWMB_O_1))
+           (portRef C (instanceRef PWMA_O_9))
+           (portRef C (instanceRef PWMA_O_8))
+           (portRef C (instanceRef PWMA_O_7))
+           (portRef C (instanceRef PWMA_O_6))
+           (portRef C (instanceRef PWMA_O_5))
+           (portRef C (instanceRef PWMA_O_4))
+           (portRef C (instanceRef PWMA_O_3))
+           (portRef C (instanceRef PWMA_O_2))
+           (portRef C (instanceRef PWMA_O_1))
+          ))
           (net (rename PROTECTION_ERR_LATCH "PROTECTION.ERR_LATCH") (joined
            (portRef ERR_LATCH (instanceRef PROTECTION))
            (portRef B (instanceRef PWMB_O_9))
@@ -550,28 +581,6 @@
            (portRef B (instanceRef PWMA_O_3))
            (portRef B (instanceRef PWMA_O_2))
            (portRef B (instanceRef PWMA_O_1))
-          ))
-          (net ERR_ALL (joined
-           (portRef Z (instanceRef ERR_ALL))
-           (portRef ERR_ALL (instanceRef PROTECTION))
-           (portRef A (instanceRef PWMB_O_9))
-           (portRef A (instanceRef PWMB_O_8))
-           (portRef A (instanceRef PWMB_O_7))
-           (portRef A (instanceRef PWMB_O_6))
-           (portRef A (instanceRef PWMB_O_5))
-           (portRef A (instanceRef PWMB_O_4))
-           (portRef A (instanceRef PWMB_O_3))
-           (portRef A (instanceRef PWMB_O_2))
-           (portRef A (instanceRef PWMB_O_1))
-           (portRef A (instanceRef PWMA_O_9))
-           (portRef A (instanceRef PWMA_O_8))
-           (portRef A (instanceRef PWMA_O_7))
-           (portRef A (instanceRef PWMA_O_6))
-           (portRef A (instanceRef PWMA_O_5))
-           (portRef A (instanceRef PWMA_O_4))
-           (portRef A (instanceRef PWMA_O_3))
-           (portRef A (instanceRef PWMA_O_2))
-           (portRef A (instanceRef PWMA_O_1))
           ))
           (net IO20_D (joined
            (portRef B (instanceRef IO20_D_pad))
@@ -637,9 +646,13 @@
            (portRef B (instanceRef IO23_C_pad))
            (portRef IO23_C)
           ))
-          (net ERR_ALL_3 (joined
-           (portRef Z (instanceRef ERR_ALL_3))
-           (portRef ERR_ALL_3 (instanceRef PROTECTION))
+          (net ERR_V (joined
+           (portRef Z (instanceRef ERR_V))
+           (portRef I (instanceRef IO0_C_pad))
+           (portRef I (instanceRef IO4_C_pad))
+          ))
+          (net ERR_ALL_1 (joined
+           (portRef Z (instanceRef ERR_ALL_1))
            (portRef C (instanceRef ERR_ALL))
           ))
           (net VCC (joined
@@ -678,9 +691,7 @@
            (portRef I (instanceRef PWM17B_C_pad))
            (portRef I (instanceRef PWM18A_C_pad))
            (portRef I (instanceRef PWM18B_C_pad))
-           (portRef I (instanceRef IO0_C_pad))
            (portRef I (instanceRef IO1_C_pad))
-           (portRef I (instanceRef IO5_C_pad))
            (portRef I (instanceRef IO6_C_pad))
            (portRef I (instanceRef IO7_C_pad))
            (portRef I (instanceRef IO8_C_pad))
@@ -761,7 +772,7 @@
           ))
           (net PWM1A_D_c (joined
            (portRef O (instanceRef PWM1A_D_pad))
-           (portRef C (instanceRef PWMA_O_1))
+           (portRef A (instanceRef PWMA_O_1))
           ))
           (net PWM1A_D (joined
            (portRef PWM1A_D)
@@ -769,7 +780,7 @@
           ))
           (net PWM1B_D_c (joined
            (portRef O (instanceRef PWM1B_D_pad))
-           (portRef C (instanceRef PWMB_O_1))
+           (portRef A (instanceRef PWMB_O_1))
           ))
           (net PWM1B_D (joined
            (portRef PWM1B_D)
@@ -777,7 +788,7 @@
           ))
           (net PWM2A_D_c (joined
            (portRef O (instanceRef PWM2A_D_pad))
-           (portRef C (instanceRef PWMA_O_2))
+           (portRef A (instanceRef PWMA_O_2))
           ))
           (net PWM2A_D (joined
            (portRef PWM2A_D)
@@ -785,7 +796,7 @@
           ))
           (net PWM2B_D_c (joined
            (portRef O (instanceRef PWM2B_D_pad))
-           (portRef C (instanceRef PWMB_O_2))
+           (portRef A (instanceRef PWMB_O_2))
           ))
           (net PWM2B_D (joined
            (portRef PWM2B_D)
@@ -793,7 +804,7 @@
           ))
           (net PWM3A_D_c (joined
            (portRef O (instanceRef PWM3A_D_pad))
-           (portRef C (instanceRef PWMA_O_3))
+           (portRef A (instanceRef PWMA_O_3))
           ))
           (net PWM3A_D (joined
            (portRef PWM3A_D)
@@ -801,7 +812,7 @@
           ))
           (net PWM3B_D_c (joined
            (portRef O (instanceRef PWM3B_D_pad))
-           (portRef C (instanceRef PWMB_O_3))
+           (portRef A (instanceRef PWMB_O_3))
           ))
           (net PWM3B_D (joined
            (portRef PWM3B_D)
@@ -809,7 +820,7 @@
           ))
           (net PWM4A_D_c (joined
            (portRef O (instanceRef PWM4A_D_pad))
-           (portRef C (instanceRef PWMA_O_4))
+           (portRef A (instanceRef PWMA_O_4))
           ))
           (net PWM4A_D (joined
            (portRef PWM4A_D)
@@ -817,7 +828,7 @@
           ))
           (net PWM4B_D_c (joined
            (portRef O (instanceRef PWM4B_D_pad))
-           (portRef C (instanceRef PWMB_O_4))
+           (portRef A (instanceRef PWMB_O_4))
           ))
           (net PWM4B_D (joined
            (portRef PWM4B_D)
@@ -825,7 +836,7 @@
           ))
           (net PWM5A_D_c (joined
            (portRef O (instanceRef PWM5A_D_pad))
-           (portRef C (instanceRef PWMA_O_5))
+           (portRef A (instanceRef PWMA_O_5))
           ))
           (net PWM5A_D (joined
            (portRef PWM5A_D)
@@ -833,7 +844,7 @@
           ))
           (net PWM5B_D_c (joined
            (portRef O (instanceRef PWM5B_D_pad))
-           (portRef C (instanceRef PWMB_O_5))
+           (portRef A (instanceRef PWMB_O_5))
           ))
           (net PWM5B_D (joined
            (portRef PWM5B_D)
@@ -841,7 +852,7 @@
           ))
           (net PWM6A_D_c (joined
            (portRef O (instanceRef PWM6A_D_pad))
-           (portRef C (instanceRef PWMA_O_6))
+           (portRef A (instanceRef PWMA_O_6))
           ))
           (net PWM6A_D (joined
            (portRef PWM6A_D)
@@ -849,7 +860,7 @@
           ))
           (net PWM6B_D_c (joined
            (portRef O (instanceRef PWM6B_D_pad))
-           (portRef C (instanceRef PWMB_O_6))
+           (portRef A (instanceRef PWMB_O_6))
           ))
           (net PWM6B_D (joined
            (portRef PWM6B_D)
@@ -857,7 +868,7 @@
           ))
           (net PWM7A_D_c (joined
            (portRef O (instanceRef PWM7A_D_pad))
-           (portRef C (instanceRef PWMA_O_7))
+           (portRef A (instanceRef PWMA_O_7))
           ))
           (net PWM7A_D (joined
            (portRef PWM7A_D)
@@ -865,7 +876,7 @@
           ))
           (net PWM7B_D_c (joined
            (portRef O (instanceRef PWM7B_D_pad))
-           (portRef C (instanceRef PWMB_O_7))
+           (portRef A (instanceRef PWMB_O_7))
           ))
           (net PWM7B_D (joined
            (portRef PWM7B_D)
@@ -873,7 +884,7 @@
           ))
           (net PWM8A_D_c (joined
            (portRef O (instanceRef PWM8A_D_pad))
-           (portRef C (instanceRef PWMA_O_8))
+           (portRef A (instanceRef PWMA_O_8))
           ))
           (net PWM8A_D (joined
            (portRef PWM8A_D)
@@ -881,7 +892,7 @@
           ))
           (net PWM8B_D_c (joined
            (portRef O (instanceRef PWM8B_D_pad))
-           (portRef C (instanceRef PWMB_O_8))
+           (portRef A (instanceRef PWMB_O_8))
           ))
           (net PWM8B_D (joined
            (portRef PWM8B_D)
@@ -889,7 +900,7 @@
           ))
           (net PWM9A_D_c (joined
            (portRef O (instanceRef PWM9A_D_pad))
-           (portRef C (instanceRef PWMA_O_9))
+           (portRef A (instanceRef PWMA_O_9))
           ))
           (net PWM9A_D (joined
            (portRef PWM9A_D)
@@ -897,7 +908,7 @@
           ))
           (net PWM9B_D_c (joined
            (portRef O (instanceRef PWM9B_D_pad))
-           (portRef C (instanceRef PWMB_O_9))
+           (portRef A (instanceRef PWMB_O_9))
           ))
           (net PWM9B_D (joined
            (portRef PWM9B_D)
@@ -920,6 +931,10 @@
           (net PWM1A_C (joined
            (portRef O (instanceRef PWM1A_C_pad))
            (portRef PWM1A_C)
+          ))
+          (net PWM1B_C_c (joined
+           (portRef Z (instanceRef PWMB_O_1))
+           (portRef I (instanceRef PWM1B_C_pad))
           ))
           (net PWM1B_C (joined
            (portRef O (instanceRef PWM1B_C_pad))
@@ -959,7 +974,7 @@
           ))
           (net FO1_c (joined
            (portRef O (instanceRef FO1_pad))
-           (portRef D (instanceRef ERR_ALL_3))
+           (portRef D (instanceRef ERR_ALL))
           ))
           (net FO1 (joined
            (portRef FO1)
@@ -972,6 +987,10 @@
           (net PWM4A_C (joined
            (portRef O (instanceRef PWM4A_C_pad))
            (portRef PWM4A_C)
+          ))
+          (net PWM4B_C_c (joined
+           (portRef Z (instanceRef PWMB_O_4))
+           (portRef I (instanceRef PWM4B_C_pad))
           ))
           (net PWM4B_C (joined
            (portRef O (instanceRef PWM4B_C_pad))
@@ -1215,7 +1234,8 @@
           ))
           (net CMP_OUT8_c (joined
            (portRef O (instanceRef CMP_OUT8_pad))
-           (portRef A (instanceRef ERR_ALL_3))
+           (portRef C (instanceRef ERR_ALL_1))
+           (portRef A (instanceRef ERR_V))
           ))
           (net CMP_OUT8 (joined
            (portRef CMP_OUT8)
@@ -1223,7 +1243,8 @@
           ))
           (net CMP_OUT9_c (joined
            (portRef O (instanceRef CMP_OUT9_pad))
-           (portRef B (instanceRef ERR_ALL_3))
+           (portRef B (instanceRef ERR_ALL_1))
+           (portRef B (instanceRef ERR_V))
           ))
           (net CMP_OUT9 (joined
            (portRef CMP_OUT9)
@@ -1231,7 +1252,6 @@
           ))
           (net CMP_OUT10_c (joined
            (portRef O (instanceRef CMP_OUT10_pad))
-           (portRef CMP_OUT10_c (instanceRef PROTECTION))
            (portRef A (instanceRef ERR_ALL))
           ))
           (net CMP_OUT10 (joined
@@ -1240,7 +1260,6 @@
           ))
           (net CMP_OUT11_c (joined
            (portRef O (instanceRef CMP_OUT11_pad))
-           (portRef CMP_OUT11_c (instanceRef PROTECTION))
            (portRef B (instanceRef ERR_ALL))
           ))
           (net CMP_OUT11 (joined
@@ -1249,7 +1268,7 @@
           ))
           (net CMP_OUT12_c (joined
            (portRef O (instanceRef CMP_OUT12_pad))
-           (portRef C (instanceRef ERR_ALL_3))
+           (portRef A (instanceRef ERR_ALL_1))
           ))
           (net CMP_OUT12 (joined
            (portRef CMP_OUT12)
@@ -1279,22 +1298,20 @@
            (portRef IO2_C)
           ))
           (net IO3_C_c (joined
-           (portRef Z (instanceRef PWMB_O_1))
-           (portRef I (instanceRef PWM1B_C_pad))
+           (portRef IO3_C_c (instanceRef PROTECTION))
            (portRef I (instanceRef IO3_C_pad))
           ))
           (net IO3_C (joined
            (portRef O (instanceRef IO3_C_pad))
            (portRef IO3_C)
           ))
-          (net IO4_C_c (joined
-           (portRef Z (instanceRef PWMB_O_4))
-           (portRef I (instanceRef PWM4B_C_pad))
-           (portRef I (instanceRef IO4_C_pad))
-          ))
           (net IO4_C (joined
            (portRef O (instanceRef IO4_C_pad))
            (portRef IO4_C)
+          ))
+          (net IO5_C_c (joined
+           (portRef IO5_C_c (instanceRef PROTECTION))
+           (portRef I (instanceRef IO5_C_pad))
           ))
           (net IO5_C (joined
            (portRef O (instanceRef IO5_C_pad))

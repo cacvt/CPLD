@@ -1,3 +1,3 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: MO111 :"c:\cpld\cpld_pwm_db\cc_cpld_top.vhd":253:8:253:13|Tristate driver un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) on net un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\cpld\cpld_pwm_db\cc_cpld_top_old.vhd":256:8:256:13|Tristate driver un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) on net un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) has its enable tied to GND.

@@ -1,4 +1,430 @@
 
+synpwrap -msg -prj "Common_Controller_Common_Controller_synplify.tcl" -log "Common_Controller_Common_Controller.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.10.0.111.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of Common_Controller_Common_Controller.srf
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LANDOWN
+
+# Thu Nov 16 15:18:10 2017
+
+#Implementation: Common_Controller
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":31:7:31:17|Top entity is set to CC_CPLD_TOP.
+File C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd changed - recompiling
+@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":31:7:31:17|Synthesizing work.cc_cpld_top.behavioral.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":246:8:246:17|Signal clk_250mhz is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":253:8:253:13|Signal pwma_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":254:8:254:13|Signal pwmb_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 9 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 10 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 11 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 12 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 13 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 14 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 15 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 16 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 17 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 9 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 10 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 11 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 12 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 13 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 14 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 15 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 16 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 17 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":288:8:288:22|Signal st_latch_trig_v is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":289:8:289:19|Signal st_latch_clr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":296:8:296:14|Signal soft_ss is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral.
+@W: CG296 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":83:1:83:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":87:22:87:28|Referenced variable err_clr is not in sensitivity list.
+Post processing for work.cc_protection.behavioral
+Post processing for work.cc_cpld_top.behavioral
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":181:2:181:6|Signal IO8_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":180:2:180:6|Signal IO7_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":179:2:179:6|Signal IO6_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":173:2:173:6|Signal IO1_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":83:2:83:8|Signal PWM_ENn is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":43:2:43:7|Signal IO85_D is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":42:2:42:7|Signal IO84_D is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":40:2:40:7|Signal IO15_D is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":391:2:391:3|Pruning unused register ERR_STATUS_5(19 downto 1). Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":39:2:39:7|Input IO14_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":44:2:44:7|Input IO86_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":45:2:45:7|Input IO87_D is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":48:2:48:7|Inout IO20_D is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":49:2:49:7|Inout IO21_D is unused
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":51:2:51:7|Input IO23_D is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":77:2:77:5|Inout TZ1n is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":78:2:78:5|Inout TZ2n is unused
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":105:2:105:4|Input FO2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":116:2:116:4|Input FO3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":127:2:127:4|Input FO4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":138:2:138:4|Input FO5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":149:2:149:4|Input FO6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":153:2:153:9|Input CMP_OUT1 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":154:2:154:9|Input CMP_OUT2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":155:2:155:9|Input CMP_OUT3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":156:2:156:9|Input CMP_OUT4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":157:2:157:9|Input CMP_OUT5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":158:2:158:9|Input CMP_OUT6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":159:2:159:9|Input CMP_OUT7 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":167:2:167:6|Input CLK_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":182:2:182:6|Input IO9_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":183:2:183:7|Input IO10_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":184:2:184:7|Input IO11_C is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":186:2:186:7|Inout IO12_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":187:2:187:7|Inout IO13_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":188:2:188:7|Inout IO14_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":189:2:189:7|Inout IO15_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":190:2:190:7|Inout IO16_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":191:2:191:7|Inout IO17_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":193:2:193:7|Inout IO18_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":194:2:194:7|Inout IO19_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":195:2:195:7|Inout IO20_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":196:2:196:7|Inout IO21_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":197:2:197:7|Inout IO22_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":198:2:198:7|Inout IO23_C is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 16 15:18:11 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 16 15:18:11 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 16 15:18:11 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 16 15:18:12 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Nov 16 15:18:12 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller_scck.rpt 
+Printing clock  summary report in "C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MO111 :"c:\cpld\cpld_pwm_db\cc_cpld_top_old.vhd":256:8:256:13|Tristate driver un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) on net un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) has its enable tied to GND.
+@W: MO129 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":66:2:66:3|Sequential instance PROTECTION.ERR_LATCHV is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":85:2:85:3|Sequential instance PROTECTION.ERR_CLR_PLS is reduced to a combinational gate by constant propagation.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=10  set on top level netlist CC_CPLD_TOP
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                    Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                    Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------
+0 -       CC_PROTECTION|ERR_NEW_inferred_clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0     1    
+===========================================================================================================================
+
+@W: MT529 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":60:2:60:3|Found inferred clock CC_PROTECTION|ERR_NEW_inferred_clock which controls 1 sequential elements including PROTECTION.ERR_LATCH. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 16 15:18:13 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Nov 16 15:18:13 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+
+@N: MO111 :"c:\cpld\cpld_pwm_db\cc_cpld_top_old.vhd":256:8:256:13|Tristate driver un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) on net un1_pwm1a_d_tri9 (in view: work.CC_CPLD_TOP(behavioral)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		100000.00ns		  24 /         1
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+0 instances converted, 1 sequential instance remains driven by gated/generated clocks
+
+================================================== Gated/Generated Clocks ===================================================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance          Explanation              
+-----------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       PROTECTION.ERR_NEW     ORCALUT4               1          PROTECTION.ERR_LATCH     No clocks found on inputs
+=============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 141MB)
+
+Writing Analyst data base C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+@W: MT420 |Found inferred clock CC_PROTECTION|ERR_NEW_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:PROTECTION.ERR_NEW"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 16 15:18:14 2017
+#
+
+
+Top view:               CC_CPLD_TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+                                         Requested     Estimated     Requested     Estimated               Clock        Clock                
+Starting Clock                           Frequency     Frequency     Period        Period        Slack     Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+CC_PROTECTION|ERR_NEW_inferred_clock     1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_0
+=============================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-4
+
+Register bits: 1 of 4320 (0%)
+PIC Latch:       0
+I/O cells:       110
+
+
+Details:
+BB:             16
+FD1S3AX:        1
+GSR:            1
+IB:             45
+OB:             49
+ORCALUT4:       24
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 16 15:18:14 2017
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
 edif2ngd  -l "MachXO2" -d LCMXO2-4000HC -path "C:/CPLD/CPLD_PWM_DB/Common_Controller" -path "C:/CPLD/CPLD_PWM_DB"   "C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.edi" "Common_Controller_Common_Controller.ngo"   
 edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
 
@@ -70,7 +496,7 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="36"  />
 
 Design Results:
-    137 blocks expanded
+    140 blocks expanded
 Complete the first expansion.
 Writing 'Common_Controller_Common_Controller.ngd' ...
 Total CPU Time: 0 secs  
@@ -117,12 +543,12 @@ Design Summary:
    Number of registers:      1 out of  4665 (0%)
       PFU registers:            1 out of  4320 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        21 out of  2160 (1%)
-      SLICEs as Logic/ROM:     21 out of  2160 (1%)
+   Number of SLICEs:        23 out of  2160 (1%)
+      SLICEs as Logic/ROM:     23 out of  2160 (1%)
       SLICEs as RAM:            0 out of  1620 (0%)
       SLICEs as Carry:          0 out of  2160 (0%)
-   Number of LUT4s:         22 out of  4320 (1%)
-      Number used as logic LUTs:         22
+   Number of LUT4s:         25 out of  4320 (1%)
+      Number used as logic LUTs:         25
       Number used as distributed RAM:     0
       Number used as ripple logic:        0
       Number used as shift registers:     0
@@ -155,16 +581,16 @@ Design Summary:
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net ERR_ALL: 19 loads
-     Net PROTECTION.ERR_LATCH: 19 loads
-     Net CMP_OUT10_c: 2 loads
-     Net CMP_OUT11_c: 2 loads
-     Net ERR_ALL_3: 2 loads
-     Net IO3_C_c: 2 loads
-     Net IO4_C_c: 2 loads
+     Net ERR_ALL: 22 loads
+     Net PROTECTION.ERR_LATCH: 21 loads
+     Net CMP_OUT8_c: 2 loads
+     Net CMP_OUT9_c: 2 loads
+     Net ERR_V: 2 loads
+     Net CMP_OUT11_c: 1 loads
      Net CMP_OUT12_c: 1 loads
-     Net CMP_OUT8_c: 1 loads
-     Net CMP_OUT9_c: 1 loads
+     Net IO2_C_c: 1 loads
+     Net IO3_C_c: 1 loads
+     Net IO5_C_c: 1 loads
  
 
    Number of warnings:  2
@@ -173,7 +599,7 @@ Design Summary:
 
 
 Total CPU Time: 0 secs  
-Total REAL Time: 0 secs  
+Total REAL Time: 2 secs  
 Peak Memory Usage: 52 MB
 
 Dumping design to file Common_Controller_Common_Controller_map.ncd.
@@ -186,7 +612,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Common_Controller_Common_Controller_map.ncd"
-Wed Nov 15 16:35:30 2017
+Thu Nov 16 15:18:17 2017
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/CPLD/CPLD_PWM_DB/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Common_Controller_Common_Controller_map.ncd Common_Controller_Common_Controller.dir/5_1.ncd Common_Controller_Common_Controller.prf
@@ -213,12 +639,12 @@ Device utilization summary:
    PIO (prelim)   90+4(JTAG)/280     34% used
                   90+4(JTAG)/115     82% bonded
 
-   SLICE             21/2160         <1% used
+   SLICE             23/2160          1% used
 
 
 
-Number of Signals: 48
-Number of Connections: 132
+Number of Signals: 51
+Number of Connections: 136
 
 Pin Constraint Summary:
    90 out of 90 pins locked (100% locked).
@@ -231,17 +657,17 @@ No signal is selected as secondary clock.
 No signal is selected as Global Set/Reset.
 Starting Placer Phase 0.
 
-Finished Placer Phase 0.  REAL time: 2 secs 
+Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
 ....................
-Placer score = 45966.
-Finished Placer Phase 1.  REAL time: 3 secs 
+Placer score = 50570.
+Finished Placer Phase 1.  REAL time: 2 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  45723
-Finished Placer Phase 2.  REAL time: 3 secs 
+Placer score =  50237
+Finished Placer Phase 2.  REAL time: 2 secs 
 
 
 ------------------ Clock Report ------------------
@@ -290,14 +716,14 @@ Dumping design to file Common_Controller_Common_Controller.dir/5_1.ncd.
 INFO - par: ASE feature is off due to non timing-driven settings.  
 -----------------------------------------------------------------
 
-0 connections routed; 132 unrouted.
+0 connections routed; 136 unrouted.
 Starting router resource preassignment
 
     <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=PROTECTION/ERR_NEW loads=1 clock_loads=1"  />
 
-Completed router resource preassignment. Real time: 8 secs 
+Completed router resource preassignment. Real time: 6 secs 
 
-Start NBR router at 16:35:38 11/15/17
+Start NBR router at 15:18:23 11/16/17
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -312,24 +738,24 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 16:35:38 11/15/17
+Start NBR special constraint process at 15:18:23 11/16/17
 
-Start NBR section for initial routing at 16:35:38 11/15/17
+Start NBR section for initial routing at 15:18:23 11/16/17
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 16:35:38 11/15/17
+Start NBR section for normal routing at 15:18:23 11/16/17
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
 
-Start NBR section for re-routing at 16:35:38 11/15/17
+Start NBR section for re-routing at 15:18:23 11/16/17
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 8 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
 
-Start NBR section for post-routing at 16:35:38 11/15/17
+Start NBR section for post-routing at 15:18:23 11/16/17
 
 End NBR router with 0 unrouted connection
 
@@ -346,10 +772,10 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 
     <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=PROTECTION/ERR_NEW loads=1 clock_loads=1"  />
 
-Total CPU time 6 secs 
-Total REAL time: 8 secs 
+Total CPU time 5 secs 
+Total REAL time: 6 secs 
 Completely routed.
-End of route.  132 routed (100.00%); 0 unrouted.
+End of route.  136 routed (100.00%); 0 unrouted.
 
 1 potential circuit loop found in timing analysis.
 1 potential circuit loop found in timing analysis.
@@ -369,8 +795,8 @@ PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
 PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 7 secs 
-Total REAL time to completion: 9 secs 
+Total CPU  time to completion: 6 secs 
+Total REAL time to completion: 7 secs 
 
 par done!
 
@@ -405,7 +831,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.0.111.2
-Wed Nov 15 16:35:40 2017
+Thu Nov 16 15:18:25 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -447,7 +873,7 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 173 paths, 48 nets, and 131 connections (99.24% coverage)
+Constraints cover 175 paths, 51 nets, and 135 connections (99.26% coverage)
 
 --------------------------------------------------------------------------------
 

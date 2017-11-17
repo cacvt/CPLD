@@ -1,1 +1,1 @@
-project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/CPLD/CPLD_PWM_DB/CC_PROTECTION.vhd" "C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP.vhd" 
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/CPLD/CPLD_PWM_DB/CC_PROTECTION.vhd" "C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP_OLD.vhd" 

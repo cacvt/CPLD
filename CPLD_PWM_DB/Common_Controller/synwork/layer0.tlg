@@ -1,77 +1,75 @@
-@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":31:7:31:17|Synthesizing work.cc_cpld_top.behavioral.
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":243:8:243:17|Signal clk_250mhz is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":250:8:250:13|Signal pwma_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":251:8:251:13|Signal pwmb_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 9 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 10 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 11 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 12 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 13 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 14 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 15 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 16 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":253:8:253:13|Bit 17 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 9 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 10 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 11 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 12 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 13 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 14 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 15 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 16 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":254:8:254:13|Bit 17 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":258:8:258:16|Signal pwm_en_on is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":282:8:282:19|Signal st_latch_clr is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":289:8:289:14|Signal soft_ss is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":31:7:31:17|Synthesizing work.cc_cpld_top.behavioral.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":246:8:246:17|Signal clk_250mhz is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":253:8:253:13|Signal pwma_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":254:8:254:13|Signal pwmb_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 9 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 10 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 11 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 12 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 13 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 14 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 15 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 16 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":256:8:256:13|Bit 17 of signal pwma_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 9 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 10 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 11 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 12 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 13 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 14 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 15 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 16 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":257:8:257:13|Bit 17 of signal pwmb_c is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":288:8:288:22|Signal st_latch_trig_v is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":289:8:289:19|Signal st_latch_clr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":296:8:296:14|Signal soft_ss is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":24:7:24:19|Synthesizing work.cc_protection.behavioral.
-@W: CG296 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":57:1:57:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":61:22:61:28|Referenced variable err_clr is not in sensitivity list.
+@W: CG296 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":83:1:83:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd":87:22:87:28|Referenced variable err_clr is not in sensitivity list.
 Post processing for work.cc_protection.behavioral
 Post processing for work.cc_cpld_top.behavioral
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":258:8:258:16|Signal PWM_EN_On is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":181:2:181:6|Signal IO8_C is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":180:2:180:6|Signal IO7_C is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":179:2:179:6|Signal IO6_C is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":177:2:177:6|Signal IO5_C is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":173:2:173:6|Signal IO1_C is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":83:2:83:8|Signal PWM_ENn is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":43:2:43:7|Signal IO85_D is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":42:2:42:7|Signal IO84_D is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":40:2:40:7|Signal IO15_D is floating; a simulation mismatch is possible.
-@W: CL169 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":380:2:380:3|Pruning unused register ERR_STATUS_5(19 downto 1). Make sure that there are no unused intermediate registers.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":39:2:39:7|Input IO14_D is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":44:2:44:7|Input IO86_D is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":45:2:45:7|Input IO87_D is unused.
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":48:2:48:7|Inout IO20_D is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":49:2:49:7|Inout IO21_D is unused
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":51:2:51:7|Input IO23_D is unused.
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":77:2:77:5|Inout TZ1n is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":78:2:78:5|Inout TZ2n is unused
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":105:2:105:4|Input FO2 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":116:2:116:4|Input FO3 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":127:2:127:4|Input FO4 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":138:2:138:4|Input FO5 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":149:2:149:4|Input FO6 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":153:2:153:9|Input CMP_OUT1 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":154:2:154:9|Input CMP_OUT2 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":155:2:155:9|Input CMP_OUT3 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":156:2:156:9|Input CMP_OUT4 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":157:2:157:9|Input CMP_OUT5 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":158:2:158:9|Input CMP_OUT6 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":159:2:159:9|Input CMP_OUT7 is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":167:2:167:6|Input CLK_C is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":182:2:182:6|Input IO9_C is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":183:2:183:7|Input IO10_C is unused.
-@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":184:2:184:7|Input IO11_C is unused.
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":186:2:186:7|Inout IO12_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":187:2:187:7|Inout IO13_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":188:2:188:7|Inout IO14_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":189:2:189:7|Inout IO15_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":190:2:190:7|Inout IO16_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":191:2:191:7|Inout IO17_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":193:2:193:7|Inout IO18_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":194:2:194:7|Inout IO19_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":195:2:195:7|Inout IO20_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":196:2:196:7|Inout IO21_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":197:2:197:7|Inout IO22_C is unused
-@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd":198:2:198:7|Inout IO23_C is unused
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":181:2:181:6|Signal IO8_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":180:2:180:6|Signal IO7_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":179:2:179:6|Signal IO6_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":173:2:173:6|Signal IO1_C is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":83:2:83:8|Signal PWM_ENn is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":43:2:43:7|Signal IO85_D is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":42:2:42:7|Signal IO84_D is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":40:2:40:7|Signal IO15_D is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":391:2:391:3|Pruning unused register ERR_STATUS_5(19 downto 1). Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":39:2:39:7|Input IO14_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":44:2:44:7|Input IO86_D is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":45:2:45:7|Input IO87_D is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":48:2:48:7|Inout IO20_D is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":49:2:49:7|Inout IO21_D is unused
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":51:2:51:7|Input IO23_D is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":77:2:77:5|Inout TZ1n is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":78:2:78:5|Inout TZ2n is unused
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":105:2:105:4|Input FO2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":116:2:116:4|Input FO3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":127:2:127:4|Input FO4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":138:2:138:4|Input FO5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":149:2:149:4|Input FO6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":153:2:153:9|Input CMP_OUT1 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":154:2:154:9|Input CMP_OUT2 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":155:2:155:9|Input CMP_OUT3 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":156:2:156:9|Input CMP_OUT4 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":157:2:157:9|Input CMP_OUT5 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":158:2:158:9|Input CMP_OUT6 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":159:2:159:9|Input CMP_OUT7 is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":167:2:167:6|Input CLK_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":182:2:182:6|Input IO9_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":183:2:183:7|Input IO10_C is unused.
+@N: CL159 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":184:2:184:7|Input IO11_C is unused.
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":186:2:186:7|Inout IO12_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":187:2:187:7|Inout IO13_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":188:2:188:7|Inout IO14_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":189:2:189:7|Inout IO15_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":190:2:190:7|Inout IO16_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":191:2:191:7|Inout IO17_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":193:2:193:7|Inout IO18_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":194:2:194:7|Inout IO19_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":195:2:195:7|Inout IO20_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":196:2:196:7|Inout IO21_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":197:2:197:7|Inout IO22_C is unused
+@W: CL158 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":198:2:198:7|Inout IO23_C is unused

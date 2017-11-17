@@ -10,11 +10,11 @@
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493327504
-#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_PROTECTION.vhd":1371065852
-#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_CPLD_TOP.vhd":1510781701
+#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_PROTECTION.vhd":1510863484
+#CUR:"C:\\CPLD\\CPLD_PWM_DB\\CC_CPLD_TOP_OLD.vhd":1510863281
 0			"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
 1			"C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd" vhdl
-2			"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP.vhd" vhdl
+2			"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

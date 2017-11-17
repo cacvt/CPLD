@@ -1,2 +1,3 @@
-@W: MO129 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":59:2:59:3|Sequential instance PROTECTION.ERR_CLR_PLS is reduced to a combinational gate by constant propagation.
-@W: MT529 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":50:2:50:3|Found inferred clock CC_PROTECTION|ERR_NEW_inferred_clock which controls 1 sequential elements including PROTECTION.ERR_LATCH. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MO129 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":66:2:66:3|Sequential instance PROTECTION.ERR_LATCHV is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":85:2:85:3|Sequential instance PROTECTION.ERR_CLR_PLS is reduced to a combinational gate by constant propagation.
+@W: MT529 :"c:\cpld\cpld_pwm_db\cc_protection.vhd":60:2:60:3|Found inferred clock CC_PROTECTION|ERR_NEW_inferred_clock which controls 1 sequential elements including PROTECTION.ERR_LATCH. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

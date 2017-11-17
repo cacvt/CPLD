@@ -1,3 +1,2 @@
-@E: CD255 :"C:\Users\yjhxfy\Google Drive\MMC\Hardware\Board\Code\CPLD_PWM_DB\CC_DEADTIME.vhd":44:35:44:35|No identifier "time_set" in scope
-@E|Parse errors encountered - exiting
+@E: CD326 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":378:1:378:10|Port err_in_v of entity work.cc_protection is unconnected. If a port needs to remain unconnected, use the keyword open.
 

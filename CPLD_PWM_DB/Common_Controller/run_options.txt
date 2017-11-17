@@ -1,13 +1,13 @@
 #--  Synopsys, Inc.
 #--  Version M-2017.03L-SP1-1
 #--  Project file C:\CPLD\CPLD_PWM_DB\Common_Controller\run_options.txt
-#--  Written on Wed Nov 15 16:35:18 2017
+#--  Written on Thu Nov 16 15:18:10 2017
 
 
 #project files
 add_file -vhdl -lib work "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
 add_file -vhdl -lib work "C:/CPLD/CPLD_PWM_DB/CC_PROTECTION.vhd"
-add_file -vhdl -lib work "C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP.vhd"
+add_file -vhdl -lib work "C:/CPLD/CPLD_PWM_DB/CC_CPLD_TOP_OLD.vhd"
 
 
 

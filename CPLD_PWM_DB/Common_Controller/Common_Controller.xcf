@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/CPLD/CPLD_PWM_DB/Common_Controller/Common_Controller_Common_Controller.jed</File>
-			<FileTime>11/15/17 16:35:44</FileTime>
-			<JedecChecksum>0x6F49</JedecChecksum>
+			<FileTime>11/16/17 15:18:28</FileTime>
+			<JedecChecksum>0x95B0</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

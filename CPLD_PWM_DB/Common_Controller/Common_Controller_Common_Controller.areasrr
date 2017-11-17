@@ -11,22 +11,22 @@ I/O cells:       110
                                 GSR        1       100.0
                                  IB       45       100.0
                                  OB       49       100.0
-                           ORCALUT4       21       100.0
+                           ORCALUT4       24       100.0
                                 PUR        1       100.0
                                 VHI        2       100.0
                                 VLO        2       100.0
 SUB MODULES 
                       CC_PROTECTION        1       100.0
                             
-                         TOTAL           139           
+                         TOTAL           142           
 ----------------------------------------------------------------------
 Report for cell CC_PROTECTION.netlist
      Instance path:  PROTECTION
                                           Cell usage:
                                cell       count    Res Usage(%)
                             FD1S3AX        1       100.0
-                           ORCALUT4        1         4.8
+                           ORCALUT4        3        12.5
                                 VHI        1        50.0
                                 VLO        1        50.0
                             
-                         TOTAL             4           
+                         TOTAL             6           

@@ -371,7 +371,7 @@ begin    --PLL : CC_PLL port map (
 				--    OR ERR_FO(2)      OR ERR_FO(3)      OR ERR_FO(4)      OR
 				--    ERR_FO(5)     OR ERR_FO(6);
 	ERR_ALL <= 	ERR_ANALOG(8)  OR ERR_ANALOG(9) OR ERR_ANALOG(10) OR ERR_ANALOG(11) OR 
-				ERR_ANALOG(12) OR ERR_FO(1); 
+				ERR_ANALOG(12) OR ERR_FO(1);
 	ERR_V <= ERR_ANALOG(8)  OR ERR_ANALOG(9);
 
 	PROTECTION : CC_PROTECTION port map (
