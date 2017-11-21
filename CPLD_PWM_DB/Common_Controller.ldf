@@ -3,17 +3,11 @@
     <Options/>
     <Implementation title="Common_Controller" dir="Common_Controller" description="Common_Controller" synthesis="synplify" default_strategy="Timing">
         <Options def_top="CC_CPLD_TOP"/>
-        <Source name="CC_CPLD_TOP.vhd" type="VHDL" type_short="VHDL">
-            <Options top_module="CC_CPLD_TOP"/>
-        </Source>
         <Source name="CC_PROTECTION.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
-        <Source name="CC_DEADTIME.vhd" type="VHDL" type_short="VHDL">
-            <Options/>
-        </Source>
-        <Source name="CC_PLL.vhd" type="VHDL" type_short="VHDL">
-            <Options/>
+        <Source name="CC_CPLD_TOP.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="CC_CPLD_TOP"/>
         </Source>
         <Source name="Common_Controller.lpf" type="Logic Preference" type_short="LPF">
             <Options/>

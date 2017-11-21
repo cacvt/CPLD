@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: LANDOWN
 
-# Thu Nov 16 15:18:10 2017
+# Tue Nov 21 13:30:34 2017
 
 #Implementation: Common_Controller
 
@@ -17,9 +17,9 @@ Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated
 
 @N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
 @N:"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":31:7:31:17|Top entity is set to CC_CPLD_TOP.
-File C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd changed - recompiling
+Options changed - recompiling
 VHDL syntax check successful!
-File C:\CPLD\CPLD_PWM_DB\CC_PROTECTION.vhd changed - recompiling
+Options changed - recompiling
 @N: CD630 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":31:7:31:17|Synthesizing work.cc_cpld_top.behavioral.
 @W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":246:8:246:17|Signal clk_250mhz is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"C:\CPLD\CPLD_PWM_DB\CC_CPLD_TOP_OLD.vhd":253:8:253:13|Signal pwma_d is undriven. Either assign the signal a value or remove the signal declaration.
@@ -101,7 +101,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Nov 16 15:18:11 2017
+# Tue Nov 21 13:30:35 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -113,7 +113,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Nov 16 15:18:11 2017
+# Tue Nov 21 13:30:35 2017
 
 ###########################################################]
 @END
@@ -123,7 +123,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Nov 16 15:18:11 2017
+# Tue Nov 21 13:30:35 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -135,12 +135,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:36 2017
 
 ###########################################################]
 Pre-mapping Report
 
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:37 2017
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -205,12 +205,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Nov 16 15:18:13 2017
+# Tue Nov 21 13:30:37 2017
 
 ###########################################################]
 Map & Optimize Report
 
-# Thu Nov 16 15:18:13 2017
+# Tue Nov 21 13:30:37 2017
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -326,7 +326,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Nov 16 15:18:14 2017
+# Timing Report written on Tue Nov 21 13:30:38 2017
 #
 
 
@@ -408,9 +408,9 @@ VHI:            2
 VLO:            2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 31MB peak: 145MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Nov 16 15:18:14 2017
+# Tue Nov 21 13:30:38 2017
 
 ###########################################################]

@@ -3,7 +3,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.10_x64\synpbase
 Hostname:    LANDOWN
-Date:        Thu Nov 16 15:18:10 2017
+Date:        Tue Nov 21 13:30:34 2017
 Version:     M-2017.03L-SP1-1
 
 Arguments:   -product synplify_pro -batch Common_Controller_Common_Controller_synplify.tcl
@@ -18,7 +18,7 @@ Running: hdl_info_gen in foreground
 Generating HDL info...
 
 hdl_info_gen completed
-# Thu Nov 16 15:18:10 2017
+# Tue Nov 21 13:30:34 2017
 
 Return Code: 0
 Run Time:00h:00m:00s
@@ -29,53 +29,53 @@ Running: Common_Controller in foreground
 Running proj_1|Common_Controller
 
 Running: compile (Compile) on proj_1|Common_Controller
-# Thu Nov 16 15:18:10 2017
+# Tue Nov 21 13:30:34 2017
 
 Running: compile_flow (Compile Process) on proj_1|Common_Controller
-# Thu Nov 16 15:18:10 2017
+# Tue Nov 21 13:30:34 2017
 
 Running: compiler (Compile Input) on proj_1|Common_Controller
-# Thu Nov 16 15:18:10 2017
+# Tue Nov 21 13:30:34 2017
 Copied C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_comp.srs to C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.srs
 
 compiler completed
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:36 2017
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|Common_Controller
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:36 2017
 
 multi_srs_gen completed
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:37 2017
 
 Return Code: 0
-Run Time:00h:00m:00s
+Run Time:00h:00m:01s
 Copied C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_mult.srs to C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.srs
 Copied C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.srr to C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.srf
 Complete: Compile Process on proj_1|Common_Controller
 
 Running: premap (Pre-mapping) on proj_1|Common_Controller
-# Thu Nov 16 15:18:12 2017
+# Tue Nov 21 13:30:37 2017
 
 premap completed with warnings
-# Thu Nov 16 15:18:13 2017
+# Tue Nov 21 13:30:37 2017
 
 Return Code: 1
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Complete: Compile on proj_1|Common_Controller
 
 Running: map (Map) on proj_1|Common_Controller
-# Thu Nov 16 15:18:13 2017
+# Tue Nov 21 13:30:37 2017
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|Common_Controller
-# Thu Nov 16 15:18:13 2017
+# Tue Nov 21 13:30:37 2017
 Copied C:\CPLD\CPLD_PWM_DB\Common_Controller\synwork\Common_Controller_Common_Controller_m.srm to C:\CPLD\CPLD_PWM_DB\Common_Controller\Common_Controller_Common_Controller.srm
 
 fpga_mapper completed with warnings
-# Thu Nov 16 15:18:14 2017
+# Tue Nov 21 13:30:38 2017
 
 Return Code: 1
 Run Time:00h:00m:01s

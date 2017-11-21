@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version M-2017.03L-SP1-1
 #--  Project file C:\CPLD\CPLD_PWM_DB\Common_Controller\run_options.txt
-#--  Written on Thu Nov 16 15:18:10 2017
+#--  Written on Tue Nov 21 13:30:34 2017
 
 
 #project files

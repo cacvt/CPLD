@@ -5,5 +5,5 @@ file:..\synwork\Common_Controller_Common_Controller_hdl_.srs|io:o|time:0|size:0|
 file:..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493327504|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
 file:..\..\CC_CPLD_TOP_OLD.vhd|io:i|time:1510863281|size:24163|exec:0|csum:9FED1B01377D0D1CBA56717D4008FB8C
 file:..\..\CC_PROTECTION.vhd|io:i|time:1510863484|size:2834|exec:0|csum:591876CC39FD8CFA86E3EA2A24DD911E
-file:..\syntax.log|io:o|time:1510863490|size:983|exec:0|csum:
+file:..\syntax.log|io:o|time:1511289034|size:983|exec:0|csum:
 file:..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501910110|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

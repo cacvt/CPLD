@@ -18,7 +18,7 @@
 --
 -- Modified by Jianghui
 -- Modified by Chien-An, Nov 2017 for 10kW WEC project, comments DEADTIME and PLL modules
--- FO1 only, CMP 12-8 only, CC_CPLD_TOP and CC_PROTECTION with Relay trip function and PWM turnoff function
+-- FO1 only, CMP 12-8 only
 -- Complementary PWMs and dead-time are generated in CPLD
 ----------------------------------------------------------------------------------
 library IEEE;
@@ -28,7 +28,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 
 
-entity CC_CPLD_TOP is
+entity CC_CPLD_TOP_Vs is
 
 	 
 	-- Signal names are defined as what appear on the schematic
@@ -200,13 +200,13 @@ entity CC_CPLD_TOP is
 	
 	-- Preseve all port signals from being removed, for Synplify Pro only
 	attribute syn_force_pads: boolean;
-	attribute syn_force_pads of CC_CPLD_TOP : entity is true;
+	attribute syn_force_pads of CC_CPLD_TOP_Vs : entity is true;
 	
-end CC_CPLD_TOP;
+end CC_CPLD_TOP_Vs;
 
 
 
-architecture Behavioral of CC_CPLD_TOP is
+architecture Behavioral of CC_CPLD_TOP_Vs is
 
 
    --component CC_PLL
@@ -215,19 +215,28 @@ architecture Behavioral of CC_CPLD_TOP is
 --			);
 --	end component;
 	
-	component CC_PROTECTION is
+	component CC_PROTECTION_V is
 	    Port (
 			ERR_SET			: in	STD_LOGIC;
 			ERR_CLR			: in	STD_LOGIC;
 			ERR_IN			: in	STD_LOGIC;
-			ERR_IN_V		: in	STD_LOGIC;
+			
 			ERR_FLG			: out	STD_LOGIC;
-			ERR_FLG_V		: out	STD_LOGIC;
 			ST_LATCH_TRIG	: out	STD_LOGIC
 		);
 	end component;
 	
-
+	component CC_PROTECTION_ALL is
+	    Port (
+			ERR_SET			: in	STD_LOGIC;
+			ERR_CLR			: in	STD_LOGIC;
+			ERR_IN			: in	STD_LOGIC;
+			
+			ERR_FLG			: out	STD_LOGIC;
+			ST_LATCH_TRIG	: out	STD_LOGIC
+		);
+	end component;
+	
 --	component CC_DEADTIME is
 --		Port (
 			-- Inputs --
@@ -374,16 +383,20 @@ begin    --PLL : CC_PLL port map (
 				ERR_ANALOG(12) OR ERR_FO(1);
 	ERR_V <= ERR_ANALOG(8)  OR ERR_ANALOG(9);
 
-	PROTECTION : CC_PROTECTION port map (
+	PROTECTION_ALL : CC_PROTECTION_ALL port map (
 		ERR_SET => ERR_SET,
 		ERR_CLR => ERR_CLR,
 		ERR_IN  => ERR_ALL,
-		ERR_IN_V  => ERR_V,
 		ERR_FLG => ERR_FLG,
-		ERR_FLG_V => ERR_FLG_V,
 		ST_LATCH_TRIG => ST_LATCH_TRIG
 		);
-
+	PROTECTION_V : CC_PROTECTION_V port map (
+		ERR_SET => ERR_SET,
+		ERR_CLR => ERR_CLR,
+		ERR_IN  => ERR_V,
+		ERR_FLG => ERR_FLG_V,
+		ST_LATCH_TRIG => ST_LATCH_TRIG_V
+		);
 
 	process ( ST_LATCH_TRIG, ERR_SET ) is
 	begin
@@ -787,7 +800,7 @@ begin    --PLL : CC_PLL port map (
 	--IO1_C <= Clk_20MHz;
 	--IO1_C <= CLK_C;
 	IO2_C <= IO22_D;
-	IO4_C <= ERR_FLG_V;
+	IO4_C <= ERR_FLG_V; 
 	IO5_C <= ERR_FLG;
 --	IO4_C <= PWMB_O(4);
 end Behavioral;
